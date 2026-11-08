@@ -1,0 +1,45 @@
+condition	method	mean_score	rank	original_figure_rank
+Overall Pearson	DeepPT	0.12093989689366569	4.0	4.0
+Overall Pearson	DeepSpaCE	0.10390326967650353	7.0	7.0
+Overall Pearson	EGNv1	0.09124877375235135	9.0	9.0
+Overall Pearson	EGNv2	0.14306951041453342	1.0	1.0
+Overall Pearson	GeneCodeR	0.08486042658639524	10.0	10.0
+Overall Pearson	HisToGene	0.10835849519630715	6.0	6.0
+Overall Pearson	Hist2ST	0.12954254622718647	2.0	2.0
+Overall Pearson	ST-Net	0.1242512488744516	3.0	3.0
+Overall Pearson	TCGN	0.11777048571647442	5.0	5.0
+Overall Pearson	THItoGene	0.10098026710093205	8.0	8.0
+Overall Pearson	iStar	0.06385094854992057	11.0	11.0
+Across regions	DeepPT	0.27614028015778436	7.0	7.0
+Across regions	DeepSpaCE	0.2886734288423047	6.0	6.0
+Across regions	EGNv1	0.2110097927776105	10.0	10.0
+Across regions	EGNv2	0.3735169841705678	1.0	1.0
+Across regions	GeneCodeR	0.2351117248507964	9.0	9.0
+Across regions	HisToGene	0.30370330242293725	5.0	5.0
+Across regions	Hist2ST	0.35811701136468926	2.0	2.0
+Across regions	ST-Net	0.3076856627704766	4.0	4.0
+Across regions	TCGN	0.32783644226501374	3.0	3.0
+Across regions	THItoGene	0.2738980056765804	8.0	8.0
+Across regions	iStar	0.2049290503024787	11.0	11.0
+RNA context + depth matched	DeepPT	0.07862151293645471	4.0	4.0
+RNA context + depth matched	DeepSpaCE	0.11525359649542648	1.0	1.0
+RNA context + depth matched	EGNv1	0.0610803418906581	10.0	10.0
+RNA context + depth matched	EGNv2	0.06332700052796805	8.0	8.0
+RNA context + depth matched	GeneCodeR	0.05384193087470636	11.0	11.0
+RNA context + depth matched	HisToGene	0.06193146454405698	9.0	9.0
+RNA context + depth matched	Hist2ST	0.07331209474816722	6.0	6.0
+RNA context + depth matched	ST-Net	0.09070490567295729	3.0	3.0
+RNA context + depth matched	TCGN	0.10795431973369435	2.0	2.0
+RNA context + depth matched	THItoGene	0.07821829012083872	5.0	5.0
+RNA context + depth matched	iStar	0.06914443231939227	7.0	7.0
+Within regions	DeepPT	0.04913489821862535	8.0	8.0
+Within regions	DeepSpaCE	0.11594637846207298	1.0	1.0
+Within regions	EGNv1	0.041420457038257016	11.0	11.0
+Within regions	EGNv2	0.05185871346426914	7.0	7.0
+Within regions	GeneCodeR	0.04859287308172071	9.0	9.0
+Within regions	HisToGene	0.04158845186363156	10.0	10.0
+Within regions	Hist2ST	0.0658870760054012	6.0	6.0
+Within regions	ST-Net	0.08493676271334796	3.0	3.0
+Within regions	TCGN	0.09673796842161012	2.0	2.0
+Within regions	THItoGene	0.07762402363906523	4.0	4.0
+Within regions	iStar	0.06912019504773412	5.0	5.0

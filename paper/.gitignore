@@ -1,0 +1,10 @@
+__pycache__/
+**/output/
+**/node_modules/
+algorithms/tls/results/
+algorithms/tls/tls/
+**/floor_selfcheck_*.txt
+**/*.pdf
+**/figure.png
+**/figure.svg
+**/img_*.png

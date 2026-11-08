@@ -1,0 +1,3 @@
+release	model	condition	denominator	native_contrast	coarse_contrast	native_minus_coarse	jaccard	overlap_fraction	n_patients	native_contrast_positive_patients	coarse_contrast_positive_patients	native_minus_coarse_positive_patients
+Figure4_original	sCellST	original	common	0.13049261832151898	0.04082029161656857	0.08967232670495043	0.19470858021698606	0.3254452595428071	5	5	3	4
+Figure4_original	sCellST	original	full	0.12245632589089009	0.03594425380942547	0.08651207208146462	0.19470858021698606	0.3254452595428071	5	5	3	4

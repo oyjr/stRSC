@@ -1,0 +1,301 @@
+panel	task	method	patient	statistic	value
+a	Across regions	EGNv2	A	patient_ordering_gain	0.038871
+a	Across regions	EGNv2	B	patient_ordering_gain	0.710455
+a	Across regions	EGNv2	C	patient_ordering_gain	0.236003
+a	Across regions	EGNv2	D	patient_ordering_gain	0.552385
+a	Across regions	EGNv2	E	patient_ordering_gain	0.225718
+a	Across regions	EGNv2	F	patient_ordering_gain	0.093057
+a	Across regions	EGNv2	G	patient_ordering_gain	0.515274
+a	Across regions	EGNv2	H	patient_ordering_gain	0.616372
+a	Across regions	EGNv2	EQUAL_PATIENT_MEAN	plotted_method_mean	0.373517
+a	Across regions	Hist2ST	A	patient_ordering_gain	0.199276
+a	Across regions	Hist2ST	B	patient_ordering_gain	0.490022
+a	Across regions	Hist2ST	C	patient_ordering_gain	0.224584
+a	Across regions	Hist2ST	D	patient_ordering_gain	0.656539
+a	Across regions	Hist2ST	E	patient_ordering_gain	0.24697
+a	Across regions	Hist2ST	F	patient_ordering_gain	0.123546
+a	Across regions	Hist2ST	G	patient_ordering_gain	0.306361
+a	Across regions	Hist2ST	H	patient_ordering_gain	0.617639
+a	Across regions	Hist2ST	EQUAL_PATIENT_MEAN	plotted_method_mean	0.358117
+a	Across regions	ST-Net	A	patient_ordering_gain	0.129515
+a	Across regions	ST-Net	B	patient_ordering_gain	0.639655
+a	Across regions	ST-Net	C	patient_ordering_gain	0.488311
+a	Across regions	ST-Net	D	patient_ordering_gain	0.448593
+a	Across regions	ST-Net	E	patient_ordering_gain	-0.032149
+a	Across regions	ST-Net	F	patient_ordering_gain	0.005713
+a	Across regions	ST-Net	G	patient_ordering_gain	0.429984
+a	Across regions	ST-Net	H	patient_ordering_gain	0.351863
+a	Across regions	ST-Net	EQUAL_PATIENT_MEAN	plotted_method_mean	0.307686
+a	Across regions	DeepPT	A	patient_ordering_gain	0.09104
+a	Across regions	DeepPT	B	patient_ordering_gain	0.532393
+a	Across regions	DeepPT	C	patient_ordering_gain	0.346922
+a	Across regions	DeepPT	D	patient_ordering_gain	0.333326
+a	Across regions	DeepPT	E	patient_ordering_gain	-0.032092
+a	Across regions	DeepPT	F	patient_ordering_gain	0.071016
+a	Across regions	DeepPT	G	patient_ordering_gain	0.306894
+a	Across regions	DeepPT	H	patient_ordering_gain	0.559623
+a	Across regions	DeepPT	EQUAL_PATIENT_MEAN	plotted_method_mean	0.27614
+a	Across regions	TCGN	A	patient_ordering_gain	0.127711
+a	Across regions	TCGN	B	patient_ordering_gain	0.436746
+a	Across regions	TCGN	C	patient_ordering_gain	0.524219
+a	Across regions	TCGN	D	patient_ordering_gain	0.445014
+a	Across regions	TCGN	E	patient_ordering_gain	0.066841
+a	Across regions	TCGN	F	patient_ordering_gain	0.105346
+a	Across regions	TCGN	G	patient_ordering_gain	0.498273
+a	Across regions	TCGN	H	patient_ordering_gain	0.41854
+a	Across regions	TCGN	EQUAL_PATIENT_MEAN	plotted_method_mean	0.327836
+a	Across regions	HisToGene	A	patient_ordering_gain	0.130826
+a	Across regions	HisToGene	B	patient_ordering_gain	0.360576
+a	Across regions	HisToGene	C	patient_ordering_gain	0.430923
+a	Across regions	HisToGene	D	patient_ordering_gain	0.506196
+a	Across regions	HisToGene	E	patient_ordering_gain	0.023062
+a	Across regions	HisToGene	F	patient_ordering_gain	-0.058022
+a	Across regions	HisToGene	G	patient_ordering_gain	0.501832
+a	Across regions	HisToGene	H	patient_ordering_gain	0.534234
+a	Across regions	HisToGene	EQUAL_PATIENT_MEAN	plotted_method_mean	0.303703
+a	Across regions	DeepSpaCE	A	patient_ordering_gain	0.146629
+a	Across regions	DeepSpaCE	B	patient_ordering_gain	0.450466
+a	Across regions	DeepSpaCE	C	patient_ordering_gain	0.462345
+a	Across regions	DeepSpaCE	D	patient_ordering_gain	0.431799
+a	Across regions	DeepSpaCE	E	patient_ordering_gain	0.092512
+a	Across regions	DeepSpaCE	F	patient_ordering_gain	-0.015917
+a	Across regions	DeepSpaCE	G	patient_ordering_gain	0.512249
+a	Across regions	DeepSpaCE	H	patient_ordering_gain	0.229305
+a	Across regions	DeepSpaCE	EQUAL_PATIENT_MEAN	plotted_method_mean	0.288673
+a	Across regions	THItoGene	A	patient_ordering_gain	0.033735
+a	Across regions	THItoGene	B	patient_ordering_gain	0.395602
+a	Across regions	THItoGene	C	patient_ordering_gain	0.124542
+a	Across regions	THItoGene	D	patient_ordering_gain	0.560093
+a	Across regions	THItoGene	E	patient_ordering_gain	0.183192
+a	Across regions	THItoGene	F	patient_ordering_gain	0.072059
+a	Across regions	THItoGene	G	patient_ordering_gain	0.254325
+a	Across regions	THItoGene	H	patient_ordering_gain	0.567636
+a	Across regions	THItoGene	EQUAL_PATIENT_MEAN	plotted_method_mean	0.273898
+a	Across regions	EGNv1	A	patient_ordering_gain	0.060966
+a	Across regions	EGNv1	B	patient_ordering_gain	0.480696
+a	Across regions	EGNv1	C	patient_ordering_gain	0.143263
+a	Across regions	EGNv1	D	patient_ordering_gain	0.097331
+a	Across regions	EGNv1	E	patient_ordering_gain	0.053249
+a	Across regions	EGNv1	F	patient_ordering_gain	0.087549
+a	Across regions	EGNv1	G	patient_ordering_gain	0.373673
+a	Across regions	EGNv1	H	patient_ordering_gain	0.391351
+a	Across regions	EGNv1	EQUAL_PATIENT_MEAN	plotted_method_mean	0.21101
+a	Across regions	GeneCodeR	A	patient_ordering_gain	0.071093
+a	Across regions	GeneCodeR	B	patient_ordering_gain	0.345785
+a	Across regions	GeneCodeR	C	patient_ordering_gain	0.221722
+a	Across regions	GeneCodeR	D	patient_ordering_gain	0.292626
+a	Across regions	GeneCodeR	E	patient_ordering_gain	0.031837
+a	Across regions	GeneCodeR	F	patient_ordering_gain	-0.005403
+a	Across regions	GeneCodeR	G	patient_ordering_gain	0.402403
+a	Across regions	GeneCodeR	H	patient_ordering_gain	0.520831
+a	Across regions	GeneCodeR	EQUAL_PATIENT_MEAN	plotted_method_mean	0.235112
+a	Across regions	iStar	A	patient_ordering_gain	0.071446
+a	Across regions	iStar	B	patient_ordering_gain	0.460879
+a	Across regions	iStar	C	patient_ordering_gain	0.154474
+a	Across regions	iStar	D	patient_ordering_gain	0.338234
+a	Across regions	iStar	E	patient_ordering_gain	-0.007727
+a	Across regions	iStar	F	patient_ordering_gain	0.029269
+a	Across regions	iStar	G	patient_ordering_gain	0.284548
+a	Across regions	iStar	H	patient_ordering_gain	0.308309
+a	Across regions	iStar	EQUAL_PATIENT_MEAN	plotted_method_mean	0.204929
+a	Across regions	MEDIAN_ACROSS_11_METHODS	EQUAL_PATIENT_MEAN	plotted_task_median	0.289
+b	Similar cell mix	EGNv2	A	patient_ordering_gain	-0.040053
+b	Similar cell mix	EGNv2	B	patient_ordering_gain	0.199939
+b	Similar cell mix	EGNv2	C	patient_ordering_gain	-0.032969
+b	Similar cell mix	EGNv2	D	patient_ordering_gain	0.090726
+b	Similar cell mix	EGNv2	E	patient_ordering_gain	-0.003231
+b	Similar cell mix	EGNv2	F	patient_ordering_gain	0.041952
+b	Similar cell mix	EGNv2	G	patient_ordering_gain	0.0891
+b	Similar cell mix	EGNv2	H	patient_ordering_gain	0.161152
+b	Similar cell mix	EGNv2	EQUAL_PATIENT_MEAN	plotted_method_mean	0.063327
+b	Similar cell mix	Hist2ST	A	patient_ordering_gain	-0.000569
+b	Similar cell mix	Hist2ST	B	patient_ordering_gain	0.212961
+b	Similar cell mix	Hist2ST	C	patient_ordering_gain	0.138274
+b	Similar cell mix	Hist2ST	D	patient_ordering_gain	0.065582
+b	Similar cell mix	Hist2ST	E	patient_ordering_gain	0.008276
+b	Similar cell mix	Hist2ST	F	patient_ordering_gain	0.028646
+b	Similar cell mix	Hist2ST	G	patient_ordering_gain	-0.038199
+b	Similar cell mix	Hist2ST	H	patient_ordering_gain	0.171524
+b	Similar cell mix	Hist2ST	EQUAL_PATIENT_MEAN	plotted_method_mean	0.073312
+b	Similar cell mix	ST-Net	A	patient_ordering_gain	-0.019525
+b	Similar cell mix	ST-Net	B	patient_ordering_gain	0.301167
+b	Similar cell mix	ST-Net	C	patient_ordering_gain	0.09139
+b	Similar cell mix	ST-Net	D	patient_ordering_gain	0.164996
+b	Similar cell mix	ST-Net	E	patient_ordering_gain	0.048309
+b	Similar cell mix	ST-Net	F	patient_ordering_gain	-0.021569
+b	Similar cell mix	ST-Net	G	patient_ordering_gain	0.068081
+b	Similar cell mix	ST-Net	H	patient_ordering_gain	0.09279
+b	Similar cell mix	ST-Net	EQUAL_PATIENT_MEAN	plotted_method_mean	0.090705
+b	Similar cell mix	DeepPT	A	patient_ordering_gain	-0.010662
+b	Similar cell mix	DeepPT	B	patient_ordering_gain	0.093927
+b	Similar cell mix	DeepPT	C	patient_ordering_gain	0.09049
+b	Similar cell mix	DeepPT	D	patient_ordering_gain	0.166485
+b	Similar cell mix	DeepPT	E	patient_ordering_gain	-0.00434
+b	Similar cell mix	DeepPT	F	patient_ordering_gain	0.036873
+b	Similar cell mix	DeepPT	G	patient_ordering_gain	0.06454
+b	Similar cell mix	DeepPT	H	patient_ordering_gain	0.191659
+b	Similar cell mix	DeepPT	EQUAL_PATIENT_MEAN	plotted_method_mean	0.078622
+b	Similar cell mix	TCGN	A	patient_ordering_gain	0.019227
+b	Similar cell mix	TCGN	B	patient_ordering_gain	0.217511
+b	Similar cell mix	TCGN	C	patient_ordering_gain	0.097626
+b	Similar cell mix	TCGN	D	patient_ordering_gain	0.192975
+b	Similar cell mix	TCGN	E	patient_ordering_gain	0.037058
+b	Similar cell mix	TCGN	F	patient_ordering_gain	0.040125
+b	Similar cell mix	TCGN	G	patient_ordering_gain	0.073722
+b	Similar cell mix	TCGN	H	patient_ordering_gain	0.185391
+b	Similar cell mix	TCGN	EQUAL_PATIENT_MEAN	plotted_method_mean	0.107954
+b	Similar cell mix	HisToGene	A	patient_ordering_gain	0.017974
+b	Similar cell mix	HisToGene	B	patient_ordering_gain	0.082898
+b	Similar cell mix	HisToGene	C	patient_ordering_gain	0.024791
+b	Similar cell mix	HisToGene	D	patient_ordering_gain	0.098367
+b	Similar cell mix	HisToGene	E	patient_ordering_gain	0.130462
+b	Similar cell mix	HisToGene	F	patient_ordering_gain	-0.002114
+b	Similar cell mix	HisToGene	G	patient_ordering_gain	0.030448
+b	Similar cell mix	HisToGene	H	patient_ordering_gain	0.112625
+b	Similar cell mix	HisToGene	EQUAL_PATIENT_MEAN	plotted_method_mean	0.061931
+b	Similar cell mix	DeepSpaCE	A	patient_ordering_gain	-0.05347
+b	Similar cell mix	DeepSpaCE	B	patient_ordering_gain	0.261197
+b	Similar cell mix	DeepSpaCE	C	patient_ordering_gain	0.161075
+b	Similar cell mix	DeepSpaCE	D	patient_ordering_gain	0.15499
+b	Similar cell mix	DeepSpaCE	E	patient_ordering_gain	0.057664
+b	Similar cell mix	DeepSpaCE	F	patient_ordering_gain	0.026888
+b	Similar cell mix	DeepSpaCE	G	patient_ordering_gain	0.189643
+b	Similar cell mix	DeepSpaCE	H	patient_ordering_gain	0.124041
+b	Similar cell mix	DeepSpaCE	EQUAL_PATIENT_MEAN	plotted_method_mean	0.115254
+b	Similar cell mix	THItoGene	A	patient_ordering_gain	-0.025275
+b	Similar cell mix	THItoGene	B	patient_ordering_gain	0.200162
+b	Similar cell mix	THItoGene	C	patient_ordering_gain	0.088583
+b	Similar cell mix	THItoGene	D	patient_ordering_gain	0.111741
+b	Similar cell mix	THItoGene	E	patient_ordering_gain	0.099737
+b	Similar cell mix	THItoGene	F	patient_ordering_gain	0.012162
+b	Similar cell mix	THItoGene	G	patient_ordering_gain	-0.005209
+b	Similar cell mix	THItoGene	H	patient_ordering_gain	0.143844
+b	Similar cell mix	THItoGene	EQUAL_PATIENT_MEAN	plotted_method_mean	0.078218
+b	Similar cell mix	EGNv1	A	patient_ordering_gain	-0.005623
+b	Similar cell mix	EGNv1	B	patient_ordering_gain	0.247592
+b	Similar cell mix	EGNv1	C	patient_ordering_gain	0.035058
+b	Similar cell mix	EGNv1	D	patient_ordering_gain	0.084011
+b	Similar cell mix	EGNv1	E	patient_ordering_gain	0.02881
+b	Similar cell mix	EGNv1	F	patient_ordering_gain	-0.005634
+b	Similar cell mix	EGNv1	G	patient_ordering_gain	0.030583
+b	Similar cell mix	EGNv1	H	patient_ordering_gain	0.073846
+b	Similar cell mix	EGNv1	EQUAL_PATIENT_MEAN	plotted_method_mean	0.06108
+b	Similar cell mix	GeneCodeR	A	patient_ordering_gain	-0.029996
+b	Similar cell mix	GeneCodeR	B	patient_ordering_gain	0.181345
+b	Similar cell mix	GeneCodeR	C	patient_ordering_gain	0.028264
+b	Similar cell mix	GeneCodeR	D	patient_ordering_gain	0.031543
+b	Similar cell mix	GeneCodeR	E	patient_ordering_gain	0.056819
+b	Similar cell mix	GeneCodeR	F	patient_ordering_gain	0.087192
+b	Similar cell mix	GeneCodeR	G	patient_ordering_gain	-0.005843
+b	Similar cell mix	GeneCodeR	H	patient_ordering_gain	0.081412
+b	Similar cell mix	GeneCodeR	EQUAL_PATIENT_MEAN	plotted_method_mean	0.053842
+b	Similar cell mix	iStar	A	patient_ordering_gain	0.025345
+b	Similar cell mix	iStar	B	patient_ordering_gain	0.19277
+b	Similar cell mix	iStar	C	patient_ordering_gain	0.064838
+b	Similar cell mix	iStar	D	patient_ordering_gain	0.103566
+b	Similar cell mix	iStar	E	patient_ordering_gain	-0.010481
+b	Similar cell mix	iStar	F	patient_ordering_gain	0.023411
+b	Similar cell mix	iStar	G	patient_ordering_gain	0.090831
+b	Similar cell mix	iStar	H	patient_ordering_gain	0.062876
+b	Similar cell mix	iStar	EQUAL_PATIENT_MEAN	plotted_method_mean	0.069144
+b	Similar cell mix	MEDIAN_ACROSS_11_METHODS	EQUAL_PATIENT_MEAN	plotted_task_median	0.073
+c	Within regions	EGNv2	A	patient_ordering_gain	-0.040353
+c	Within regions	EGNv2	B	patient_ordering_gain	0.159786
+c	Within regions	EGNv2	C	patient_ordering_gain	0.028458
+c	Within regions	EGNv2	D	patient_ordering_gain	0.044275
+c	Within regions	EGNv2	E	patient_ordering_gain	0.11994
+c	Within regions	EGNv2	F	patient_ordering_gain	0.000727
+c	Within regions	EGNv2	G	patient_ordering_gain	0.035317
+c	Within regions	EGNv2	H	patient_ordering_gain	0.06672
+c	Within regions	EGNv2	EQUAL_PATIENT_MEAN	plotted_method_mean	0.051859
+c	Within regions	Hist2ST	A	patient_ordering_gain	0.003906
+c	Within regions	Hist2ST	B	patient_ordering_gain	0.1868
+c	Within regions	Hist2ST	C	patient_ordering_gain	0.186699
+c	Within regions	Hist2ST	D	patient_ordering_gain	-0.005999
+c	Within regions	Hist2ST	E	patient_ordering_gain	0.041617
+c	Within regions	Hist2ST	F	patient_ordering_gain	0.046008
+c	Within regions	Hist2ST	G	patient_ordering_gain	-0.115076
+c	Within regions	Hist2ST	H	patient_ordering_gain	0.183141
+c	Within regions	Hist2ST	EQUAL_PATIENT_MEAN	plotted_method_mean	0.065887
+c	Within regions	ST-Net	A	patient_ordering_gain	-0.023534
+c	Within regions	ST-Net	B	patient_ordering_gain	0.28345
+c	Within regions	ST-Net	C	patient_ordering_gain	0.159575
+c	Within regions	ST-Net	D	patient_ordering_gain	0.13259
+c	Within regions	ST-Net	E	patient_ordering_gain	0.035322
+c	Within regions	ST-Net	F	patient_ordering_gain	-0.023363
+c	Within regions	ST-Net	G	patient_ordering_gain	0.040082
+c	Within regions	ST-Net	H	patient_ordering_gain	0.075372
+c	Within regions	ST-Net	EQUAL_PATIENT_MEAN	plotted_method_mean	0.084937
+c	Within regions	DeepPT	A	patient_ordering_gain	-0.029706
+c	Within regions	DeepPT	B	patient_ordering_gain	0.032952
+c	Within regions	DeepPT	C	patient_ordering_gain	0.131859
+c	Within regions	DeepPT	D	patient_ordering_gain	0.151596
+c	Within regions	DeepPT	E	patient_ordering_gain	-0.010765
+c	Within regions	DeepPT	F	patient_ordering_gain	0.023971
+c	Within regions	DeepPT	G	patient_ordering_gain	0.021635
+c	Within regions	DeepPT	H	patient_ordering_gain	0.071536
+c	Within regions	DeepPT	EQUAL_PATIENT_MEAN	plotted_method_mean	0.049135
+c	Within regions	TCGN	A	patient_ordering_gain	0.007987
+c	Within regions	TCGN	B	patient_ordering_gain	0.206633
+c	Within regions	TCGN	C	patient_ordering_gain	0.143185
+c	Within regions	TCGN	D	patient_ordering_gain	0.119679
+c	Within regions	TCGN	E	patient_ordering_gain	0.076457
+c	Within regions	TCGN	F	patient_ordering_gain	0.061526
+c	Within regions	TCGN	G	patient_ordering_gain	0.028466
+c	Within regions	TCGN	H	patient_ordering_gain	0.129969
+c	Within regions	TCGN	EQUAL_PATIENT_MEAN	plotted_method_mean	0.096738
+c	Within regions	HisToGene	A	patient_ordering_gain	0.01812
+c	Within regions	HisToGene	B	patient_ordering_gain	0.04446
+c	Within regions	HisToGene	C	patient_ordering_gain	0.078438
+c	Within regions	HisToGene	D	patient_ordering_gain	0.032285
+c	Within regions	HisToGene	E	patient_ordering_gain	0.138212
+c	Within regions	HisToGene	F	patient_ordering_gain	-0.020054
+c	Within regions	HisToGene	G	patient_ordering_gain	0.015014
+c	Within regions	HisToGene	H	patient_ordering_gain	0.026233
+c	Within regions	HisToGene	EQUAL_PATIENT_MEAN	plotted_method_mean	0.041588
+c	Within regions	DeepSpaCE	A	patient_ordering_gain	-0.058739
+c	Within regions	DeepSpaCE	B	patient_ordering_gain	0.273322
+c	Within regions	DeepSpaCE	C	patient_ordering_gain	0.193154
+c	Within regions	DeepSpaCE	D	patient_ordering_gain	0.140928
+c	Within regions	DeepSpaCE	E	patient_ordering_gain	0.10501
+c	Within regions	DeepSpaCE	F	patient_ordering_gain	0.001447
+c	Within regions	DeepSpaCE	G	patient_ordering_gain	0.172876
+c	Within regions	DeepSpaCE	H	patient_ordering_gain	0.099574
+c	Within regions	DeepSpaCE	EQUAL_PATIENT_MEAN	plotted_method_mean	0.115946
+c	Within regions	THItoGene	A	patient_ordering_gain	-0.034299
+c	Within regions	THItoGene	B	patient_ordering_gain	0.194741
+c	Within regions	THItoGene	C	patient_ordering_gain	0.139649
+c	Within regions	THItoGene	D	patient_ordering_gain	0.067135
+c	Within regions	THItoGene	E	patient_ordering_gain	0.056898
+c	Within regions	THItoGene	F	patient_ordering_gain	0.048295
+c	Within regions	THItoGene	G	patient_ordering_gain	0.008933
+c	Within regions	THItoGene	H	patient_ordering_gain	0.13964
+c	Within regions	THItoGene	EQUAL_PATIENT_MEAN	plotted_method_mean	0.077624
+c	Within regions	EGNv1	A	patient_ordering_gain	-0.004003
+c	Within regions	EGNv1	B	patient_ordering_gain	0.225224
+c	Within regions	EGNv1	C	patient_ordering_gain	0.060261
+c	Within regions	EGNv1	D	patient_ordering_gain	-0.006672
+c	Within regions	EGNv1	E	patient_ordering_gain	0.043217
+c	Within regions	EGNv1	F	patient_ordering_gain	0.003905
+c	Within regions	EGNv1	G	patient_ordering_gain	-0.000277
+c	Within regions	EGNv1	H	patient_ordering_gain	0.009709
+c	Within regions	EGNv1	EQUAL_PATIENT_MEAN	plotted_method_mean	0.04142
+c	Within regions	GeneCodeR	A	patient_ordering_gain	-0.030623
+c	Within regions	GeneCodeR	B	patient_ordering_gain	0.139823
+c	Within regions	GeneCodeR	C	patient_ordering_gain	0.059905
+c	Within regions	GeneCodeR	D	patient_ordering_gain	0.02165
+c	Within regions	GeneCodeR	E	patient_ordering_gain	0.083175
+c	Within regions	GeneCodeR	F	patient_ordering_gain	0.063847
+c	Within regions	GeneCodeR	G	patient_ordering_gain	0.041064
+c	Within regions	GeneCodeR	H	patient_ordering_gain	0.009901
+c	Within regions	GeneCodeR	EQUAL_PATIENT_MEAN	plotted_method_mean	0.048593
+c	Within regions	iStar	A	patient_ordering_gain	0.026725
+c	Within regions	iStar	B	patient_ordering_gain	0.171268
+c	Within regions	iStar	C	patient_ordering_gain	0.111126
+c	Within regions	iStar	D	patient_ordering_gain	0.064719
+c	Within regions	iStar	E	patient_ordering_gain	-0.014868
+c	Within regions	iStar	F	patient_ordering_gain	0.021213
+c	Within regions	iStar	G	patient_ordering_gain	0.06593
+c	Within regions	iStar	H	patient_ordering_gain	0.10685
+c	Within regions	iStar	EQUAL_PATIENT_MEAN	plotted_method_mean	0.06912
+c	Within regions	MEDIAN_ACROSS_11_METHODS	EQUAL_PATIENT_MEAN	plotted_task_median	0.066

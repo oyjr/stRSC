@@ -1,0 +1,4 @@
+source_file	source_key	cohort	model	metric	source_band_key	contrast_id	estimate	lower	upper	displayed_unit_factor	panel	axis_min	axis_max
+SCALE_MEAN_INTERVALS.tsv	CRC|fixed_32um_predictions|noise_corrected_correlation_q|LT128	CRC	fixed_32um_predictions	noise_corrected_correlation_q	LT128		0.29840133333333335	0.214449	0.35008699999999998	1	Figure 2a	0.17	1.02
+SCALE_MEAN_INTERVALS.tsv	CRC|fixed_32um_predictions|noise_corrected_correlation_q|GE4096	CRC	fixed_32um_predictions	noise_corrected_correlation_q	GE4096		0.80048533333333338	0.72653999999999996	0.87031000000000003	1	Figure 2a	0.17	1.02
+SCALE_PAIRED_CONTRASTS.tsv	HEST_Ridge-Phikon-v2_Broadest_minus_Finest	HEST	Ridge-Phikon-v2	noise_corrected_correlation_q		HEST_Ridge-Phikon-v2_Broadest_minus_Finest	0.36507875555555558	0.33763790000000005	0.3936252111111111	1	Figure 2d pooled effect	0.30	0.43

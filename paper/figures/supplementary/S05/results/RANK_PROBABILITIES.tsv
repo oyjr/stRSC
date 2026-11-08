@@ -1,0 +1,424 @@
+condition	method	rank	count	probability
+Overall Pearson	DeepPT	1.0	111	0.00555
+Overall Pearson	DeepPT	2.0	947	0.04735
+Overall Pearson	DeepPT	3.0	5035	0.25175
+Overall Pearson	DeepPT	4.0	5366	0.2683
+Overall Pearson	DeepPT	5.0	2996	0.1498
+Overall Pearson	DeepPT	6.0	2246	0.1123
+Overall Pearson	DeepPT	7.0	1881	0.09405
+Overall Pearson	DeepPT	8.0	1086	0.0543
+Overall Pearson	DeepPT	9.0	291	0.01455
+Overall Pearson	DeepPT	10.0	41	0.00205
+Overall Pearson	DeepSpaCE	1.0	38	0.0019
+Overall Pearson	DeepSpaCE	2.0	1217	0.06085
+Overall Pearson	DeepSpaCE	3.0	1177	0.05885
+Overall Pearson	DeepSpaCE	4.0	1371	0.06855
+Overall Pearson	DeepSpaCE	5.0	1793	0.08965
+Overall Pearson	DeepSpaCE	6.0	3001	0.15005
+Overall Pearson	DeepSpaCE	7.0	3417	0.17085
+Overall Pearson	DeepSpaCE	8.0	3682	0.1841
+Overall Pearson	DeepSpaCE	9.0	2693	0.13465
+Overall Pearson	DeepSpaCE	10.0	1516	0.0758
+Overall Pearson	DeepSpaCE	11.0	95	0.00475
+Overall Pearson	EGNv1	4.0	10	0.0005
+Overall Pearson	EGNv1	5.0	1150	0.0575
+Overall Pearson	EGNv1	6.0	2213	0.11065
+Overall Pearson	EGNv1	7.0	1666	0.0833
+Overall Pearson	EGNv1	8.0	4014	0.2007
+Overall Pearson	EGNv1	9.0	5096	0.2548
+Overall Pearson	EGNv1	10.0	5735	0.28675
+Overall Pearson	EGNv1	11.0	116	0.0058
+Overall Pearson	EGNv2	1.0	11567	0.57835
+Overall Pearson	EGNv2	2.0	3194	0.1597
+Overall Pearson	EGNv2	3.0	1467	0.07335
+Overall Pearson	EGNv2	4.0	1432	0.0716
+Overall Pearson	EGNv2	5.0	854	0.0427
+Overall Pearson	EGNv2	6.0	823	0.04115
+Overall Pearson	EGNv2	7.0	642	0.0321
+Overall Pearson	EGNv2	8.0	21	0.00105
+Overall Pearson	GeneCodeR	3.0	4	0.0002
+Overall Pearson	GeneCodeR	4.0	36	0.0018
+Overall Pearson	GeneCodeR	5.0	171	0.00855
+Overall Pearson	GeneCodeR	6.0	587	0.02935
+Overall Pearson	GeneCodeR	7.0	1281	0.06405
+Overall Pearson	GeneCodeR	8.0	2895	0.14475
+Overall Pearson	GeneCodeR	9.0	5683	0.28415
+Overall Pearson	GeneCodeR	10.0	7023	0.35115
+Overall Pearson	GeneCodeR	11.0	2320	0.116
+Overall Pearson	HisToGene	1.0	413	0.02065
+Overall Pearson	HisToGene	2.0	1892	0.0946
+Overall Pearson	HisToGene	3.0	2076	0.1038
+Overall Pearson	HisToGene	4.0	1716	0.0858
+Overall Pearson	HisToGene	5.0	1634	0.0817
+Overall Pearson	HisToGene	6.0	3547	0.17735
+Overall Pearson	HisToGene	7.0	3589	0.17945
+Overall Pearson	HisToGene	8.0	3060	0.153
+Overall Pearson	HisToGene	9.0	1558	0.0779
+Overall Pearson	HisToGene	10.0	488	0.0244
+Overall Pearson	HisToGene	11.0	27	0.00135
+Overall Pearson	Hist2ST	1.0	3327	0.16635
+Overall Pearson	Hist2ST	2.0	6386	0.3193
+Overall Pearson	Hist2ST	3.0	2483	0.12415
+Overall Pearson	Hist2ST	4.0	2992	0.1496
+Overall Pearson	Hist2ST	5.0	1774	0.0887
+Overall Pearson	Hist2ST	6.0	1209	0.06045
+Overall Pearson	Hist2ST	7.0	1291	0.06455
+Overall Pearson	Hist2ST	8.0	362	0.0181
+Overall Pearson	Hist2ST	9.0	176	0.0088
+Overall Pearson	ST-Net	1.0	1348	0.0674
+Overall Pearson	ST-Net	2.0	4462	0.2231
+Overall Pearson	ST-Net	3.0	4056	0.2028
+Overall Pearson	ST-Net	4.0	3152	0.1576
+Overall Pearson	ST-Net	5.0	1744	0.0872
+Overall Pearson	ST-Net	6.0	1188	0.0594
+Overall Pearson	ST-Net	7.0	1529	0.07645
+Overall Pearson	ST-Net	8.0	1102	0.0551
+Overall Pearson	ST-Net	9.0	838	0.0419
+Overall Pearson	ST-Net	10.0	549	0.02745
+Overall Pearson	ST-Net	11.0	32	0.0016
+Overall Pearson	TCGN	1.0	3196	0.1598
+Overall Pearson	TCGN	2.0	1692	0.0846
+Overall Pearson	TCGN	3.0	2027	0.10135
+Overall Pearson	TCGN	4.0	2847	0.14235
+Overall Pearson	TCGN	5.0	5131	0.25655
+Overall Pearson	TCGN	6.0	2797	0.13985
+Overall Pearson	TCGN	7.0	2181	0.10905
+Overall Pearson	TCGN	8.0	97	0.00485
+Overall Pearson	TCGN	9.0	32	0.0016
+Overall Pearson	THItoGene	2.0	210	0.0105
+Overall Pearson	THItoGene	3.0	1675	0.08375
+Overall Pearson	THItoGene	4.0	1078	0.0539
+Overall Pearson	THItoGene	5.0	2753	0.13765
+Overall Pearson	THItoGene	6.0	2389	0.11945
+Overall Pearson	THItoGene	7.0	2512	0.1256
+Overall Pearson	THItoGene	8.0	3429	0.17145
+Overall Pearson	THItoGene	9.0	3269	0.16345
+Overall Pearson	THItoGene	10.0	2666	0.1333
+Overall Pearson	THItoGene	11.0	19	0.00095
+Overall Pearson	iStar	7.0	11	0.00055
+Overall Pearson	iStar	8.0	252	0.0126
+Overall Pearson	iStar	9.0	364	0.0182
+Overall Pearson	iStar	10.0	1982	0.0991
+Overall Pearson	iStar	11.0	17391	0.86955
+Across regions	DeepPT	2.0	32	0.0016
+Across regions	DeepPT	3.0	664	0.0332
+Across regions	DeepPT	4.0	1569	0.07845
+Across regions	DeepPT	5.0	2505	0.12525
+Across regions	DeepPT	6.0	3390	0.1695
+Across regions	DeepPT	7.0	5563	0.27815
+Across regions	DeepPT	8.0	4672	0.2336
+Across regions	DeepPT	9.0	1274	0.0637
+Across regions	DeepPT	10.0	313	0.01565
+Across regions	DeepPT	11.0	18	0.0009
+Across regions	DeepSpaCE	1.0	95	0.00475
+Across regions	DeepSpaCE	2.0	727	0.03635
+Across regions	DeepSpaCE	3.0	1533	0.07665
+Across regions	DeepSpaCE	4.0	2674	0.1337
+Across regions	DeepSpaCE	5.0	3360	0.168
+Across regions	DeepSpaCE	6.0	3455	0.17275
+Across regions	DeepSpaCE	7.0	2703	0.13515
+Across regions	DeepSpaCE	8.0	2596	0.1298
+Across regions	DeepSpaCE	9.0	1559	0.07795
+Across regions	DeepSpaCE	10.0	946	0.0473
+Across regions	DeepSpaCE	11.0	352	0.0176
+Across regions	EGNv1	4.0	36	0.0018
+Across regions	EGNv1	5.0	155	0.00775
+Across regions	EGNv1	6.0	499	0.02495
+Across regions	EGNv1	7.0	929	0.04645
+Across regions	EGNv1	8.0	2076	0.1038
+Across regions	EGNv1	9.0	3107	0.15535
+Across regions	EGNv1	10.0	6107	0.30535
+Across regions	EGNv1	11.0	7091	0.35455
+Across regions	EGNv2	1.0	9797	0.48985
+Across regions	EGNv2	2.0	6220	0.311
+Across regions	EGNv2	3.0	1490	0.0745
+Across regions	EGNv2	4.0	959	0.04795
+Across regions	EGNv2	5.0	737	0.03685
+Across regions	EGNv2	6.0	642	0.0321
+Across regions	EGNv2	7.0	154	0.0077
+Across regions	EGNv2	9.0	1	5e-05
+Across regions	GeneCodeR	4.0	5	0.00025
+Across regions	GeneCodeR	5.0	89	0.00445
+Across regions	GeneCodeR	6.0	457	0.02285
+Across regions	GeneCodeR	7.0	1535	0.07675
+Across regions	GeneCodeR	8.0	4385	0.21925
+Across regions	GeneCodeR	9.0	8107	0.40535
+Across regions	GeneCodeR	10.0	3544	0.1772
+Across regions	GeneCodeR	11.0	1878	0.0939
+Across regions	HisToGene	1.0	206	0.0103
+Across regions	HisToGene	2.0	1074	0.0537
+Across regions	HisToGene	3.0	2701	0.13505
+Across regions	HisToGene	4.0	3940	0.197
+Across regions	HisToGene	5.0	4074	0.2037
+Across regions	HisToGene	6.0	3911	0.19555
+Across regions	HisToGene	7.0	2319	0.11595
+Across regions	HisToGene	8.0	896	0.0448
+Across regions	HisToGene	9.0	491	0.02455
+Across regions	HisToGene	10.0	287	0.01435
+Across regions	HisToGene	11.0	101	0.00505
+Across regions	Hist2ST	1.0	6341	0.31705
+Across regions	Hist2ST	2.0	7142	0.3571
+Across regions	Hist2ST	3.0	2074	0.1037
+Across regions	Hist2ST	4.0	1210	0.0605
+Across regions	Hist2ST	5.0	1353	0.06765
+Across regions	Hist2ST	6.0	1338	0.0669
+Across regions	Hist2ST	7.0	484	0.0242
+Across regions	Hist2ST	8.0	55	0.00275
+Across regions	Hist2ST	9.0	3	0.00015
+Across regions	ST-Net	1.0	726	0.0363
+Across regions	ST-Net	2.0	2100	0.105
+Across regions	ST-Net	3.0	3165	0.15825
+Across regions	ST-Net	4.0	2869	0.14345
+Across regions	ST-Net	5.0	3234	0.1617
+Across regions	ST-Net	6.0	3511	0.17555
+Across regions	ST-Net	7.0	2626	0.1313
+Across regions	ST-Net	8.0	950	0.0475
+Across regions	ST-Net	9.0	552	0.0276
+Across regions	ST-Net	10.0	256	0.0128
+Across regions	ST-Net	11.0	11	0.00055
+Across regions	TCGN	1.0	2835	0.14175
+Across regions	TCGN	2.0	2705	0.13525
+Across regions	TCGN	3.0	5475	0.27375
+Across regions	TCGN	4.0	4978	0.2489
+Across regions	TCGN	5.0	2737	0.13685
+Across regions	TCGN	6.0	983	0.04915
+Across regions	TCGN	7.0	278	0.0139
+Across regions	TCGN	8.0	8	0.0004
+Across regions	TCGN	9.0	1	5e-05
+Across regions	THItoGene	3.0	2898	0.1449
+Across regions	THItoGene	4.0	1760	0.088
+Across regions	THItoGene	5.0	1756	0.0878
+Across regions	THItoGene	6.0	1814	0.0907
+Across regions	THItoGene	7.0	3392	0.1696
+Across regions	THItoGene	8.0	4032	0.2016
+Across regions	THItoGene	9.0	2026	0.1013
+Across regions	THItoGene	10.0	1543	0.07715
+Across regions	THItoGene	11.0	779	0.03895
+Across regions	iStar	7.0	17	0.00085
+Across regions	iStar	8.0	330	0.0165
+Across regions	iStar	9.0	2879	0.14395
+Across regions	iStar	10.0	7004	0.3502
+Across regions	iStar	11.0	9770	0.4885
+RNA context + depth matched	DeepPT	1.0	7	0.00035
+RNA context + depth matched	DeepPT	2.0	1299	0.06495
+RNA context + depth matched	DeepPT	3.0	3778	0.1889
+RNA context + depth matched	DeepPT	4.0	3142	0.1571
+RNA context + depth matched	DeepPT	5.0	2536	0.1268
+RNA context + depth matched	DeepPT	6.0	2554	0.1277
+RNA context + depth matched	DeepPT	7.0	1547	0.07735
+RNA context + depth matched	DeepPT	8.0	1446	0.0723
+RNA context + depth matched	DeepPT	9.0	1239	0.06195
+RNA context + depth matched	DeepPT	10.0	1484	0.0742
+RNA context + depth matched	DeepPT	11.0	968	0.0484
+RNA context + depth matched	DeepSpaCE	1.0	11803	0.59015
+RNA context + depth matched	DeepSpaCE	2.0	4331	0.21655
+RNA context + depth matched	DeepSpaCE	3.0	2227	0.11135
+RNA context + depth matched	DeepSpaCE	4.0	724	0.0362
+RNA context + depth matched	DeepSpaCE	5.0	465	0.02325
+RNA context + depth matched	DeepSpaCE	6.0	219	0.01095
+RNA context + depth matched	DeepSpaCE	7.0	113	0.00565
+RNA context + depth matched	DeepSpaCE	8.0	66	0.0033
+RNA context + depth matched	DeepSpaCE	9.0	30	0.0015
+RNA context + depth matched	DeepSpaCE	10.0	13	0.00065
+RNA context + depth matched	DeepSpaCE	11.0	9	0.00045
+RNA context + depth matched	EGNv1	3.0	28	0.0014
+RNA context + depth matched	EGNv1	4.0	440	0.022
+RNA context + depth matched	EGNv1	5.0	1165	0.05825
+RNA context + depth matched	EGNv1	6.0	1858	0.0929
+RNA context + depth matched	EGNv1	7.0	1951	0.09755
+RNA context + depth matched	EGNv1	8.0	3414	0.1707
+RNA context + depth matched	EGNv1	9.0	4629	0.23145
+RNA context + depth matched	EGNv1	10.0	4237	0.21185
+RNA context + depth matched	EGNv1	11.0	2278	0.1139
+RNA context + depth matched	EGNv2	2.0	28	0.0014
+RNA context + depth matched	EGNv2	3.0	487	0.02435
+RNA context + depth matched	EGNv2	4.0	1628	0.0814
+RNA context + depth matched	EGNv2	5.0	1631	0.08155
+RNA context + depth matched	EGNv2	6.0	2234	0.1117
+RNA context + depth matched	EGNv2	7.0	2545	0.12725
+RNA context + depth matched	EGNv2	8.0	2569	0.12845
+RNA context + depth matched	EGNv2	9.0	2909	0.14545
+RNA context + depth matched	EGNv2	10.0	2676	0.1338
+RNA context + depth matched	EGNv2	11.0	3293	0.16465
+RNA context + depth matched	GeneCodeR	1.0	57	0.00285
+RNA context + depth matched	GeneCodeR	2.0	114	0.0057
+RNA context + depth matched	GeneCodeR	3.0	192	0.0096
+RNA context + depth matched	GeneCodeR	4.0	298	0.0149
+RNA context + depth matched	GeneCodeR	5.0	534	0.0267
+RNA context + depth matched	GeneCodeR	6.0	864	0.0432
+RNA context + depth matched	GeneCodeR	7.0	1338	0.0669
+RNA context + depth matched	GeneCodeR	8.0	2092	0.1046
+RNA context + depth matched	GeneCodeR	9.0	3143	0.15715
+RNA context + depth matched	GeneCodeR	10.0	4621	0.23105
+RNA context + depth matched	GeneCodeR	11.0	6747	0.33735
+RNA context + depth matched	HisToGene	1.0	280	0.014
+RNA context + depth matched	HisToGene	2.0	553	0.02765
+RNA context + depth matched	HisToGene	3.0	780	0.039
+RNA context + depth matched	HisToGene	4.0	793	0.03965
+RNA context + depth matched	HisToGene	5.0	1562	0.0781
+RNA context + depth matched	HisToGene	6.0	1822	0.0911
+RNA context + depth matched	HisToGene	7.0	2309	0.11545
+RNA context + depth matched	HisToGene	8.0	2299	0.11495
+RNA context + depth matched	HisToGene	9.0	2341	0.11705
+RNA context + depth matched	HisToGene	10.0	2981	0.14905
+RNA context + depth matched	HisToGene	11.0	4280	0.214
+RNA context + depth matched	Hist2ST	1.0	103	0.00515
+RNA context + depth matched	Hist2ST	2.0	769	0.03845
+RNA context + depth matched	Hist2ST	3.0	1492	0.0746
+RNA context + depth matched	Hist2ST	4.0	2748	0.1374
+RNA context + depth matched	Hist2ST	5.0	2637	0.13185
+RNA context + depth matched	Hist2ST	6.0	2686	0.1343
+RNA context + depth matched	Hist2ST	7.0	2386	0.1193
+RNA context + depth matched	Hist2ST	8.0	2152	0.1076
+RNA context + depth matched	Hist2ST	9.0	1782	0.0891
+RNA context + depth matched	Hist2ST	10.0	1861	0.09305
+RNA context + depth matched	Hist2ST	11.0	1384	0.0692
+RNA context + depth matched	ST-Net	1.0	692	0.0346
+RNA context + depth matched	ST-Net	2.0	3069	0.15345
+RNA context + depth matched	ST-Net	3.0	5843	0.29215
+RNA context + depth matched	ST-Net	4.0	3439	0.17195
+RNA context + depth matched	ST-Net	5.0	2208	0.1104
+RNA context + depth matched	ST-Net	6.0	1986	0.0993
+RNA context + depth matched	ST-Net	7.0	1172	0.0586
+RNA context + depth matched	ST-Net	8.0	784	0.0392
+RNA context + depth matched	ST-Net	9.0	499	0.02495
+RNA context + depth matched	ST-Net	10.0	262	0.0131
+RNA context + depth matched	ST-Net	11.0	46	0.0023
+RNA context + depth matched	TCGN	1.0	6940	0.347
+RNA context + depth matched	TCGN	2.0	9226	0.4613
+RNA context + depth matched	TCGN	3.0	3256	0.1628
+RNA context + depth matched	TCGN	4.0	469	0.02345
+RNA context + depth matched	TCGN	5.0	104	0.0052
+RNA context + depth matched	TCGN	6.0	5	0.00025
+RNA context + depth matched	THItoGene	1.0	108	0.0054
+RNA context + depth matched	THItoGene	2.0	499	0.02495
+RNA context + depth matched	THItoGene	3.0	1312	0.0656
+RNA context + depth matched	THItoGene	4.0	3971	0.19855
+RNA context + depth matched	THItoGene	5.0	4618	0.2309
+RNA context + depth matched	THItoGene	6.0	3355	0.16775
+RNA context + depth matched	THItoGene	7.0	3046	0.1523
+RNA context + depth matched	THItoGene	8.0	1828	0.0914
+RNA context + depth matched	THItoGene	9.0	979	0.04895
+RNA context + depth matched	THItoGene	10.0	248	0.0124
+RNA context + depth matched	THItoGene	11.0	36	0.0018
+RNA context + depth matched	iStar	1.0	10	0.0005
+RNA context + depth matched	iStar	2.0	112	0.0056
+RNA context + depth matched	iStar	3.0	605	0.03025
+RNA context + depth matched	iStar	4.0	2348	0.1174
+RNA context + depth matched	iStar	5.0	2540	0.127
+RNA context + depth matched	iStar	6.0	2417	0.12085
+RNA context + depth matched	iStar	7.0	3593	0.17965
+RNA context + depth matched	iStar	8.0	3350	0.1675
+RNA context + depth matched	iStar	9.0	2449	0.12245
+RNA context + depth matched	iStar	10.0	1617	0.08085
+RNA context + depth matched	iStar	11.0	959	0.04795
+Within regions	DeepPT	1.0	6	0.0003
+Within regions	DeepPT	2.0	111	0.00555
+Within regions	DeepPT	3.0	617	0.03085
+Within regions	DeepPT	4.0	1084	0.0542
+Within regions	DeepPT	5.0	1306	0.0653
+Within regions	DeepPT	6.0	2291	0.11455
+Within regions	DeepPT	7.0	3211	0.16055
+Within regions	DeepPT	8.0	1989	0.09945
+Within regions	DeepPT	9.0	2089	0.10445
+Within regions	DeepPT	10.0	2925	0.14625
+Within regions	DeepPT	11.0	4371	0.21855
+Within regions	DeepSpaCE	1.0	15300	0.765
+Within regions	DeepSpaCE	2.0	2351	0.11755
+Within regions	DeepSpaCE	3.0	1057	0.05285
+Within regions	DeepSpaCE	4.0	752	0.0376
+Within regions	DeepSpaCE	5.0	308	0.0154
+Within regions	DeepSpaCE	6.0	152	0.0076
+Within regions	DeepSpaCE	7.0	40	0.002
+Within regions	DeepSpaCE	8.0	22	0.0011
+Within regions	DeepSpaCE	9.0	12	0.0006
+Within regions	DeepSpaCE	10.0	3	0.00015
+Within regions	DeepSpaCE	11.0	3	0.00015
+Within regions	EGNv1	3.0	4	0.0002
+Within regions	EGNv1	4.0	168	0.0084
+Within regions	EGNv1	5.0	314	0.0157
+Within regions	EGNv1	6.0	867	0.04335
+Within regions	EGNv1	7.0	2462	0.1231
+Within regions	EGNv1	8.0	2567	0.12835
+Within regions	EGNv1	9.0	2991	0.14955
+Within regions	EGNv1	10.0	4500	0.225
+Within regions	EGNv1	11.0	6127	0.30635
+Within regions	EGNv2	2.0	57	0.00285
+Within regions	EGNv2	3.0	315	0.01575
+Within regions	EGNv2	4.0	878	0.0439
+Within regions	EGNv2	5.0	1346	0.0673
+Within regions	EGNv2	6.0	2339	0.11695
+Within regions	EGNv2	7.0	3439	0.17195
+Within regions	EGNv2	8.0	4700	0.235
+Within regions	EGNv2	9.0	3584	0.1792
+Within regions	EGNv2	10.0	2309	0.11545
+Within regions	EGNv2	11.0	1033	0.05165
+Within regions	GeneCodeR	1.0	3	0.00015
+Within regions	GeneCodeR	2.0	43	0.00215
+Within regions	GeneCodeR	3.0	288	0.0144
+Within regions	GeneCodeR	4.0	416	0.0208
+Within regions	GeneCodeR	5.0	839	0.04195
+Within regions	GeneCodeR	6.0	1596	0.0798
+Within regions	GeneCodeR	7.0	2702	0.1351
+Within regions	GeneCodeR	8.0	4349	0.21745
+Within regions	GeneCodeR	9.0	5310	0.2655
+Within regions	GeneCodeR	10.0	3664	0.1832
+Within regions	GeneCodeR	11.0	790	0.0395
+Within regions	HisToGene	1.0	60	0.003
+Within regions	HisToGene	2.0	191	0.00955
+Within regions	HisToGene	3.0	577	0.02885
+Within regions	HisToGene	4.0	465	0.02325
+Within regions	HisToGene	5.0	773	0.03865
+Within regions	HisToGene	6.0	921	0.04605
+Within regions	HisToGene	7.0	1503	0.07515
+Within regions	HisToGene	8.0	2833	0.14165
+Within regions	HisToGene	9.0	3297	0.16485
+Within regions	HisToGene	10.0	4020	0.201
+Within regions	HisToGene	11.0	5360	0.268
+Within regions	Hist2ST	1.0	1175	0.05875
+Within regions	Hist2ST	2.0	1255	0.06275
+Within regions	Hist2ST	3.0	1649	0.08245
+Within regions	Hist2ST	4.0	2204	0.1102
+Within regions	Hist2ST	5.0	2430	0.1215
+Within regions	Hist2ST	6.0	2333	0.11665
+Within regions	Hist2ST	7.0	2446	0.1223
+Within regions	Hist2ST	8.0	1221	0.06105
+Within regions	Hist2ST	9.0	1320	0.066
+Within regions	Hist2ST	10.0	1747	0.08735
+Within regions	Hist2ST	11.0	2220	0.111
+Within regions	ST-Net	1.0	152	0.0076
+Within regions	ST-Net	2.0	4645	0.23225
+Within regions	ST-Net	3.0	5481	0.27405
+Within regions	ST-Net	4.0	2897	0.14485
+Within regions	ST-Net	5.0	2768	0.1384
+Within regions	ST-Net	6.0	1821	0.09105
+Within regions	ST-Net	7.0	1022	0.0511
+Within regions	ST-Net	8.0	722	0.0361
+Within regions	ST-Net	9.0	320	0.016
+Within regions	ST-Net	10.0	118	0.0059
+Within regions	ST-Net	11.0	54	0.0027
+Within regions	TCGN	1.0	3240	0.162
+Within regions	TCGN	2.0	10731	0.53655
+Within regions	TCGN	3.0	5547	0.27735
+Within regions	TCGN	4.0	473	0.02365
+Within regions	TCGN	5.0	9	0.00045
+Within regions	THItoGene	2.0	94	0.0047
+Within regions	THItoGene	3.0	2928	0.1464
+Within regions	THItoGene	4.0	7575	0.37875
+Within regions	THItoGene	5.0	6023	0.30115
+Within regions	THItoGene	6.0	2255	0.11275
+Within regions	THItoGene	7.0	756	0.0378
+Within regions	THItoGene	8.0	261	0.01305
+Within regions	THItoGene	9.0	97	0.00485
+Within regions	THItoGene	10.0	11	0.00055
+Within regions	iStar	1.0	64	0.0032
+Within regions	iStar	2.0	522	0.0261
+Within regions	iStar	3.0	1537	0.07685
+Within regions	iStar	4.0	3088	0.1544
+Within regions	iStar	5.0	3884	0.1942
+Within regions	iStar	6.0	5425	0.27125
+Within regions	iStar	7.0	2419	0.12095
+Within regions	iStar	8.0	1336	0.0668
+Within regions	iStar	9.0	980	0.049
+Within regions	iStar	10.0	703	0.03515
+Within regions	iStar	11.0	42	0.0021

@@ -1,0 +1,9 @@
+include README.md LICENSE NOTICE.md
+recursive-include src *.py
+recursive-include docs/toolkit *.md
+recursive-include configs *.json
+recursive-include examples *.py
+recursive-include examples/bundles *.json
+recursive-include tests *.py
+global-exclude *.pyc
+global-exclude __pycache__

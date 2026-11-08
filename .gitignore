@@ -1,0 +1,34 @@
+# Python environments and build products
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+
+# JavaScript build products
+node_modules/
+.next/
+.vinext/
+.wrangler/
+*.tsbuildinfo
+next-env.d.ts
+
+# Local settings
+.env
+.env.*
+!.env.example
+.openai/
+.DS_Store
+Thumbs.db
+
+# User-generated data and predictions
+/outputs/
+/data/
+*.ckpt
+*.pth
+*.pt

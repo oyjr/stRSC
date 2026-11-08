@@ -1,0 +1,251 @@
+panel	cohort	unit	subject	method	endpoint	value	x_value
+e	original HER2ST application	patient	A	Measured RNA	TLS continuous state	0.29853151823004065	
+e	original HER2ST application	patient	B	Measured RNA	TLS continuous state	0.24815441007160505	
+e	original HER2ST application	patient	C	Measured RNA	TLS continuous state	0.37485714988228647	
+e	original HER2ST application	patient	D	Measured RNA	TLS continuous state	0.4708270206341013	
+e	original HER2ST application	patient	E	Measured RNA	TLS continuous state	0.12522892566779906	
+e	original HER2ST application	patient	F	Measured RNA	TLS continuous state	0.2440019103117454	
+e	original HER2ST application	patient	G	Measured RNA	TLS continuous state	0.3305802315679014	
+e	original HER2ST application	patient	H	Measured RNA	TLS continuous state	0.40575775697904176	
+e	original HER2ST application	patient	A	DeepPT	TLS continuous state	0.06478008052693518	
+e	original HER2ST application	patient	B	DeepPT	TLS continuous state	0.0022603556952146974	
+e	original HER2ST application	patient	C	DeepPT	TLS continuous state	0.0763290340555202	
+e	original HER2ST application	patient	D	DeepPT	TLS continuous state	0.15768257304802144	
+e	original HER2ST application	patient	E	DeepPT	TLS continuous state	0.004885652288360893	
+e	original HER2ST application	patient	F	DeepPT	TLS continuous state	0.05240285761891265	
+e	original HER2ST application	patient	G	DeepPT	TLS continuous state	0.13480218377640657	
+e	original HER2ST application	patient	H	DeepPT	TLS continuous state	0.21982993290525554	
+e	original HER2ST application	patient	A	DeepSpaCE	TLS continuous state	0.06678751818211706	
+e	original HER2ST application	patient	B	DeepSpaCE	TLS continuous state	0.08151883505238071	
+e	original HER2ST application	patient	C	DeepSpaCE	TLS continuous state	0.1919743630445758	
+e	original HER2ST application	patient	D	DeepSpaCE	TLS continuous state	0.19295878203608102	
+e	original HER2ST application	patient	E	DeepSpaCE	TLS continuous state	0.0351117909663766	
+e	original HER2ST application	patient	F	DeepSpaCE	TLS continuous state	-0.0015840348397209883	
+e	original HER2ST application	patient	G	DeepSpaCE	TLS continuous state	0.0332245764856948	
+e	original HER2ST application	patient	H	DeepSpaCE	TLS continuous state	0.1434237893765097	
+e	original HER2ST application	patient	A	EGNv1	TLS continuous state	0.012537303531018163	
+e	original HER2ST application	patient	B	EGNv1	TLS continuous state	0.027049025883526118	
+e	original HER2ST application	patient	C	EGNv1	TLS continuous state	0.1740208219944038	
+e	original HER2ST application	patient	D	EGNv1	TLS continuous state	0.13275326834147425	
+e	original HER2ST application	patient	E	EGNv1	TLS continuous state	0.020695818850217713	
+e	original HER2ST application	patient	F	EGNv1	TLS continuous state	-0.0145658382743032	
+e	original HER2ST application	patient	G	EGNv1	TLS continuous state	0.027097340461324983	
+e	original HER2ST application	patient	H	EGNv1	TLS continuous state	0.13411980877168264	
+e	original HER2ST application	patient	A	EGNv2	TLS continuous state	0.0005588431270561859	
+e	original HER2ST application	patient	B	EGNv2	TLS continuous state	0.03379659166831447	
+e	original HER2ST application	patient	C	EGNv2	TLS continuous state	0.27370972655099474	
+e	original HER2ST application	patient	D	EGNv2	TLS continuous state	0.048286929626193895	
+e	original HER2ST application	patient	E	EGNv2	TLS continuous state	0.08064006591579001	
+e	original HER2ST application	patient	F	EGNv2	TLS continuous state	0.02904405927076443	
+e	original HER2ST application	patient	G	EGNv2	TLS continuous state	0.15061648220682347	
+e	original HER2ST application	patient	H	EGNv2	TLS continuous state	0.2734386011637957	
+e	original HER2ST application	patient	A	GeneCodeR	TLS continuous state	0.07636904159019203	
+e	original HER2ST application	patient	B	GeneCodeR	TLS continuous state	-0.016561144598661162	
+e	original HER2ST application	patient	C	GeneCodeR	TLS continuous state	0.020749337494673458	
+e	original HER2ST application	patient	D	GeneCodeR	TLS continuous state	-0.0783231180878212	
+e	original HER2ST application	patient	E	GeneCodeR	TLS continuous state	-0.008626222204470348	
+e	original HER2ST application	patient	F	GeneCodeR	TLS continuous state	-0.03299201969165666	
+e	original HER2ST application	patient	G	GeneCodeR	TLS continuous state	0.048630250444864985	
+e	original HER2ST application	patient	H	GeneCodeR	TLS continuous state	0.004045419524166852	
+e	original HER2ST application	patient	A	HisToGene	TLS continuous state	0.05541175568906388	
+e	original HER2ST application	patient	B	HisToGene	TLS continuous state	-0.07528828709907313	
+e	original HER2ST application	patient	C	HisToGene	TLS continuous state	0.009730699366903376	
+e	original HER2ST application	patient	D	HisToGene	TLS continuous state	-0.0822078851070776	
+e	original HER2ST application	patient	E	HisToGene	TLS continuous state	0.027076814779756903	
+e	original HER2ST application	patient	F	HisToGene	TLS continuous state	0.021406175397693315	
+e	original HER2ST application	patient	G	HisToGene	TLS continuous state	0.08609072974171939	
+e	original HER2ST application	patient	H	HisToGene	TLS continuous state	0.0031404759292095142	
+e	original HER2ST application	patient	A	Hist2ST	TLS continuous state	0.09575706835200096	
+e	original HER2ST application	patient	B	Hist2ST	TLS continuous state	-0.050454412408730755	
+e	original HER2ST application	patient	C	Hist2ST	TLS continuous state	-0.10360743634638148	
+e	original HER2ST application	patient	D	Hist2ST	TLS continuous state	-0.06798223853229456	
+e	original HER2ST application	patient	E	Hist2ST	TLS continuous state	-0.03602408208933228	
+e	original HER2ST application	patient	F	Hist2ST	TLS continuous state	0.004318874510046479	
+e	original HER2ST application	patient	G	Hist2ST	TLS continuous state	0.09448016812334367	
+e	original HER2ST application	patient	H	Hist2ST	TLS continuous state	0.047398648059863185	
+e	original HER2ST application	patient	A	ST-Net	TLS continuous state	-0.05257077469505318	
+e	original HER2ST application	patient	B	ST-Net	TLS continuous state	0.0873272397495202	
+e	original HER2ST application	patient	C	ST-Net	TLS continuous state	0.16561493666085308	
+e	original HER2ST application	patient	D	ST-Net	TLS continuous state	0.07616194454925526	
+e	original HER2ST application	patient	E	ST-Net	TLS continuous state	0.025693371805814665	
+e	original HER2ST application	patient	F	ST-Net	TLS continuous state	-0.030290076959566932	
+e	original HER2ST application	patient	G	ST-Net	TLS continuous state	0.08036227657454928	
+e	original HER2ST application	patient	H	ST-Net	TLS continuous state	0.19373614406246117	
+e	original HER2ST application	patient	A	TCGN	TLS continuous state	-0.02921300770134063	
+e	original HER2ST application	patient	B	TCGN	TLS continuous state	0.03319043239291419	
+e	original HER2ST application	patient	C	TCGN	TLS continuous state	0.0427630801856389	
+e	original HER2ST application	patient	D	TCGN	TLS continuous state	0.07741247146595884	
+e	original HER2ST application	patient	E	TCGN	TLS continuous state	-0.024052890938651945	
+e	original HER2ST application	patient	F	TCGN	TLS continuous state	0.052415507436705075	
+e	original HER2ST application	patient	G	TCGN	TLS continuous state	0.12813300801730118	
+e	original HER2ST application	patient	H	TCGN	TLS continuous state	0.25079499896257695	
+e	original HER2ST application	patient	A	THItoGene	TLS continuous state	0.15155178577123332	
+e	original HER2ST application	patient	B	THItoGene	TLS continuous state	-0.1893376346419732	
+e	original HER2ST application	patient	C	THItoGene	TLS continuous state	0.010686282516550811	
+e	original HER2ST application	patient	D	THItoGene	TLS continuous state	0.02035577892208646	
+e	original HER2ST application	patient	E	THItoGene	TLS continuous state	0.024910390566616775	
+e	original HER2ST application	patient	F	THItoGene	TLS continuous state	-0.003508097996153274	
+e	original HER2ST application	patient	G	THItoGene	TLS continuous state	-0.01031561321296531	
+e	original HER2ST application	patient	H	THItoGene	TLS continuous state	-0.0070727819149252	
+e	original HER2ST application	patient	A	iStar	TLS continuous state	-0.03623999764090062	
+e	original HER2ST application	patient	B	iStar	TLS continuous state	0.06046382239200608	
+e	original HER2ST application	patient	C	iStar	TLS continuous state	-0.015181477167561266	
+e	original HER2ST application	patient	D	iStar	TLS continuous state	0.07289747042041395	
+e	original HER2ST application	patient	E	iStar	TLS continuous state	0.017580044286384936	
+e	original HER2ST application	patient	F	iStar	TLS continuous state	0.05864274987738085	
+e	original HER2ST application	patient	G	iStar	TLS continuous state	0.12608225118152655	
+e	original HER2ST application	patient	H	iStar	TLS continuous state	0.08643512020430488	
+f	original HER2ST application	patient	A	Measured RNA	RNA-defined local hotspot AUC	0.6139228295819936	
+f	original HER2ST application	patient	B	Measured RNA	RNA-defined local hotspot AUC	0.6373542458808619	
+f	original HER2ST application	patient	C	Measured RNA	RNA-defined local hotspot AUC	0.7506944444444444	
+f	original HER2ST application	patient	D	Measured RNA	RNA-defined local hotspot AUC	0.7890557184750733	
+f	original HER2ST application	patient	E	Measured RNA	RNA-defined local hotspot AUC	0.5950934129429892	
+f	original HER2ST application	patient	F	Measured RNA	RNA-defined local hotspot AUC	0.6343926846100759	
+f	original HER2ST application	patient	G	Measured RNA	RNA-defined local hotspot AUC	0.6420820668693009	
+f	original HER2ST application	patient	H	Measured RNA	RNA-defined local hotspot AUC	0.7002078332650312	
+f	original HER2ST application	patient	A	DeepPT	RNA-defined local hotspot AUC	0.5453766651355075	
+f	original HER2ST application	patient	B	DeepPT	RNA-defined local hotspot AUC	0.5190811153358682	
+f	original HER2ST application	patient	C	DeepPT	RNA-defined local hotspot AUC	0.58184650997151	
+f	original HER2ST application	patient	D	DeepPT	RNA-defined local hotspot AUC	0.6438709677419354	
+f	original HER2ST application	patient	E	DeepPT	RNA-defined local hotspot AUC	0.4910310734463277	
+f	original HER2ST application	patient	F	DeepPT	RNA-defined local hotspot AUC	0.5386237635150678	
+f	original HER2ST application	patient	G	DeepPT	RNA-defined local hotspot AUC	0.5969528875379939	
+f	original HER2ST application	patient	H	DeepPT	RNA-defined local hotspot AUC	0.6066140741174404	
+f	original HER2ST application	patient	A	DeepSpaCE	RNA-defined local hotspot AUC	0.5136793752870923	
+f	original HER2ST application	patient	B	DeepSpaCE	RNA-defined local hotspot AUC	0.5784759188846641	
+f	original HER2ST application	patient	C	DeepSpaCE	RNA-defined local hotspot AUC	0.6713497150997151	
+f	original HER2ST application	patient	D	DeepSpaCE	RNA-defined local hotspot AUC	0.6561466275659824	
+f	original HER2ST application	patient	E	DeepSpaCE	RNA-defined local hotspot AUC	0.49622817154596816	
+f	original HER2ST application	patient	F	DeepSpaCE	RNA-defined local hotspot AUC	0.5095968484011962	
+f	original HER2ST application	patient	G	DeepSpaCE	RNA-defined local hotspot AUC	0.5737196048632219	
+f	original HER2ST application	patient	H	DeepSpaCE	RNA-defined local hotspot AUC	0.6018185410690241	
+f	original HER2ST application	patient	A	EGNv1	RNA-defined local hotspot AUC	0.5318350941662839	
+f	original HER2ST application	patient	B	EGNv1	RNA-defined local hotspot AUC	0.5547623574144487	
+f	original HER2ST application	patient	C	EGNv1	RNA-defined local hotspot AUC	0.6197204415954416	
+f	original HER2ST application	patient	D	EGNv1	RNA-defined local hotspot AUC	0.5907302052785923	
+f	original HER2ST application	patient	E	EGNv1	RNA-defined local hotspot AUC	0.5185501733436055	
+f	original HER2ST application	patient	F	EGNv1	RNA-defined local hotspot AUC	0.4939722797331493	
+f	original HER2ST application	patient	G	EGNv1	RNA-defined local hotspot AUC	0.5105610435663628	
+f	original HER2ST application	patient	H	EGNv1	RNA-defined local hotspot AUC	0.592189420994087	
+f	original HER2ST application	patient	A	EGNv2	RNA-defined local hotspot AUC	0.5133899862195682	
+f	original HER2ST application	patient	B	EGNv2	RNA-defined local hotspot AUC	0.5304277566539924	
+f	original HER2ST application	patient	C	EGNv2	RNA-defined local hotspot AUC	0.6529113247863247	
+f	original HER2ST application	patient	D	EGNv2	RNA-defined local hotspot AUC	0.5011730205278593	
+f	original HER2ST application	patient	E	EGNv2	RNA-defined local hotspot AUC	0.5506018875192604	
+f	original HER2ST application	patient	F	EGNv2	RNA-defined local hotspot AUC	0.5460668276972624	
+f	original HER2ST application	patient	G	EGNv2	RNA-defined local hotspot AUC	0.5772150455927052	
+f	original HER2ST application	patient	H	EGNv2	RNA-defined local hotspot AUC	0.6394575844505591	
+f	original HER2ST application	patient	A	GeneCodeR	RNA-defined local hotspot AUC	0.5196302250803859	
+f	original HER2ST application	patient	B	GeneCodeR	RNA-defined local hotspot AUC	0.5080291508238276	
+f	original HER2ST application	patient	C	GeneCodeR	RNA-defined local hotspot AUC	0.5000623219373219	
+f	original HER2ST application	patient	D	GeneCodeR	RNA-defined local hotspot AUC	0.4501935483870968	
+f	original HER2ST application	patient	E	GeneCodeR	RNA-defined local hotspot AUC	0.5101157229070366	
+f	original HER2ST application	patient	F	GeneCodeR	RNA-defined local hotspot AUC	0.5062140556705774	
+f	original HER2ST application	patient	G	GeneCodeR	RNA-defined local hotspot AUC	0.5207218844984802	
+f	original HER2ST application	patient	H	GeneCodeR	RNA-defined local hotspot AUC	0.521919091388092	
+f	original HER2ST application	patient	A	HisToGene	RNA-defined local hotspot AUC	0.5189710610932476	
+f	original HER2ST application	patient	B	HisToGene	RNA-defined local hotspot AUC	0.4963846641318124	
+f	original HER2ST application	patient	C	HisToGene	RNA-defined local hotspot AUC	0.46403133903133903	
+f	original HER2ST application	patient	D	HisToGene	RNA-defined local hotspot AUC	0.43805571847507335	
+f	original HER2ST application	patient	E	HisToGene	RNA-defined local hotspot AUC	0.5180221173600411	
+f	original HER2ST application	patient	F	HisToGene	RNA-defined local hotspot AUC	0.5239423740510697	
+f	original HER2ST application	patient	G	HisToGene	RNA-defined local hotspot AUC	0.5610258358662614	
+f	original HER2ST application	patient	H	HisToGene	RNA-defined local hotspot AUC	0.503781979977753	
+f	original HER2ST application	patient	A	Hist2ST	RNA-defined local hotspot AUC	0.49223702342673403	
+f	original HER2ST application	patient	B	Hist2ST	RNA-defined local hotspot AUC	0.4674397972116603	
+f	original HER2ST application	patient	C	Hist2ST	RNA-defined local hotspot AUC	0.40121082621082615	
+f	original HER2ST application	patient	D	Hist2ST	RNA-defined local hotspot AUC	0.46794134897360706	
+f	original HER2ST application	patient	E	Hist2ST	RNA-defined local hotspot AUC	0.446003466872111	
+f	original HER2ST application	patient	F	Hist2ST	RNA-defined local hotspot AUC	0.4754474350126524	
+f	original HER2ST application	patient	G	Hist2ST	RNA-defined local hotspot AUC	0.5516970618034448	
+f	original HER2ST application	patient	H	Hist2ST	RNA-defined local hotspot AUC	0.5304687957379544	
+f	original HER2ST application	patient	A	ST-Net	RNA-defined local hotspot AUC	0.5085806155259531	
+f	original HER2ST application	patient	B	ST-Net	RNA-defined local hotspot AUC	0.6118631178707223	
+f	original HER2ST application	patient	C	ST-Net	RNA-defined local hotspot AUC	0.6216791310541311	
+f	original HER2ST application	patient	D	ST-Net	RNA-defined local hotspot AUC	0.5754046920821114	
+f	original HER2ST application	patient	E	ST-Net	RNA-defined local hotspot AUC	0.4868242809450437	
+f	original HER2ST application	patient	F	ST-Net	RNA-defined local hotspot AUC	0.5070652173913044	
+f	original HER2ST application	patient	G	ST-Net	RNA-defined local hotspot AUC	0.5561309523809523	
+f	original HER2ST application	patient	H	ST-Net	RNA-defined local hotspot AUC	0.645310579005913	
+f	original HER2ST application	patient	A	TCGN	RNA-defined local hotspot AUC	0.524152503445108	
+f	original HER2ST application	patient	B	TCGN	RNA-defined local hotspot AUC	0.5148510773130546	
+f	original HER2ST application	patient	C	TCGN	RNA-defined local hotspot AUC	0.5709045584045584	
+f	original HER2ST application	patient	D	TCGN	RNA-defined local hotspot AUC	0.5949208211143695	
+f	original HER2ST application	patient	E	TCGN	RNA-defined local hotspot AUC	0.48563093862352336	
+f	original HER2ST application	patient	F	TCGN	RNA-defined local hotspot AUC	0.5309489302967564	
+f	original HER2ST application	patient	G	TCGN	RNA-defined local hotspot AUC	0.5607738095238095	
+f	original HER2ST application	patient	H	TCGN	RNA-defined local hotspot AUC	0.632674462853463	
+f	original HER2ST application	patient	A	THItoGene	RNA-defined local hotspot AUC	0.505493798805696	
+f	original HER2ST application	patient	B	THItoGene	RNA-defined local hotspot AUC	0.33164131812420783	
+f	original HER2ST application	patient	C	THItoGene	RNA-defined local hotspot AUC	0.4412126068376068	
+f	original HER2ST application	patient	D	THItoGene	RNA-defined local hotspot AUC	0.4708768328445748	
+f	original HER2ST application	patient	E	THItoGene	RNA-defined local hotspot AUC	0.5406619157678481	
+f	original HER2ST application	patient	F	THItoGene	RNA-defined local hotspot AUC	0.4743041177823787	
+f	original HER2ST application	patient	G	THItoGene	RNA-defined local hotspot AUC	0.4678115501519756	
+f	original HER2ST application	patient	H	THItoGene	RNA-defined local hotspot AUC	0.5227775013172531	
+f	original HER2ST application	patient	A	iStar	RNA-defined local hotspot AUC	0.505512172714745	
+f	original HER2ST application	patient	B	iStar	RNA-defined local hotspot AUC	0.5520880861850443	
+f	original HER2ST application	patient	C	iStar	RNA-defined local hotspot AUC	0.4715366809116809	
+f	original HER2ST application	patient	D	iStar	RNA-defined local hotspot AUC	0.5615366568914956	
+f	original HER2ST application	patient	E	iStar	RNA-defined local hotspot AUC	0.48996452876219826	
+f	original HER2ST application	patient	F	iStar	RNA-defined local hotspot AUC	0.515978835978836	
+f	original HER2ST application	patient	G	iStar	RNA-defined local hotspot AUC	0.5633915906788247	
+f	original HER2ST application	patient	H	iStar	RNA-defined local hotspot AUC	0.5711894795386687	
+g	original cell application	patient	patient_1	DeepSpot2Cell	proliferation hotspot contrast	0.13663346838306975	1.2407255736691232
+g	original cell application	patient	patient_1	sCellST	proliferation hotspot contrast	0.1135520659384534	1.261716584536723
+g	original cell application	patient	patient_2	DeepSpot2Cell	proliferation hotspot contrast	-0.4463301677106774	0.8590386280758903
+g	original cell application	patient	patient_2	sCellST	proliferation hotspot contrast	0.14740263792753738	0.8690361300267433
+g	original cell application	patient	patient_3	DeepSpot2Cell	proliferation hotspot contrast	-0.043560874300430596	0.4058179161937105
+g	original cell application	patient	patient_3	sCellST	proliferation hotspot contrast	0.0302416497129342	0.4134713406182339
+g	original cell application	patient	patient_4	DeepSpot2Cell	proliferation hotspot contrast	-0.1366215218594238	0.9803098361752178
+g	original cell application	patient	patient_4	sCellST	proliferation hotspot contrast	0.2142507052129797	0.9957888602721299
+g	original cell application	patient	patient_5	DeepSpot2Cell	proliferation hotspot contrast	0.3242776887068668	1.3660470166591503
+g	original cell application	patient	patient_5	sCellST	proliferation hotspot contrast	0.1068345706625457	1.4113078628056352
+d	external USZ kidney/lung	section	KC1	ordinary	TLS_vs_explicit_non_TLS	0.9825114387391968	
+caption	external USZ kidney/lung	section	KC1	ordinary	TLS_vs_INFL	0.9727891156462584	
+d	external USZ kidney/lung	section	KC1	neighbor	TLS_vs_explicit_non_TLS	0.9761396373496016	
+caption	external USZ kidney/lung	section	KC1	neighbor	TLS_vs_INFL	0.9666666666666668	
+d	external USZ kidney/lung	section	KC2	ordinary	TLS_vs_explicit_non_TLS	0.9927264614011602	
+caption	external USZ kidney/lung	section	KC2	ordinary	TLS_vs_INFL	0.8151515151515152	
+d	external USZ kidney/lung	section	KC2	neighbor	TLS_vs_explicit_non_TLS	0.9927710843373494	
+caption	external USZ kidney/lung	section	KC2	neighbor	TLS_vs_INFL	0.8090909090909091	
+d	external USZ kidney/lung	section	KC3	ordinary	TLS_vs_explicit_non_TLS	0.927135083983913	
+caption	external USZ kidney/lung	section	KC3	ordinary	TLS_vs_INFL	0.8111933286351891	
+d	external USZ kidney/lung	section	KC3	neighbor	TLS_vs_explicit_non_TLS	0.938517538765942	
+caption	external USZ kidney/lung	section	KC3	neighbor	TLS_vs_INFL	0.8370331219168429	
+d	external USZ kidney/lung	section	LC1	ordinary	TLS_vs_explicit_non_TLS	0.9561496530297112	
+caption	external USZ kidney/lung	section	LC1	ordinary	TLS_vs_INFL	0.781638198757764	
+d	external USZ kidney/lung	section	LC1	neighbor	TLS_vs_explicit_non_TLS	0.9782670710002296	
+caption	external USZ kidney/lung	section	LC1	neighbor	TLS_vs_INFL	0.8350802277432712	
+d	external USZ kidney/lung	section	LC2	ordinary	TLS_vs_explicit_non_TLS	0.9294003868471954	
+caption	external USZ kidney/lung	section	LC2	ordinary	TLS_vs_INFL	0.8208333333333333	
+d	external USZ kidney/lung	section	LC2	neighbor	TLS_vs_explicit_non_TLS	0.943258748021804	
+caption	external USZ kidney/lung	section	LC2	neighbor	TLS_vs_INFL	0.8261363636363637	
+d	external USZ kidney/lung	section	LC3	ordinary	TLS_vs_explicit_non_TLS	0.8749399591722371	
+caption	external USZ kidney/lung	section	LC3	ordinary	TLS_vs_INFL	0.7830841638981174	
+d	external USZ kidney/lung	section	LC3	neighbor	TLS_vs_explicit_non_TLS	0.865616952861279	
+caption	external USZ kidney/lung	section	LC3	neighbor	TLS_vs_INFL	0.687984496124031	
+d	external USZ kidney/lung	section	LC4	ordinary	TLS_vs_explicit_non_TLS	0.928172174622603	
+caption	external USZ kidney/lung	section	LC4	ordinary	TLS_vs_INFL	0.7728155339805826	
+d	external USZ kidney/lung	section	LC4	neighbor	TLS_vs_explicit_non_TLS	0.9374439004487964	
+caption	external USZ kidney/lung	section	LC4	neighbor	TLS_vs_INFL	0.7803398058252428	
+d	external USZ kidney/lung	section	LC5	ordinary	TLS_vs_explicit_non_TLS	0.9820970471044156	
+caption	external USZ kidney/lung	section	LC5	ordinary	TLS_vs_INFL	0.886520737327189	
+d	external USZ kidney/lung	section	LC5	neighbor	TLS_vs_explicit_non_TLS	0.9735822280443208	
+caption	external USZ kidney/lung	section	LC5	neighbor	TLS_vs_INFL	0.8675115207373272	
+d	external USZ kidney/lung	section	KC1	Measured RNA	TLS_vs_explicit_non_TLS	0.9291137095407558	
+caption	external USZ kidney/lung	section	KC1	Measured RNA	TLS_vs_INFL	0.8489795918367347	
+d	external USZ kidney/lung	section	KC2	Measured RNA	TLS_vs_explicit_non_TLS	0.5298527443105756	
+caption	external USZ kidney/lung	section	KC2	Measured RNA	TLS_vs_INFL	0.4909090909090909	
+d	external USZ kidney/lung	section	KC3	Measured RNA	TLS_vs_explicit_non_TLS	0.9555132589199303	
+caption	external USZ kidney/lung	section	KC3	Measured RNA	TLS_vs_INFL	0.89159032182288	
+d	external USZ kidney/lung	section	LC1	Measured RNA	TLS_vs_explicit_non_TLS	0.7403304124574427	
+caption	external USZ kidney/lung	section	LC1	Measured RNA	TLS_vs_INFL	0.8004658385093167	
+d	external USZ kidney/lung	section	LC2	Measured RNA	TLS_vs_explicit_non_TLS	0.8318643397221733	
+caption	external USZ kidney/lung	section	LC2	Measured RNA	TLS_vs_INFL	0.7583333333333333	
+d	external USZ kidney/lung	section	LC3	Measured RNA	TLS_vs_explicit_non_TLS	0.7601268862826722	
+caption	external USZ kidney/lung	section	LC3	Measured RNA	TLS_vs_INFL	0.6515088593576965	
+d	external USZ kidney/lung	section	LC4	Measured RNA	TLS_vs_explicit_non_TLS	0.6555793553651571	
+caption	external USZ kidney/lung	section	LC4	Measured RNA	TLS_vs_INFL	0.5656148867313916	
+d	external USZ kidney/lung	section	LC5	Measured RNA	TLS_vs_explicit_non_TLS	0.6944489929588996	
+caption	external USZ kidney/lung	section	LC5	Measured RNA	TLS_vs_INFL	0.6716589861751152	

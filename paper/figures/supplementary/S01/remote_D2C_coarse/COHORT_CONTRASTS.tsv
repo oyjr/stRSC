@@ -1,0 +1,3 @@
+release	model	condition	denominator	native_contrast	coarse_contrast	native_minus_coarse	jaccard	overlap_fraction	n_patients	native_contrast_positive_patients	coarse_contrast_positive_patients	native_minus_coarse_positive_patients
+Figure4_original	DeepSpot2Cell	original	common	-0.033540035201471544	-0.10455913214454501	0.07101909694307353	0.3365886509034084	0.4939127803985734	5	2	1	4
+Figure4_original	DeepSpot2Cell	original	full	-0.03312028135611904	-0.10479646807933518	0.07167618672321613	0.3365886509034084	0.4939127803985734	5	2	1	4

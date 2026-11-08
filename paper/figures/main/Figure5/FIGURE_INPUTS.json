@@ -1,0 +1,24 @@
+{
+  "source": "archive/runs\\STRSC-EVIDENCE-CLOSURE-20260918\\common_panel_execution_20260920\\inputs\\source\\TLS_VISIUM_USZ\\tif_slides\\KC2.tif",
+  "crop_left_top_right_bottom": [
+    1169,
+    1249,
+    9306,
+    9274
+  ],
+  "crop_rule": "All KC2 frozen predicted spot source-coordinate bounds plus 250 source pixels; no score/label dependent crop",
+  "original_coordinate_fields": "Loupe imageX/imageY joined via barcode; not original 10x pixel coordinates",
+  "marker_rows": 2166,
+  "source_spot_diameter_px": 83.4841,
+  "scalebar_nominal_um": 1000,
+  "nominal_um_per_pixel": 0.6588080844136788,
+  "physical_scale_note": "Nominal Visium 55 um diameter / original Loupe spot diameter; not measured scanner MPP",
+  "legacy_source": "archive/output\\stRSC_StatisticalRevision_2026-09-13\\figure_revision\\main\\source_scripts\\Figure4\\figure.py",
+  "legacy_tls_patient_points": 192,
+  "legacy_cell_points": 10,
+  "external_section_points": 24,
+  "external_same_tissue_LOSO": true,
+  "external_genes": 748,
+  "current_figure_number": 5,
+  "legacy_figure_number": 4
+}

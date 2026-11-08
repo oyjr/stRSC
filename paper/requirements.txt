@@ -1,0 +1,9 @@
+numpy
+pandas
+scipy
+matplotlib
+Pillow
+threadpoolctl
+pyarrow
+# Count-level cell / HEST calibration additionally requires torch.
+# Prediction-axis H5AD reading additionally requires h5py.

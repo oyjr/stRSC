@@ -1,0 +1,26 @@
+{
+  "sources": [
+    {
+      "source": "g0046_hest.py",
+      "function_and_class_implementations": "unchanged",
+      "syntax": "PASS"
+    },
+    {
+      "source": "g0047_hest_calibration.py",
+      "function_and_class_implementations": "unchanged",
+      "syntax": "PASS"
+    },
+    {
+      "source": "g0047b_hest_spectrum_score.py",
+      "function_and_class_implementations": "unchanged",
+      "syntax": "PASS"
+    },
+    {
+      "source": "g0048_crc_physical_spectrum.py",
+      "function_and_class_implementations": "unchanged",
+      "syntax": "PASS"
+    }
+  ],
+  "path_changes": "HEST storage globals use STRSC_HIST_DATA; ideal runner defaults to local source directory.",
+  "data_recalculated": false
+}

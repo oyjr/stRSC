@@ -1,0 +1,51 @@
+{
+  "protocol_id": "G0-050_CELL_RESOLVED_VALIDATION_V1",
+  "specimens": [
+    "TENX98", "TENX99", "TENX95", "TENX97", "TENX94",
+    "TENX96", "NCBI784", "NCBI785", "NCBI783"
+  ],
+  "split_seeds": [20260819, 20260820, 20260821, 20260822, 20260823],
+  "preflight_split_seeds": [
+    20260819, 20260820, 20260821, 20260822, 20260823,
+    20260824, 20260825, 20260826, 20260827, 20260828,
+    20260829, 20260830, 20260831, 20260832, 20260833,
+    20260834, 20260835, 20260836, 20260837, 20260838
+  ],
+  "quality_value_min_exclusive": 20.0,
+  "control_prefixes": [
+    "BLANK_", "NegControlCodeword_", "NegControlProbe_", "antisense_"
+  ],
+  "graph": {
+    "neighbors": 8,
+    "native_max_edge_um": 40.0,
+    "minimum_component_cells": 20,
+    "lazy_diffusion_powers": [16, 8, 4, 2, 0],
+    "bands": ["B1", "B2", "B3", "B4", "B5"]
+  },
+  "aggregation_um": [32, 64, 128, 256],
+  "aggregation_target": "mean_expression_per_cell",
+  "cellvit_mapping": {
+    "rule": "nearest_centroid",
+    "maximum_distance_um": 5.0
+  },
+  "model": {
+    "name": "sCellST",
+    "training_slide": "TENX39",
+    "primary_test_shape": "xenium_nucleus",
+    "supplementary_test_shape": "cellvit",
+    "supplementary_alignment": "mutual_nearest_centroid_max_5um",
+    "output_level": "cell"
+  },
+  "proliferation": {
+    "population": "Neoplastic",
+    "genes": ["MKI67", "TOP2A", "CENPF", "PCLAF"],
+    "cell_score": "log1p_1000_module_half_over_all_gene_half",
+    "rna_hotspot_split": "independent_binomial_module_and_other_counts_per_seed",
+    "radius_um": 64.0,
+    "minimum_neoplastic_cells": 5,
+    "hotspot_fraction": 0.10
+  },
+  "primary_endpoint": "within_Neoplastic_q_B4_plus_B5",
+  "formal_n": "patient",
+  "same_patient_slide_rule": "equal_weight_mean"
+}

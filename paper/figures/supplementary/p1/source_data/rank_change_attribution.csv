@@ -1,0 +1,16 @@
+arena,from_metric,to_metric,attribution,rank_tau_b,models_changing_rank
+BROAD_STRUCTURE_ALLOWED,A,C,prediction_tie_convention,1.0,0
+BROAD_STRUCTURE_ALLOWED,A,centred_A,model_common_patient_baseline,1.0,0
+BROAD_STRUCTURE_ALLOWED,centred_A,G,patient_specific_RNA_denominator_weighting,1.0,0
+BROAD_STRUCTURE_ALLOWED,weighted_A,G,baseline_constant_after_inverse_denominator_weighting,1.0,0
+BROAD_STRUCTURE_ALLOWED,G,G_half_tie_sensitivity,half_tie_sensitivity_of_existing_G,1.0,0
+COMPOSITION_MATCHED_ORIGINAL,A,C,prediction_tie_convention,1.0,0
+COMPOSITION_MATCHED_ORIGINAL,A,centred_A,model_common_patient_baseline,1.0,0
+COMPOSITION_MATCHED_ORIGINAL,centred_A,G,patient_specific_RNA_denominator_weighting,0.9272727272727274,4
+COMPOSITION_MATCHED_ORIGINAL,weighted_A,G,baseline_constant_after_inverse_denominator_weighting,1.0,0
+COMPOSITION_MATCHED_ORIGINAL,G,G_half_tie_sensitivity,half_tie_sensitivity_of_existing_G,1.0,0
+JOINT_STRUCTURE_MATCHED,A,C,prediction_tie_convention,1.0,0
+JOINT_STRUCTURE_MATCHED,A,centred_A,model_common_patient_baseline,1.0,0
+JOINT_STRUCTURE_MATCHED,centred_A,G,patient_specific_RNA_denominator_weighting,0.8909090909090909,4
+JOINT_STRUCTURE_MATCHED,weighted_A,G,baseline_constant_after_inverse_denominator_weighting,1.0,0
+JOINT_STRUCTURE_MATCHED,G,G_half_tie_sensitivity,half_tie_sensitivity_of_existing_G,1.0,0

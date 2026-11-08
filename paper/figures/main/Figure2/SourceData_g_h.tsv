@@ -1,0 +1,37 @@
+panel	statistic	patient	scope	value	unit	n_models
+g	spearman	A	WHOLE	0.0123530323021046	equal mean of 11 unchanged models	11
+g	spearman	A	WITHIN_REGION	0.01932900695673353	equal mean of 11 unchanged models	11
+g	spearman	B	WHOLE	0.23251985072768458	equal mean of 11 unchanged models	11
+g	spearman	B	WITHIN_REGION	0.07016021415419674	equal mean of 11 unchanged models	11
+g	spearman	C	WHOLE	0.11813569977090083	equal mean of 11 unchanged models	11
+g	spearman	C	WITHIN_REGION	0.09785183717707446	equal mean of 11 unchanged models	11
+g	spearman	D	WHOLE	0.11664421755994696	equal mean of 11 unchanged models	11
+g	spearman	D	WITHIN_REGION	0.06609604457013679	equal mean of 11 unchanged models	11
+g	spearman	E	WHOLE	0.01652561476451189	equal mean of 11 unchanged models	11
+g	spearman	E	WITHIN_REGION	0.01045063257436551	equal mean of 11 unchanged models	11
+g	spearman	F	WHOLE	0.004493959273386227	equal mean of 11 unchanged models	11
+g	spearman	F	WITHIN_REGION	0.008567398557662318	equal mean of 11 unchanged models	11
+g	spearman	G	WHOLE	0.10416439430379754	equal mean of 11 unchanged models	11
+g	spearman	G	WITHIN_REGION	0.05614360546271897	equal mean of 11 unchanged models	11
+g	spearman	H	WHOLE	0.10889076612889016	equal mean of 11 unchanged models	11
+g	spearman	H	WITHIN_REGION	0.037778257840534034	equal mean of 11 unchanged models	11
+g	spearman	EQUAL_PATIENT_MEAN	WHOLE	0.08921594185390284	equal mean of 8 patients	11
+g	spearman	EQUAL_PATIENT_MEAN	WITHIN_REGION	0.04579712466167779	equal mean of 8 patients	11
+h	C	A	WHOLE	0.5102386314569206	equal mean of 11 unchanged models	11
+h	C	A	WITHIN_REGION	0.5142160397514132	equal mean of 11 unchanged models	11
+h	C	B	WHOLE	0.688630696777115	equal mean of 11 unchanged models	11
+h	C	B	WITHIN_REGION	0.562879500980208	equal mean of 11 unchanged models	11
+h	C	C	WHOLE	0.5701700265088033	equal mean of 11 unchanged models	11
+h	C	C	WITHIN_REGION	0.5672687778811303	equal mean of 11 unchanged models	11
+h	C	D	WHOLE	0.5727505471777441	equal mean of 11 unchanged models	11
+h	C	D	WITHIN_REGION	0.5428887080027168	equal mean of 11 unchanged models	11
+h	C	E	WHOLE	0.512851749342969	equal mean of 11 unchanged models	11
+h	C	E	WITHIN_REGION	0.510172187446101	equal mean of 11 unchanged models	11
+h	C	F	WHOLE	0.5032254424889738	equal mean of 11 unchanged models	11
+h	C	F	WITHIN_REGION	0.5057350363420337	equal mean of 11 unchanged models	11
+h	C	G	WHOLE	0.5856736440686782	equal mean of 11 unchanged models	11
+h	C	G	WITHIN_REGION	0.5454719257752426	equal mean of 11 unchanged models	11
+h	C	H	WHOLE	0.5896021684708699	equal mean of 11 unchanged models	11
+h	C	H	WITHIN_REGION	0.5300209762894867	equal mean of 11 unchanged models	11
+h	C	EQUAL_PATIENT_MEAN	WHOLE	0.5666428632865093	equal mean of 8 patients	11
+h	C	EQUAL_PATIENT_MEAN	WITHIN_REGION	0.5348316440585414	equal mean of 8 patients	11

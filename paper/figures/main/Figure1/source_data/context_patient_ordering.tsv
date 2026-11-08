@@ -1,0 +1,265 @@
+task	method	patient	overall_rank	ordering_gain	method_mean	task_rank
+Across regions	EGNv2	A	1	0.038871	0.373517	1
+Across regions	EGNv2	B	1	0.710455	0.373517	1
+Across regions	EGNv2	C	1	0.236003	0.373517	1
+Across regions	EGNv2	D	1	0.552385	0.373517	1
+Across regions	EGNv2	E	1	0.225718	0.373517	1
+Across regions	EGNv2	F	1	0.093057	0.373517	1
+Across regions	EGNv2	G	1	0.515274	0.373517	1
+Across regions	EGNv2	H	1	0.616372	0.373517	1
+Across regions	Hist2ST	A	2	0.199276	0.358117	2
+Across regions	Hist2ST	B	2	0.490022	0.358117	2
+Across regions	Hist2ST	C	2	0.224584	0.358117	2
+Across regions	Hist2ST	D	2	0.656539	0.358117	2
+Across regions	Hist2ST	E	2	0.24697	0.358117	2
+Across regions	Hist2ST	F	2	0.123546	0.358117	2
+Across regions	Hist2ST	G	2	0.306361	0.358117	2
+Across regions	Hist2ST	H	2	0.617639	0.358117	2
+Across regions	ST-Net	A	3	0.129515	0.307686	4
+Across regions	ST-Net	B	3	0.639655	0.307686	4
+Across regions	ST-Net	C	3	0.488311	0.307686	4
+Across regions	ST-Net	D	3	0.448593	0.307686	4
+Across regions	ST-Net	E	3	-0.032149	0.307686	4
+Across regions	ST-Net	F	3	0.005713	0.307686	4
+Across regions	ST-Net	G	3	0.429984	0.307686	4
+Across regions	ST-Net	H	3	0.351863	0.307686	4
+Across regions	DeepPT	A	4	0.09104	0.27614	7
+Across regions	DeepPT	B	4	0.532393	0.27614	7
+Across regions	DeepPT	C	4	0.346922	0.27614	7
+Across regions	DeepPT	D	4	0.333326	0.27614	7
+Across regions	DeepPT	E	4	-0.032092	0.27614	7
+Across regions	DeepPT	F	4	0.071016	0.27614	7
+Across regions	DeepPT	G	4	0.306894	0.27614	7
+Across regions	DeepPT	H	4	0.559623	0.27614	7
+Across regions	TCGN	A	5	0.127711	0.327836	3
+Across regions	TCGN	B	5	0.436746	0.327836	3
+Across regions	TCGN	C	5	0.524219	0.327836	3
+Across regions	TCGN	D	5	0.445014	0.327836	3
+Across regions	TCGN	E	5	0.066841	0.327836	3
+Across regions	TCGN	F	5	0.105346	0.327836	3
+Across regions	TCGN	G	5	0.498273	0.327836	3
+Across regions	TCGN	H	5	0.41854	0.327836	3
+Across regions	HisToGene	A	6	0.130826	0.303703	5
+Across regions	HisToGene	B	6	0.360576	0.303703	5
+Across regions	HisToGene	C	6	0.430923	0.303703	5
+Across regions	HisToGene	D	6	0.506196	0.303703	5
+Across regions	HisToGene	E	6	0.023062	0.303703	5
+Across regions	HisToGene	F	6	-0.058022	0.303703	5
+Across regions	HisToGene	G	6	0.501832	0.303703	5
+Across regions	HisToGene	H	6	0.534234	0.303703	5
+Across regions	DeepSpaCE	A	7	0.146629	0.288673	6
+Across regions	DeepSpaCE	B	7	0.450466	0.288673	6
+Across regions	DeepSpaCE	C	7	0.462345	0.288673	6
+Across regions	DeepSpaCE	D	7	0.431799	0.288673	6
+Across regions	DeepSpaCE	E	7	0.092512	0.288673	6
+Across regions	DeepSpaCE	F	7	-0.015917	0.288673	6
+Across regions	DeepSpaCE	G	7	0.512249	0.288673	6
+Across regions	DeepSpaCE	H	7	0.229305	0.288673	6
+Across regions	THItoGene	A	8	0.033735	0.273898	8
+Across regions	THItoGene	B	8	0.395602	0.273898	8
+Across regions	THItoGene	C	8	0.124542	0.273898	8
+Across regions	THItoGene	D	8	0.560093	0.273898	8
+Across regions	THItoGene	E	8	0.183192	0.273898	8
+Across regions	THItoGene	F	8	0.072059	0.273898	8
+Across regions	THItoGene	G	8	0.254325	0.273898	8
+Across regions	THItoGene	H	8	0.567636	0.273898	8
+Across regions	EGNv1	A	9	0.060966	0.21101	10
+Across regions	EGNv1	B	9	0.480696	0.21101	10
+Across regions	EGNv1	C	9	0.143263	0.21101	10
+Across regions	EGNv1	D	9	0.097331	0.21101	10
+Across regions	EGNv1	E	9	0.053249	0.21101	10
+Across regions	EGNv1	F	9	0.087549	0.21101	10
+Across regions	EGNv1	G	9	0.373673	0.21101	10
+Across regions	EGNv1	H	9	0.391351	0.21101	10
+Across regions	GeneCodeR	A	10	0.071093	0.235112	9
+Across regions	GeneCodeR	B	10	0.345785	0.235112	9
+Across regions	GeneCodeR	C	10	0.221722	0.235112	9
+Across regions	GeneCodeR	D	10	0.292626	0.235112	9
+Across regions	GeneCodeR	E	10	0.031837	0.235112	9
+Across regions	GeneCodeR	F	10	-0.005403	0.235112	9
+Across regions	GeneCodeR	G	10	0.402403	0.235112	9
+Across regions	GeneCodeR	H	10	0.520831	0.235112	9
+Across regions	iStar	A	11	0.071446	0.204929	11
+Across regions	iStar	B	11	0.460879	0.204929	11
+Across regions	iStar	C	11	0.154474	0.204929	11
+Across regions	iStar	D	11	0.338234	0.204929	11
+Across regions	iStar	E	11	-0.007727	0.204929	11
+Across regions	iStar	F	11	0.029269	0.204929	11
+Across regions	iStar	G	11	0.284548	0.204929	11
+Across regions	iStar	H	11	0.308309	0.204929	11
+Similar cell mix	EGNv2	A	1	-0.040053	0.063327	8
+Similar cell mix	EGNv2	B	1	0.199939	0.063327	8
+Similar cell mix	EGNv2	C	1	-0.032969	0.063327	8
+Similar cell mix	EGNv2	D	1	0.090726	0.063327	8
+Similar cell mix	EGNv2	E	1	-0.003231	0.063327	8
+Similar cell mix	EGNv2	F	1	0.041952	0.063327	8
+Similar cell mix	EGNv2	G	1	0.0891	0.063327	8
+Similar cell mix	EGNv2	H	1	0.161152	0.063327	8
+Similar cell mix	Hist2ST	A	2	-0.000569	0.073312	6
+Similar cell mix	Hist2ST	B	2	0.212961	0.073312	6
+Similar cell mix	Hist2ST	C	2	0.138274	0.073312	6
+Similar cell mix	Hist2ST	D	2	0.065582	0.073312	6
+Similar cell mix	Hist2ST	E	2	0.008276	0.073312	6
+Similar cell mix	Hist2ST	F	2	0.028646	0.073312	6
+Similar cell mix	Hist2ST	G	2	-0.038199	0.073312	6
+Similar cell mix	Hist2ST	H	2	0.171524	0.073312	6
+Similar cell mix	ST-Net	A	3	-0.019525	0.090705	3
+Similar cell mix	ST-Net	B	3	0.301167	0.090705	3
+Similar cell mix	ST-Net	C	3	0.09139	0.090705	3
+Similar cell mix	ST-Net	D	3	0.164996	0.090705	3
+Similar cell mix	ST-Net	E	3	0.048309	0.090705	3
+Similar cell mix	ST-Net	F	3	-0.021569	0.090705	3
+Similar cell mix	ST-Net	G	3	0.068081	0.090705	3
+Similar cell mix	ST-Net	H	3	0.09279	0.090705	3
+Similar cell mix	DeepPT	A	4	-0.010662	0.078622	4
+Similar cell mix	DeepPT	B	4	0.093927	0.078622	4
+Similar cell mix	DeepPT	C	4	0.09049	0.078622	4
+Similar cell mix	DeepPT	D	4	0.166485	0.078622	4
+Similar cell mix	DeepPT	E	4	-0.00434	0.078622	4
+Similar cell mix	DeepPT	F	4	0.036873	0.078622	4
+Similar cell mix	DeepPT	G	4	0.06454	0.078622	4
+Similar cell mix	DeepPT	H	4	0.191659	0.078622	4
+Similar cell mix	TCGN	A	5	0.019227	0.107954	2
+Similar cell mix	TCGN	B	5	0.217511	0.107954	2
+Similar cell mix	TCGN	C	5	0.097626	0.107954	2
+Similar cell mix	TCGN	D	5	0.192975	0.107954	2
+Similar cell mix	TCGN	E	5	0.037058	0.107954	2
+Similar cell mix	TCGN	F	5	0.040125	0.107954	2
+Similar cell mix	TCGN	G	5	0.073722	0.107954	2
+Similar cell mix	TCGN	H	5	0.185391	0.107954	2
+Similar cell mix	HisToGene	A	6	0.017974	0.061931	9
+Similar cell mix	HisToGene	B	6	0.082898	0.061931	9
+Similar cell mix	HisToGene	C	6	0.024791	0.061931	9
+Similar cell mix	HisToGene	D	6	0.098367	0.061931	9
+Similar cell mix	HisToGene	E	6	0.130462	0.061931	9
+Similar cell mix	HisToGene	F	6	-0.002114	0.061931	9
+Similar cell mix	HisToGene	G	6	0.030448	0.061931	9
+Similar cell mix	HisToGene	H	6	0.112625	0.061931	9
+Similar cell mix	DeepSpaCE	A	7	-0.05347	0.115254	1
+Similar cell mix	DeepSpaCE	B	7	0.261197	0.115254	1
+Similar cell mix	DeepSpaCE	C	7	0.161075	0.115254	1
+Similar cell mix	DeepSpaCE	D	7	0.15499	0.115254	1
+Similar cell mix	DeepSpaCE	E	7	0.057664	0.115254	1
+Similar cell mix	DeepSpaCE	F	7	0.026888	0.115254	1
+Similar cell mix	DeepSpaCE	G	7	0.189643	0.115254	1
+Similar cell mix	DeepSpaCE	H	7	0.124041	0.115254	1
+Similar cell mix	THItoGene	A	8	-0.025275	0.078218	5
+Similar cell mix	THItoGene	B	8	0.200162	0.078218	5
+Similar cell mix	THItoGene	C	8	0.088583	0.078218	5
+Similar cell mix	THItoGene	D	8	0.111741	0.078218	5
+Similar cell mix	THItoGene	E	8	0.099737	0.078218	5
+Similar cell mix	THItoGene	F	8	0.012162	0.078218	5
+Similar cell mix	THItoGene	G	8	-0.005209	0.078218	5
+Similar cell mix	THItoGene	H	8	0.143844	0.078218	5
+Similar cell mix	EGNv1	A	9	-0.005623	0.06108	10
+Similar cell mix	EGNv1	B	9	0.247592	0.06108	10
+Similar cell mix	EGNv1	C	9	0.035058	0.06108	10
+Similar cell mix	EGNv1	D	9	0.084011	0.06108	10
+Similar cell mix	EGNv1	E	9	0.02881	0.06108	10
+Similar cell mix	EGNv1	F	9	-0.005634	0.06108	10
+Similar cell mix	EGNv1	G	9	0.030583	0.06108	10
+Similar cell mix	EGNv1	H	9	0.073846	0.06108	10
+Similar cell mix	GeneCodeR	A	10	-0.029996	0.053842	11
+Similar cell mix	GeneCodeR	B	10	0.181345	0.053842	11
+Similar cell mix	GeneCodeR	C	10	0.028264	0.053842	11
+Similar cell mix	GeneCodeR	D	10	0.031543	0.053842	11
+Similar cell mix	GeneCodeR	E	10	0.056819	0.053842	11
+Similar cell mix	GeneCodeR	F	10	0.087192	0.053842	11
+Similar cell mix	GeneCodeR	G	10	-0.005843	0.053842	11
+Similar cell mix	GeneCodeR	H	10	0.081412	0.053842	11
+Similar cell mix	iStar	A	11	0.025345	0.069144	7
+Similar cell mix	iStar	B	11	0.19277	0.069144	7
+Similar cell mix	iStar	C	11	0.064838	0.069144	7
+Similar cell mix	iStar	D	11	0.103566	0.069144	7
+Similar cell mix	iStar	E	11	-0.010481	0.069144	7
+Similar cell mix	iStar	F	11	0.023411	0.069144	7
+Similar cell mix	iStar	G	11	0.090831	0.069144	7
+Similar cell mix	iStar	H	11	0.062876	0.069144	7
+Within regions	EGNv2	A	1	-0.040353	0.051859	7
+Within regions	EGNv2	B	1	0.159786	0.051859	7
+Within regions	EGNv2	C	1	0.028458	0.051859	7
+Within regions	EGNv2	D	1	0.044275	0.051859	7
+Within regions	EGNv2	E	1	0.11994	0.051859	7
+Within regions	EGNv2	F	1	0.000727	0.051859	7
+Within regions	EGNv2	G	1	0.035317	0.051859	7
+Within regions	EGNv2	H	1	0.06672	0.051859	7
+Within regions	Hist2ST	A	2	0.003906	0.065887	6
+Within regions	Hist2ST	B	2	0.1868	0.065887	6
+Within regions	Hist2ST	C	2	0.186699	0.065887	6
+Within regions	Hist2ST	D	2	-0.005999	0.065887	6
+Within regions	Hist2ST	E	2	0.041617	0.065887	6
+Within regions	Hist2ST	F	2	0.046008	0.065887	6
+Within regions	Hist2ST	G	2	-0.115076	0.065887	6
+Within regions	Hist2ST	H	2	0.183141	0.065887	6
+Within regions	ST-Net	A	3	-0.023534	0.084937	3
+Within regions	ST-Net	B	3	0.28345	0.084937	3
+Within regions	ST-Net	C	3	0.159575	0.084937	3
+Within regions	ST-Net	D	3	0.13259	0.084937	3
+Within regions	ST-Net	E	3	0.035322	0.084937	3
+Within regions	ST-Net	F	3	-0.023363	0.084937	3
+Within regions	ST-Net	G	3	0.040082	0.084937	3
+Within regions	ST-Net	H	3	0.075372	0.084937	3
+Within regions	DeepPT	A	4	-0.029706	0.049135	8
+Within regions	DeepPT	B	4	0.032952	0.049135	8
+Within regions	DeepPT	C	4	0.131859	0.049135	8
+Within regions	DeepPT	D	4	0.151596	0.049135	8
+Within regions	DeepPT	E	4	-0.010765	0.049135	8
+Within regions	DeepPT	F	4	0.023971	0.049135	8
+Within regions	DeepPT	G	4	0.021635	0.049135	8
+Within regions	DeepPT	H	4	0.071536	0.049135	8
+Within regions	TCGN	A	5	0.007987	0.096738	2
+Within regions	TCGN	B	5	0.206633	0.096738	2
+Within regions	TCGN	C	5	0.143185	0.096738	2
+Within regions	TCGN	D	5	0.119679	0.096738	2
+Within regions	TCGN	E	5	0.076457	0.096738	2
+Within regions	TCGN	F	5	0.061526	0.096738	2
+Within regions	TCGN	G	5	0.028466	0.096738	2
+Within regions	TCGN	H	5	0.129969	0.096738	2
+Within regions	HisToGene	A	6	0.01812	0.041588	10
+Within regions	HisToGene	B	6	0.04446	0.041588	10
+Within regions	HisToGene	C	6	0.078438	0.041588	10
+Within regions	HisToGene	D	6	0.032285	0.041588	10
+Within regions	HisToGene	E	6	0.138212	0.041588	10
+Within regions	HisToGene	F	6	-0.020054	0.041588	10
+Within regions	HisToGene	G	6	0.015014	0.041588	10
+Within regions	HisToGene	H	6	0.026233	0.041588	10
+Within regions	DeepSpaCE	A	7	-0.058739	0.115946	1
+Within regions	DeepSpaCE	B	7	0.273322	0.115946	1
+Within regions	DeepSpaCE	C	7	0.193154	0.115946	1
+Within regions	DeepSpaCE	D	7	0.140928	0.115946	1
+Within regions	DeepSpaCE	E	7	0.10501	0.115946	1
+Within regions	DeepSpaCE	F	7	0.001447	0.115946	1
+Within regions	DeepSpaCE	G	7	0.172876	0.115946	1
+Within regions	DeepSpaCE	H	7	0.099574	0.115946	1
+Within regions	THItoGene	A	8	-0.034299	0.077624	4
+Within regions	THItoGene	B	8	0.194741	0.077624	4
+Within regions	THItoGene	C	8	0.139649	0.077624	4
+Within regions	THItoGene	D	8	0.067135	0.077624	4
+Within regions	THItoGene	E	8	0.056898	0.077624	4
+Within regions	THItoGene	F	8	0.048295	0.077624	4
+Within regions	THItoGene	G	8	0.008933	0.077624	4
+Within regions	THItoGene	H	8	0.13964	0.077624	4
+Within regions	EGNv1	A	9	-0.004003	0.04142	11
+Within regions	EGNv1	B	9	0.225224	0.04142	11
+Within regions	EGNv1	C	9	0.060261	0.04142	11
+Within regions	EGNv1	D	9	-0.006672	0.04142	11
+Within regions	EGNv1	E	9	0.043217	0.04142	11
+Within regions	EGNv1	F	9	0.003905	0.04142	11
+Within regions	EGNv1	G	9	-0.000277	0.04142	11
+Within regions	EGNv1	H	9	0.009709	0.04142	11
+Within regions	GeneCodeR	A	10	-0.030623	0.048593	9
+Within regions	GeneCodeR	B	10	0.139823	0.048593	9
+Within regions	GeneCodeR	C	10	0.059905	0.048593	9
+Within regions	GeneCodeR	D	10	0.02165	0.048593	9
+Within regions	GeneCodeR	E	10	0.083175	0.048593	9
+Within regions	GeneCodeR	F	10	0.063847	0.048593	9
+Within regions	GeneCodeR	G	10	0.041064	0.048593	9
+Within regions	GeneCodeR	H	10	0.009901	0.048593	9
+Within regions	iStar	A	11	0.026725	0.06912	5
+Within regions	iStar	B	11	0.171268	0.06912	5
+Within regions	iStar	C	11	0.111126	0.06912	5
+Within regions	iStar	D	11	0.064719	0.06912	5
+Within regions	iStar	E	11	-0.014868	0.06912	5
+Within regions	iStar	F	11	0.021213	0.06912	5
+Within regions	iStar	G	11	0.06593	0.06912	5
+Within regions	iStar	H	11	0.10685	0.06912	5

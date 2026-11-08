@@ -1,0 +1,30 @@
+{
+  "status": "SELECTED",
+  "model": "ST-Net",
+  "task": "IDC",
+  "specimen": "TENX99",
+  "view": "whole_common_support_bbox",
+  "gene_selection": "detected_ge_20pct_each_train_specimen_then_mean_stable_coverage_official_order_tie",
+  "training_specimens": [
+    "TENX95",
+    "NCBI785",
+    "NCBI783"
+  ],
+  "training_truth_paths": [
+    "archive/work/G0-046/hest_bench_stage/b039b5965ed7092f280d4f336da7972ef9a10e1a/IDC/adata/TENX95.h5ad",
+    "archive/work/G0-046/hest_bench_stage/b039b5965ed7092f280d4f336da7972ef9a10e1a/IDC/adata/NCBI785.h5ad",
+    "archive/work/G0-046/hest_bench_stage/b039b5965ed7092f280d4f336da7972ef9a10e1a/IDC/adata/NCBI783.h5ad"
+  ],
+  "prediction_values_read": false,
+  "held_out_direct_endpoint_opened": false,
+  "unit": "log1p_raw_integer_counts_no_library_normalization",
+  "colour_rule": "pooled_training_log1p_counts_q01_q99_shared_all_conditions",
+  "created_at": "2026-09-05T21:29:17.707293+00:00",
+  "gene": "ERBB2",
+  "gene_index": 13,
+  "train_stable_coverage": 0.8060861071809134,
+  "colour_limits": [
+    0.0,
+    7.3991043182730625
+  ]
+}

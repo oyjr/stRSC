@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "strsc"
+version = "0.3.0rc4"
+description = "Reproducible-signal correlation (RSC) for spatial transcriptomics predicted from histology"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.26,<3", "scipy>=1.11,<2", "pandas>=2.1,<3", "h5py>=3.9,<4", "torch>=2.2,<3", "scikit-learn>=1.3"]
+
+[project.optional-dependencies]
+cell = ["anndata>=0.10,<0.13", "pyarrow>=14", "shapely>=2", "geopandas>=0.14"]
+training = ["scikit-learn>=1.3", "pillow>=10", "pyyaml>=6", "lightning>=2.2", "torchvision>=0.17"]
+test = ["pytest>=8,<10"]
+
+[project.urls]
+Homepage = "https://stRSC.org"
+Repository = "https://github.com/oyjr/stRSC"
+Documentation = "https://github.com/oyjr/stRSC#readme"
+Issues = "https://github.com/oyjr/stRSC/issues"
+
+[project.scripts]
+strsc = "strsc.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

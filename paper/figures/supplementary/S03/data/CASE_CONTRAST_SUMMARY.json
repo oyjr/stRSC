@@ -1,0 +1,37 @@
+{
+  "gene": "ERBB2",
+  "full_bbox": [
+    [
+      728.2564946342918,
+      263.8206030901741
+    ],
+    [
+      49669.43296522253,
+      106146.17354426665
+    ]
+  ],
+  "conditions": {
+    "old_standard": {
+      "edge_difference_mse": 0.46002337599009235,
+      "through_origin_slope": 0.6296629283434717,
+      "prediction_rms_difference": 0.8711186051368713,
+      "rna_rms_difference": 1.0734578919065623,
+      "edges": 82099
+    },
+    "old_local": {
+      "edge_difference_mse": 0.43423454178341886,
+      "through_origin_slope": 0.6119842299374783,
+      "prediction_rms_difference": 0.8320552706718445,
+      "rna_rms_difference": 1.0734578919065623,
+      "edges": 82099
+    },
+    "non_neighbour": {
+      "edge_difference_mse": 0.4331508221001309,
+      "through_origin_slope": 0.6302086381486157,
+      "prediction_rms_difference": 0.8562900424003601,
+      "rna_rms_difference": 1.0734578919065623,
+      "edges": 82099
+    }
+  },
+  "edge_selection": "all_fixed_neighbours_no_RNA_eligibility_filter"
+}

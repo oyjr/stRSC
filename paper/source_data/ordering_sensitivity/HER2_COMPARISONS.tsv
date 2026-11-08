@@ -1,0 +1,7 @@
+unit	left	right	median_delta_G_percent	ci_low_percent	ci_high_percent	p_raw	test	p_holm
+raw_count	BROAD_STRUCTURE_ALLOWED	COMPOSITION_MATCHED_ORIGINAL	-21.53613340941376	-30.912130872510225	-10.99503089327945	0.0078125	original two-sided exact paired patient-block swap of method medians	0.0234375
+raw_count	COMPOSITION_MATCHED_ORIGINAL	JOINT_STRUCTURE_MATCHED	-0.7425018742765923	-3.1137159461302395	1.331973862556901	0.5390625	original two-sided exact paired patient-block swap of method medians	0.5390625
+raw_count	BROAD_STRUCTURE_ALLOWED	JOINT_STRUCTURE_MATCHED	-22.278635283690353	-32.804583522053434	-11.143472238829245	0.0078125	original two-sided exact paired patient-block swap of method medians	0.0234375
+half_library_normalized	BROAD_STRUCTURE_ALLOWED	COMPOSITION_MATCHED_ORIGINAL	-23.722685439804028	-31.70351747241969	-12.64808762322122	0.0078125	original two-sided exact paired patient-block swap of method medians	0.0234375
+half_library_normalized	COMPOSITION_MATCHED_ORIGINAL	JOINT_STRUCTURE_MATCHED	-2.214733097717959	-3.924513930960954	1.3687324537839953	0.1015625	original two-sided exact paired patient-block swap of method medians	0.1015625
+half_library_normalized	BROAD_STRUCTURE_ALLOWED	JOINT_STRUCTURE_MATCHED	-25.93741853752199	-33.40338873320926	-13.588952915409921	0.0078125	original two-sided exact paired patient-block swap of method medians	0.0234375

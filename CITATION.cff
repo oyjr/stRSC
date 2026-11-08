@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "Please cite this software and the accompanying manuscript when using RSC."
+type: software
+title: "stRSC: reproducible-signal correlation for spatial transcriptomics predicted from histology"
+version: 0.3.0rc4
+date-released: 2026-11-08
+repository-code: "https://github.com/oyjr/stRSC"
+url: "https://stRSC.org"
+license: MIT
+authors:
+  - family-names: Ouyang
+    given-names: Jiarui
+  - family-names: Gao
+    given-names: Yihang
+  - family-names: Jin
+    given-names: Cheng
+  - family-names: Wang
+    given-names: Yihui
+  - family-names: Xu
+    given-names: Yingxue
+  - family-names: Liang
+    given-names: Ling
+  - family-names: Zhou
+    given-names: Fengtao
+  - family-names: Cai
+    given-names: Zhiyuan
+  - family-names: Chen
+    given-names: Hao

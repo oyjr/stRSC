@@ -1,0 +1,4 @@
+source_line	model	metric	local	non_neighbour	mean	ci_lower	ci_upper	positive_specimens	specimens	status
+13	11_model_equal_weight	mean_q_B4_B5			0.0088683458907035	0.0080901447769708	0.0097581404924781	9	9	COMPLETE
+25	11_model_equal_weight	mean_q_B1_B2			0.0030287176483433	0.0001364964410539	0.0058824611367917	5	9	COMPLETE
+37	11_model_equal_weight	ordinary_PCC_official_support			0.0038644892190028	0.0005411187664812	0.0069319484329305	5	9	COMPLETE

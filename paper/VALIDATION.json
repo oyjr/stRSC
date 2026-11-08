@@ -1,0 +1,73 @@
+{
+  "validated_on": "2026-10-01",
+  "common_gene_aggregation": {
+    "status": "COMPLETE",
+    "tasks": 45,
+    "sections": 9,
+    "patients": 5,
+    "training_seeds": 5,
+    "programme_invariance_pass": true,
+    "max_programme_error": 2.394212950118657e-08,
+    "intersection_main_relative_change_over_5pct": true,
+    "all218_additional_main_relative_change_over_5pct": false,
+    "any_method_rank_change": false,
+    "recommendation": "use_intersection_results",
+    "original_results_modified": false
+  },
+  "cell_ideal_aggregation": {
+    "status": "COMPLETE",
+    "mode": "original",
+    "sections": 9,
+    "patients": 5,
+    "required_views_per_section": 6,
+    "required_tasks": 54,
+    "primary_conditions": 324,
+    "ideal_gate_pass": true,
+    "gate_threshold": 0.95,
+    "failed_conditions": 0,
+    "patient_aggregation": "equal section Gram moments within patient then q; equal patient q; nonfinite moments propagate"
+  },
+  "table_comparisons": [
+    {
+      "table": "COHORT_OLD_TO_NEW.tsv",
+      "rows": 81,
+      "result": "PASS",
+      "rtol": 1e-12,
+      "atol": 1e-12
+    },
+    {
+      "table": "PANEL_PATIENT_BY_SEED.tsv",
+      "rows": 1800,
+      "result": "PASS",
+      "rtol": 1e-12,
+      "atol": 1e-12
+    },
+    {
+      "table": "METHOD_RANKS.tsv",
+      "rows": 18,
+      "result": "PASS",
+      "rtol": 1e-12,
+      "atol": 1e-12
+    },
+    {
+      "table": "cell_ideal/COHORT_SUMMARY.tsv",
+      "rows": 72,
+      "result": "PASS",
+      "rtol": 1e-12,
+      "atol": 1e-12
+    }
+  ],
+  "figure_render": {
+    "figure": "ED5",
+    "entrypoint": "figures/extended/ED05/figure.py",
+    "result": "PASS",
+    "formats": [
+      "PDF",
+      "PNG",
+      "SVG"
+    ],
+    "source_points": 95
+  },
+  "other_figures": "Source syntax checked; not executed as part of this package validation.",
+  "raw_data_reruns": "Not executed; raw inputs are supplied separately."
+}

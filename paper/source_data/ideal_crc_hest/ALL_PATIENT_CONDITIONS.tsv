@@ -1,0 +1,1005 @@
+pathway	task	analysis_set	scale_um	scorer	prediction	band	manuscript_used	patient	q	sections	undefined_sections
+CRC	CRC	discovery	32	amplitude_matched	expected_native	1024_2048	True	P1CRC	1.0000184486020205	1	0
+CRC	CRC	discovery	32	amplitude_matched	expected_native	1024_2048	True	P2CRC	0.9999944131480732	1	0
+CRC	CRC	discovery	32	amplitude_matched	expected_native	1024_2048	True	P3NAT	1.0000140121124077	1	0
+CRC	CRC	discovery	32	amplitude_matched	expected_native	128_256	True	P1CRC	0.9999961730008624	1	0
+CRC	CRC	discovery	32	amplitude_matched	expected_native	128_256	True	P2CRC	0.9999994487469488	1	0
+CRC	CRC	discovery	32	amplitude_matched	expected_native	128_256	True	P3NAT	0.999929802845228	1	0
+CRC	CRC	discovery	32	amplitude_matched	expected_native	2048_4096	True	P1CRC	1.000013913844866	1	0
+CRC	CRC	discovery	32	amplitude_matched	expected_native	2048_4096	True	P2CRC	1.0000039027774732	1	0
+CRC	CRC	discovery	32	amplitude_matched	expected_native	2048_4096	True	P3NAT	1.0000128017929857	1	0
+CRC	CRC	discovery	32	amplitude_matched	expected_native	256_512	True	P1CRC	0.9999664737373392	1	0
+CRC	CRC	discovery	32	amplitude_matched	expected_native	256_512	True	P2CRC	1.0000004333676031	1	0
+CRC	CRC	discovery	32	amplitude_matched	expected_native	256_512	True	P3NAT	1.0000310471841565	1	0
+CRC	CRC	discovery	32	amplitude_matched	expected_native	512_1024	True	P1CRC	1.0000661668394648	1	0
+CRC	CRC	discovery	32	amplitude_matched	expected_native	512_1024	True	P2CRC	0.9999706205413514	1	0
+CRC	CRC	discovery	32	amplitude_matched	expected_native	512_1024	True	P3NAT	1.000011417380243	1	0
+CRC	CRC	discovery	32	amplitude_matched	expected_native	GE4096	True	P1CRC	1.0000075756952345	1	0
+CRC	CRC	discovery	32	amplitude_matched	expected_native	GE4096	True	P2CRC	1.0000020600163493	1	0
+CRC	CRC	discovery	32	amplitude_matched	expected_native	GE4096	True	P3NAT	1.0000119341630542	1	0
+CRC	CRC	discovery	32	amplitude_matched	expected_native	LT128	False	P1CRC	0.999931604175344	1	0
+CRC	CRC	discovery	32	amplitude_matched	expected_native	LT128	False	P2CRC	0.9999980055028256	1	0
+CRC	CRC	discovery	32	amplitude_matched	expected_native	LT128	False	P3NAT	0.9999523956826866	1	0
+CRC	CRC	discovery	32	amplitude_matched	simplified_native	1024_2048	True	P1CRC	0.9970646225168524	1	0
+CRC	CRC	discovery	32	amplitude_matched	simplified_native	1024_2048	True	P2CRC	0.9978115310048946	1	0
+CRC	CRC	discovery	32	amplitude_matched	simplified_native	1024_2048	True	P3NAT	0.9987055305532392	1	0
+CRC	CRC	discovery	32	amplitude_matched	simplified_native	128_256	True	P1CRC	0.9849403900229514	1	0
+CRC	CRC	discovery	32	amplitude_matched	simplified_native	128_256	True	P2CRC	0.9896632372492108	1	0
+CRC	CRC	discovery	32	amplitude_matched	simplified_native	128_256	True	P3NAT	0.9830461928374086	1	0
+CRC	CRC	discovery	32	amplitude_matched	simplified_native	2048_4096	True	P1CRC	0.997604487612944	1	0
+CRC	CRC	discovery	32	amplitude_matched	simplified_native	2048_4096	True	P2CRC	0.9981974971602368	1	0
+CRC	CRC	discovery	32	amplitude_matched	simplified_native	2048_4096	True	P3NAT	0.998776376578211	1	0
+CRC	CRC	discovery	32	amplitude_matched	simplified_native	256_512	True	P1CRC	0.9912678134134169	1	0
+CRC	CRC	discovery	32	amplitude_matched	simplified_native	256_512	True	P2CRC	0.9945105087439609	1	0
+CRC	CRC	discovery	32	amplitude_matched	simplified_native	256_512	True	P3NAT	0.9926355270423328	1	0
+CRC	CRC	discovery	32	amplitude_matched	simplified_native	512_1024	True	P1CRC	0.9953149961754658	1	0
+CRC	CRC	discovery	32	amplitude_matched	simplified_native	512_1024	True	P2CRC	0.9966801918011376	1	0
+CRC	CRC	discovery	32	amplitude_matched	simplified_native	512_1024	True	P3NAT	0.9980541439608132	1	0
+CRC	CRC	discovery	32	amplitude_matched	simplified_native	GE4096	True	P1CRC	0.9989678718330636	1	0
+CRC	CRC	discovery	32	amplitude_matched	simplified_native	GE4096	True	P2CRC	0.9988962080944712	1	0
+CRC	CRC	discovery	32	amplitude_matched	simplified_native	GE4096	True	P3NAT	0.9984846734592694	1	0
+CRC	CRC	discovery	32	amplitude_matched	simplified_native	LT128	False	P1CRC	0.9783511315599548	1	0
+CRC	CRC	discovery	32	amplitude_matched	simplified_native	LT128	False	P2CRC	0.9793137809075604	1	0
+CRC	CRC	discovery	32	amplitude_matched	simplified_native	LT128	False	P3NAT	0.973713493622728	1	0
+CRC	CRC	discovery	32	legacy	expected_native	1024_2048	True	P1CRC	0.9946446419826374	1	0
+CRC	CRC	discovery	32	legacy	expected_native	1024_2048	True	P2CRC	0.9966974132479044	1	0
+CRC	CRC	discovery	32	legacy	expected_native	1024_2048	True	P3NAT	0.9973708898022444	1	0
+CRC	CRC	discovery	32	legacy	expected_native	128_256	True	P1CRC	0.9953015559035436	1	0
+CRC	CRC	discovery	32	legacy	expected_native	128_256	True	P2CRC	0.9966022839640531	1	0
+CRC	CRC	discovery	32	legacy	expected_native	128_256	True	P3NAT	0.996939992394456	1	0
+CRC	CRC	discovery	32	legacy	expected_native	2048_4096	True	P1CRC	0.994149584893535	1	0
+CRC	CRC	discovery	32	legacy	expected_native	2048_4096	True	P2CRC	0.9966863715117183	1	0
+CRC	CRC	discovery	32	legacy	expected_native	2048_4096	True	P3NAT	0.9973749149396848	1	0
+CRC	CRC	discovery	32	legacy	expected_native	256_512	True	P1CRC	0.9946400386671806	1	0
+CRC	CRC	discovery	32	legacy	expected_native	256_512	True	P2CRC	0.996594460567368	1	0
+CRC	CRC	discovery	32	legacy	expected_native	256_512	True	P3NAT	0.9972081952444208	1	0
+CRC	CRC	discovery	32	legacy	expected_native	512_1024	True	P1CRC	0.9947088449171188	1	0
+CRC	CRC	discovery	32	legacy	expected_native	512_1024	True	P2CRC	0.9966193168593144	1	0
+CRC	CRC	discovery	32	legacy	expected_native	512_1024	True	P3NAT	0.9973560430673952	1	0
+CRC	CRC	discovery	32	legacy	expected_native	GE4096	True	P1CRC	0.9944673468634508	1	0
+CRC	CRC	discovery	32	legacy	expected_native	GE4096	True	P2CRC	0.9968184979461248	1	0
+CRC	CRC	discovery	32	legacy	expected_native	GE4096	True	P3NAT	0.9973313012713076	1	0
+CRC	CRC	discovery	32	legacy	expected_native	LT128	False	P1CRC	0.9965491694920416	1	0
+CRC	CRC	discovery	32	legacy	expected_native	LT128	False	P2CRC	0.9969252275806436	1	0
+CRC	CRC	discovery	32	legacy	expected_native	LT128	False	P3NAT	0.9972679727354756	1	0
+CRC	CRC	discovery	32	legacy	simplified_native	1024_2048	True	P1CRC	0.9916098669346912	1	0
+CRC	CRC	discovery	32	legacy	simplified_native	1024_2048	True	P2CRC	0.9943472240938798	1	0
+CRC	CRC	discovery	32	legacy	simplified_native	1024_2048	True	P3NAT	0.9962332400341984	1	0
+CRC	CRC	discovery	32	legacy	simplified_native	128_256	True	P1CRC	0.9797842672171893	1	0
+CRC	CRC	discovery	32	legacy	simplified_native	128_256	True	P2CRC	0.9858127142216516	1	0
+CRC	CRC	discovery	32	legacy	simplified_native	128_256	True	P3NAT	0.9795143587489132	1	0
+CRC	CRC	discovery	32	legacy	simplified_native	2048_4096	True	P1CRC	0.9914603347427204	1	0
+CRC	CRC	discovery	32	legacy	simplified_native	2048_4096	True	P2CRC	0.9948662374901562	1	0
+CRC	CRC	discovery	32	legacy	simplified_native	2048_4096	True	P3NAT	0.9961275030087784	1	0
+CRC	CRC	discovery	32	legacy	simplified_native	256_512	True	P1CRC	0.9854278842916278	1	0
+CRC	CRC	discovery	32	legacy	simplified_native	256_512	True	P2CRC	0.990697511397016	1	0
+CRC	CRC	discovery	32	legacy	simplified_native	256_512	True	P3NAT	0.9899860015914228	1	0
+CRC	CRC	discovery	32	legacy	simplified_native	512_1024	True	P1CRC	0.989868915126346	1	0
+CRC	CRC	discovery	32	legacy	simplified_native	512_1024	True	P2CRC	0.9930428915888097	1	0
+CRC	CRC	discovery	32	legacy	simplified_native	512_1024	True	P3NAT	0.995876185005815	1	0
+CRC	CRC	discovery	32	legacy	simplified_native	GE4096	True	P1CRC	0.993353673375348	1	0
+CRC	CRC	discovery	32	legacy	simplified_native	GE4096	True	P2CRC	0.9957469964032234	1	0
+CRC	CRC	discovery	32	legacy	simplified_native	GE4096	True	P3NAT	0.9958689430580724	1	0
+CRC	CRC	discovery	32	legacy	simplified_native	LT128	False	P1CRC	0.9753642294025412	1	0
+CRC	CRC	discovery	32	legacy	simplified_native	LT128	False	P2CRC	0.9762118932737516	1	0
+CRC	CRC	discovery	32	legacy	simplified_native	LT128	False	P3NAT	0.9714022633764592	1	0
+CRC	CRC	discovery	64	amplitude_matched	expected_native	1024_2048	True	P1CRC	1.0000023455327665	1	0
+CRC	CRC	discovery	64	amplitude_matched	expected_native	1024_2048	True	P2CRC	0.9999861390865146	1	0
+CRC	CRC	discovery	64	amplitude_matched	expected_native	1024_2048	True	P3NAT	1.0000140134800954	1	0
+CRC	CRC	discovery	64	amplitude_matched	expected_native	128_256	True	P1CRC	0.9998921095540948	1	0
+CRC	CRC	discovery	64	amplitude_matched	expected_native	128_256	True	P2CRC	1.0000000523516404	1	0
+CRC	CRC	discovery	64	amplitude_matched	expected_native	128_256	True	P3NAT	0.9999344871915726	1	0
+CRC	CRC	discovery	64	amplitude_matched	expected_native	2048_4096	True	P1CRC	0.9999923203794502	1	0
+CRC	CRC	discovery	64	amplitude_matched	expected_native	2048_4096	True	P2CRC	1.0000044746698609	1	0
+CRC	CRC	discovery	64	amplitude_matched	expected_native	2048_4096	True	P3NAT	1.0000081578557107	1	0
+CRC	CRC	discovery	64	amplitude_matched	expected_native	256_512	True	P1CRC	1.0000738749967584	1	0
+CRC	CRC	discovery	64	amplitude_matched	expected_native	256_512	True	P2CRC	1.0000010498230878	1	0
+CRC	CRC	discovery	64	amplitude_matched	expected_native	256_512	True	P3NAT	0.999974168462564	1	0
+CRC	CRC	discovery	64	amplitude_matched	expected_native	512_1024	True	P1CRC	1.0000468447260842	1	0
+CRC	CRC	discovery	64	amplitude_matched	expected_native	512_1024	True	P2CRC	1.000006723792341	1	0
+CRC	CRC	discovery	64	amplitude_matched	expected_native	512_1024	True	P3NAT	1.0000055969454276	1	0
+CRC	CRC	discovery	64	amplitude_matched	expected_native	GE4096	True	P1CRC	1.0000057145706776	1	0
+CRC	CRC	discovery	64	amplitude_matched	expected_native	GE4096	True	P2CRC	1.0000032998559265	1	0
+CRC	CRC	discovery	64	amplitude_matched	expected_native	GE4096	True	P3NAT	1.0000107491017618	1	0
+CRC	CRC	discovery	64	amplitude_matched	expected_native	LT128	False	P1CRC	0.999810117101452	1	0
+CRC	CRC	discovery	64	amplitude_matched	expected_native	LT128	False	P2CRC	1.0000490125793815	1	0
+CRC	CRC	discovery	64	amplitude_matched	expected_native	LT128	False	P3NAT	0.9998195274489068	1	0
+CRC	CRC	discovery	64	amplitude_matched	simplified_native	1024_2048	True	P1CRC	0.9969071704732592	1	0
+CRC	CRC	discovery	64	amplitude_matched	simplified_native	1024_2048	True	P2CRC	0.999318422237852	1	0
+CRC	CRC	discovery	64	amplitude_matched	simplified_native	1024_2048	True	P3NAT	0.9985506635116148	1	0
+CRC	CRC	discovery	64	amplitude_matched	simplified_native	128_256	True	P1CRC	0.9825178101306878	1	0
+CRC	CRC	discovery	64	amplitude_matched	simplified_native	128_256	True	P2CRC	0.9930273178741208	1	0
+CRC	CRC	discovery	64	amplitude_matched	simplified_native	128_256	True	P3NAT	0.9795459704430352	1	0
+CRC	CRC	discovery	64	amplitude_matched	simplified_native	2048_4096	True	P1CRC	0.9978309096486138	1	0
+CRC	CRC	discovery	64	amplitude_matched	simplified_native	2048_4096	True	P2CRC	0.9995729918515094	1	0
+CRC	CRC	discovery	64	amplitude_matched	simplified_native	2048_4096	True	P3NAT	0.9985247971385678	1	0
+CRC	CRC	discovery	64	amplitude_matched	simplified_native	256_512	True	P1CRC	0.9899841137540102	1	0
+CRC	CRC	discovery	64	amplitude_matched	simplified_native	256_512	True	P2CRC	0.9968880839919376	1	0
+CRC	CRC	discovery	64	amplitude_matched	simplified_native	256_512	True	P3NAT	0.9898181823879686	1	0
+CRC	CRC	discovery	64	amplitude_matched	simplified_native	512_1024	True	P1CRC	0.9947645463386006	1	0
+CRC	CRC	discovery	64	amplitude_matched	simplified_native	512_1024	True	P2CRC	0.9986508305112498	1	0
+CRC	CRC	discovery	64	amplitude_matched	simplified_native	512_1024	True	P3NAT	0.9977509224679074	1	0
+CRC	CRC	discovery	64	amplitude_matched	simplified_native	GE4096	True	P1CRC	0.9990085253068268	1	0
+CRC	CRC	discovery	64	amplitude_matched	simplified_native	GE4096	True	P2CRC	0.9997658333551792	1	0
+CRC	CRC	discovery	64	amplitude_matched	simplified_native	GE4096	True	P3NAT	0.9982847818216612	1	0
+CRC	CRC	discovery	64	amplitude_matched	simplified_native	LT128	False	P1CRC	0.9789715645496956	1	0
+CRC	CRC	discovery	64	amplitude_matched	simplified_native	LT128	False	P2CRC	0.9898195006070278	1	0
+CRC	CRC	discovery	64	amplitude_matched	simplified_native	LT128	False	P3NAT	0.975143632801942	1	0
+CRC	CRC	discovery	64	legacy	expected_native	1024_2048	True	P1CRC	0.9969057075121192	1	0
+CRC	CRC	discovery	64	legacy	expected_native	1024_2048	True	P2CRC	0.9987022032067298	1	0
+CRC	CRC	discovery	64	legacy	expected_native	1024_2048	True	P3NAT	0.9991297600357344	1	0
+CRC	CRC	discovery	64	legacy	expected_native	128_256	True	P1CRC	0.9968827850418868	1	0
+CRC	CRC	discovery	64	legacy	expected_native	128_256	True	P2CRC	0.9984679321676176	1	0
+CRC	CRC	discovery	64	legacy	expected_native	128_256	True	P3NAT	0.9984009312331636	1	0
+CRC	CRC	discovery	64	legacy	expected_native	2048_4096	True	P1CRC	0.996773649063968	1	0
+CRC	CRC	discovery	64	legacy	expected_native	2048_4096	True	P2CRC	0.99873039386342	1	0
+CRC	CRC	discovery	64	legacy	expected_native	2048_4096	True	P3NAT	0.9991350137488896	1	0
+CRC	CRC	discovery	64	legacy	expected_native	256_512	True	P1CRC	0.9968178823313132	1	0
+CRC	CRC	discovery	64	legacy	expected_native	256_512	True	P2CRC	0.998523201898743	1	0
+CRC	CRC	discovery	64	legacy	expected_native	256_512	True	P3NAT	0.9987794615883236	1	0
+CRC	CRC	discovery	64	legacy	expected_native	512_1024	True	P1CRC	0.9968640906764392	1	0
+CRC	CRC	discovery	64	legacy	expected_native	512_1024	True	P2CRC	0.9986334378611372	1	0
+CRC	CRC	discovery	64	legacy	expected_native	512_1024	True	P3NAT	0.9990900568442426	1	0
+CRC	CRC	discovery	64	legacy	expected_native	GE4096	True	P1CRC	0.9969461277744384	1	0
+CRC	CRC	discovery	64	legacy	expected_native	GE4096	True	P2CRC	0.9988065902787148	1	0
+CRC	CRC	discovery	64	legacy	expected_native	GE4096	True	P3NAT	0.9991147270528402	1	0
+CRC	CRC	discovery	64	legacy	expected_native	LT128	False	P1CRC	0.9970880459199726	1	0
+CRC	CRC	discovery	64	legacy	expected_native	LT128	False	P2CRC	0.9985139335942664	1	0
+CRC	CRC	discovery	64	legacy	expected_native	LT128	False	P3NAT	0.9982261299949018	1	0
+CRC	CRC	discovery	64	legacy	simplified_native	1024_2048	True	P1CRC	0.9937624437487916	1	0
+CRC	CRC	discovery	64	legacy	simplified_native	1024_2048	True	P2CRC	0.9981298909424072	1	0
+CRC	CRC	discovery	64	legacy	simplified_native	1024_2048	True	P3NAT	0.997983593846414	1	0
+CRC	CRC	discovery	64	legacy	simplified_native	128_256	True	P1CRC	0.9795670296424618	1	0
+CRC	CRC	discovery	64	legacy	simplified_native	128_256	True	P2CRC	0.99129627734543	1	0
+CRC	CRC	discovery	64	legacy	simplified_native	128_256	True	P3NAT	0.977908387558148	1	0
+CRC	CRC	discovery	64	legacy	simplified_native	2048_4096	True	P1CRC	0.9943363401504745	1	0
+CRC	CRC	discovery	64	legacy	simplified_native	2048_4096	True	P2CRC	0.9985146995628598	1	0
+CRC	CRC	discovery	64	legacy	simplified_native	2048_4096	True	P3NAT	0.9977080189090608	1	0
+CRC	CRC	discovery	64	legacy	simplified_native	256_512	True	P1CRC	0.9863519486935638	1	0
+CRC	CRC	discovery	64	legacy	simplified_native	256_512	True	P2CRC	0.995166210654467	1	0
+CRC	CRC	discovery	64	legacy	simplified_native	256_512	True	P3NAT	0.9884638164250656	1	0
+CRC	CRC	discovery	64	legacy	simplified_native	512_1024	True	P1CRC	0.9913783482086852	1	0
+CRC	CRC	discovery	64	legacy	simplified_native	512_1024	True	P2CRC	0.9971392539510308	1	0
+CRC	CRC	discovery	64	legacy	simplified_native	512_1024	True	P3NAT	0.9973287128899808	1	0
+CRC	CRC	discovery	64	legacy	simplified_native	GE4096	True	P1CRC	0.9960363038757168	1	0
+CRC	CRC	discovery	64	legacy	simplified_native	GE4096	True	P2CRC	0.9988989515748904	1	0
+CRC	CRC	discovery	64	legacy	simplified_native	GE4096	True	P3NAT	0.9975012603719536	1	0
+CRC	CRC	discovery	64	legacy	simplified_native	LT128	False	P1CRC	0.9767770701016216	1	0
+CRC	CRC	discovery	64	legacy	simplified_native	LT128	False	P2CRC	0.988278912880214	1	0
+CRC	CRC	discovery	64	legacy	simplified_native	LT128	False	P3NAT	0.9741106609685898	1	0
+CRC	CRC	discovery	96	amplitude_matched	expected_native	1024_2048	True	P1CRC	1.0000022906652664	1	0
+CRC	CRC	discovery	96	amplitude_matched	expected_native	1024_2048	True	P2CRC	0.999998495696272	1	0
+CRC	CRC	discovery	96	amplitude_matched	expected_native	1024_2048	True	P3NAT	1.000007207062608	1	0
+CRC	CRC	discovery	96	amplitude_matched	expected_native	128_256	False	P1CRC	0.9998674695549942	1	0
+CRC	CRC	discovery	96	amplitude_matched	expected_native	128_256	False	P2CRC	0.9999682596549964	1	0
+CRC	CRC	discovery	96	amplitude_matched	expected_native	128_256	False	P3NAT	1.000047116489767	1	0
+CRC	CRC	discovery	96	amplitude_matched	expected_native	2048_4096	True	P1CRC	1.000013500743164	1	0
+CRC	CRC	discovery	96	amplitude_matched	expected_native	2048_4096	True	P2CRC	1.0000083447978247	1	0
+CRC	CRC	discovery	96	amplitude_matched	expected_native	2048_4096	True	P3NAT	1.0000163652774392	1	0
+CRC	CRC	discovery	96	amplitude_matched	expected_native	256_512	True	P1CRC	0.9999109183543488	1	0
+CRC	CRC	discovery	96	amplitude_matched	expected_native	256_512	True	P2CRC	0.9999695820947752	1	0
+CRC	CRC	discovery	96	amplitude_matched	expected_native	256_512	True	P3NAT	1.0000537284069917	1	0
+CRC	CRC	discovery	96	amplitude_matched	expected_native	512_1024	True	P1CRC	1.0000125877965624	1	0
+CRC	CRC	discovery	96	amplitude_matched	expected_native	512_1024	True	P2CRC	0.999976202743744	1	0
+CRC	CRC	discovery	96	amplitude_matched	expected_native	512_1024	True	P3NAT	1.0000243469897978	1	0
+CRC	CRC	discovery	96	amplitude_matched	expected_native	GE4096	True	P1CRC	1.0000103428750098	1	0
+CRC	CRC	discovery	96	amplitude_matched	expected_native	GE4096	True	P2CRC	1.000004668083129	1	0
+CRC	CRC	discovery	96	amplitude_matched	expected_native	GE4096	True	P3NAT	1.0000114753316074	1	0
+CRC	CRC	discovery	96	amplitude_matched	expected_native	LT128	False	P1CRC		1	1
+CRC	CRC	discovery	96	amplitude_matched	expected_native	LT128	False	P2CRC		1	1
+CRC	CRC	discovery	96	amplitude_matched	expected_native	LT128	False	P3NAT		1	1
+CRC	CRC	discovery	96	amplitude_matched	simplified_native	1024_2048	True	P1CRC	0.9984259287539295	1	0
+CRC	CRC	discovery	96	amplitude_matched	simplified_native	1024_2048	True	P2CRC	0.9997662909729458	1	0
+CRC	CRC	discovery	96	amplitude_matched	simplified_native	1024_2048	True	P3NAT	0.9989671844957796	1	0
+CRC	CRC	discovery	96	amplitude_matched	simplified_native	128_256	False	P1CRC	0.9879290193362608	1	0
+CRC	CRC	discovery	96	amplitude_matched	simplified_native	128_256	False	P2CRC	0.9966776605988495	1	0
+CRC	CRC	discovery	96	amplitude_matched	simplified_native	128_256	False	P3NAT	0.9826459346372214	1	0
+CRC	CRC	discovery	96	amplitude_matched	simplified_native	2048_4096	True	P1CRC	0.9988318986551642	1	0
+CRC	CRC	discovery	96	amplitude_matched	simplified_native	2048_4096	True	P2CRC	0.9999021918624198	1	0
+CRC	CRC	discovery	96	amplitude_matched	simplified_native	2048_4096	True	P3NAT	0.999113119851158	1	0
+CRC	CRC	discovery	96	amplitude_matched	simplified_native	256_512	True	P1CRC	0.9923105508103638	1	0
+CRC	CRC	discovery	96	amplitude_matched	simplified_native	256_512	True	P2CRC	0.9982996696891968	1	0
+CRC	CRC	discovery	96	amplitude_matched	simplified_native	256_512	True	P3NAT	0.990152533407312	1	0
+CRC	CRC	discovery	96	amplitude_matched	simplified_native	512_1024	True	P1CRC	0.996609003330066	1	0
+CRC	CRC	discovery	96	amplitude_matched	simplified_native	512_1024	True	P2CRC	0.9993577136805551	1	0
+CRC	CRC	discovery	96	amplitude_matched	simplified_native	512_1024	True	P3NAT	0.998030501539917	1	0
+CRC	CRC	discovery	96	amplitude_matched	simplified_native	GE4096	True	P1CRC	0.99960124664512	1	0
+CRC	CRC	discovery	96	amplitude_matched	simplified_native	GE4096	True	P2CRC	0.9999347134045644	1	0
+CRC	CRC	discovery	96	amplitude_matched	simplified_native	GE4096	True	P3NAT	0.9991869457184124	1	0
+CRC	CRC	discovery	96	amplitude_matched	simplified_native	LT128	False	P1CRC		1	1
+CRC	CRC	discovery	96	amplitude_matched	simplified_native	LT128	False	P2CRC		1	1
+CRC	CRC	discovery	96	amplitude_matched	simplified_native	LT128	False	P3NAT		1	1
+CRC	CRC	discovery	96	legacy	expected_native	1024_2048	True	P1CRC	0.9983026766069364	1	0
+CRC	CRC	discovery	96	legacy	expected_native	1024_2048	True	P2CRC	0.9993824058282978	1	0
+CRC	CRC	discovery	96	legacy	expected_native	1024_2048	True	P3NAT	0.9995572452005452	1	0
+CRC	CRC	discovery	96	legacy	expected_native	128_256	False	P1CRC	0.9981022082351734	1	0
+CRC	CRC	discovery	96	legacy	expected_native	128_256	False	P2CRC	0.9991963074321196	1	0
+CRC	CRC	discovery	96	legacy	expected_native	128_256	False	P3NAT	0.9988426887240162	1	0
+CRC	CRC	discovery	96	legacy	expected_native	2048_4096	True	P1CRC	0.9982525435461632	1	0
+CRC	CRC	discovery	96	legacy	expected_native	2048_4096	True	P2CRC	0.999408599935206	1	0
+CRC	CRC	discovery	96	legacy	expected_native	2048_4096	True	P3NAT	0.9995800766788876	1	0
+CRC	CRC	discovery	96	legacy	expected_native	256_512	True	P1CRC	0.99806957437725	1	0
+CRC	CRC	discovery	96	legacy	expected_native	256_512	True	P2CRC	0.9992246199663326	1	0
+CRC	CRC	discovery	96	legacy	expected_native	256_512	True	P3NAT	0.9991768915215772	1	0
+CRC	CRC	discovery	96	legacy	expected_native	512_1024	True	P1CRC	0.9982397946687358	1	0
+CRC	CRC	discovery	96	legacy	expected_native	512_1024	True	P2CRC	0.9993038867436284	1	0
+CRC	CRC	discovery	96	legacy	expected_native	512_1024	True	P3NAT	0.9995309726503068	1	0
+CRC	CRC	discovery	96	legacy	expected_native	GE4096	True	P1CRC	0.9983835360684788	1	0
+CRC	CRC	discovery	96	legacy	expected_native	GE4096	True	P2CRC	0.9994479265148856	1	0
+CRC	CRC	discovery	96	legacy	expected_native	GE4096	True	P3NAT	0.9995602353935222	1	0
+CRC	CRC	discovery	96	legacy	expected_native	LT128	False	P1CRC		1	1
+CRC	CRC	discovery	96	legacy	expected_native	LT128	False	P2CRC		1	1
+CRC	CRC	discovery	96	legacy	expected_native	LT128	False	P3NAT		1	1
+CRC	CRC	discovery	96	legacy	simplified_native	1024_2048	True	P1CRC	0.9966987164067956	1	0
+CRC	CRC	discovery	96	legacy	simplified_native	1024_2048	True	P2CRC	0.9991395085589386	1	0
+CRC	CRC	discovery	96	legacy	simplified_native	1024_2048	True	P3NAT	0.9986968646779596	1	0
+CRC	CRC	discovery	96	legacy	simplified_native	128_256	False	P1CRC	0.9861424139410888	1	0
+CRC	CRC	discovery	96	legacy	simplified_native	128_256	False	P2CRC	0.9958732170749338	1	0
+CRC	CRC	discovery	96	legacy	simplified_native	128_256	False	P3NAT	0.9813786820320636	1	0
+CRC	CRC	discovery	96	legacy	simplified_native	2048_4096	True	P1CRC	0.9969627861382072	1	0
+CRC	CRC	discovery	96	legacy	simplified_native	2048_4096	True	P2CRC	0.9993574495100952	1	0
+CRC	CRC	discovery	96	legacy	simplified_native	2048_4096	True	P3NAT	0.9987013592291144	1	0
+CRC	CRC	discovery	96	legacy	simplified_native	256_512	True	P1CRC	0.990226365958532	1	0
+CRC	CRC	discovery	96	legacy	simplified_native	256_512	True	P2CRC	0.997479885846268	1	0
+CRC	CRC	discovery	96	legacy	simplified_native	256_512	True	P3NAT	0.9889992052022156	1	0
+CRC	CRC	discovery	96	legacy	simplified_native	512_1024	True	P1CRC	0.994632314466705	1	0
+CRC	CRC	discovery	96	legacy	simplified_native	512_1024	True	P2CRC	0.9986161237744596	1	0
+CRC	CRC	discovery	96	legacy	simplified_native	512_1024	True	P3NAT	0.9977224158602186	1	0
+CRC	CRC	discovery	96	legacy	simplified_native	GE4096	True	P1CRC	0.9982257638736924	1	0
+CRC	CRC	discovery	96	legacy	simplified_native	GE4096	True	P2CRC	0.9994845176169131	1	0
+CRC	CRC	discovery	96	legacy	simplified_native	GE4096	True	P3NAT	0.9988204440921432	1	0
+CRC	CRC	discovery	96	legacy	simplified_native	LT128	False	P1CRC		1	1
+CRC	CRC	discovery	96	legacy	simplified_native	LT128	False	P2CRC		1	1
+CRC	CRC	discovery	96	legacy	simplified_native	LT128	False	P3NAT		1	1
+CRC	CRC	discovery	128	amplitude_matched	expected_native	1024_2048	True	P1CRC	0.999999259750708	1	0
+CRC	CRC	discovery	128	amplitude_matched	expected_native	1024_2048	True	P2CRC	0.9999930165881126	1	0
+CRC	CRC	discovery	128	amplitude_matched	expected_native	1024_2048	True	P3NAT	1.0000086553941974	1	0
+CRC	CRC	discovery	128	amplitude_matched	expected_native	128_256	False	P1CRC	1.0002786129415917	1	0
+CRC	CRC	discovery	128	amplitude_matched	expected_native	128_256	False	P2CRC	1.0000732650131363	1	0
+CRC	CRC	discovery	128	amplitude_matched	expected_native	128_256	False	P3NAT	1.000228315178059	1	0
+CRC	CRC	discovery	128	amplitude_matched	expected_native	2048_4096	True	P1CRC	1.0000278953000714	1	0
+CRC	CRC	discovery	128	amplitude_matched	expected_native	2048_4096	True	P2CRC	1.0000108075972864	1	0
+CRC	CRC	discovery	128	amplitude_matched	expected_native	2048_4096	True	P3NAT	1.0000078075223198	1	0
+CRC	CRC	discovery	128	amplitude_matched	expected_native	256_512	True	P1CRC	0.9999617786122652	1	0
+CRC	CRC	discovery	128	amplitude_matched	expected_native	256_512	True	P2CRC	0.9999657835717792	1	0
+CRC	CRC	discovery	128	amplitude_matched	expected_native	256_512	True	P3NAT	1.000007545744604	1	0
+CRC	CRC	discovery	128	amplitude_matched	expected_native	512_1024	True	P1CRC	1.0000031661072155	1	0
+CRC	CRC	discovery	128	amplitude_matched	expected_native	512_1024	True	P2CRC	1.0000656665492471	1	0
+CRC	CRC	discovery	128	amplitude_matched	expected_native	512_1024	True	P3NAT	1.000009664793724	1	0
+CRC	CRC	discovery	128	amplitude_matched	expected_native	GE4096	True	P1CRC	1.000017906078822	1	0
+CRC	CRC	discovery	128	amplitude_matched	expected_native	GE4096	True	P2CRC	1.0000096135184025	1	0
+CRC	CRC	discovery	128	amplitude_matched	expected_native	GE4096	True	P3NAT	1.0000126013054156	1	0
+CRC	CRC	discovery	128	amplitude_matched	expected_native	LT128	False	P1CRC		1	1
+CRC	CRC	discovery	128	amplitude_matched	expected_native	LT128	False	P2CRC		1	1
+CRC	CRC	discovery	128	amplitude_matched	expected_native	LT128	False	P3NAT		1	1
+CRC	CRC	discovery	128	amplitude_matched	simplified_native	1024_2048	True	P1CRC	0.9991887626378744	1	0
+CRC	CRC	discovery	128	amplitude_matched	simplified_native	1024_2048	True	P2CRC	0.999856813519818	1	0
+CRC	CRC	discovery	128	amplitude_matched	simplified_native	1024_2048	True	P3NAT	0.9993278320624	1	0
+CRC	CRC	discovery	128	amplitude_matched	simplified_native	128_256	False	P1CRC	0.992740783427914	1	0
+CRC	CRC	discovery	128	amplitude_matched	simplified_native	128_256	False	P2CRC	0.9984419197696636	1	0
+CRC	CRC	discovery	128	amplitude_matched	simplified_native	128_256	False	P3NAT	0.9858681931364834	1	0
+CRC	CRC	discovery	128	amplitude_matched	simplified_native	2048_4096	True	P1CRC	0.9994299366235424	1	0
+CRC	CRC	discovery	128	amplitude_matched	simplified_native	2048_4096	True	P2CRC	0.9999412255455796	1	0
+CRC	CRC	discovery	128	amplitude_matched	simplified_native	2048_4096	True	P3NAT	0.9995320988438996	1	0
+CRC	CRC	discovery	128	amplitude_matched	simplified_native	256_512	True	P1CRC	0.994481640833704	1	0
+CRC	CRC	discovery	128	amplitude_matched	simplified_native	256_512	True	P2CRC	0.9989827719982124	1	0
+CRC	CRC	discovery	128	amplitude_matched	simplified_native	256_512	True	P3NAT	0.9909738822977192	1	0
+CRC	CRC	discovery	128	amplitude_matched	simplified_native	512_1024	True	P1CRC	0.9980306937368124	1	0
+CRC	CRC	discovery	128	amplitude_matched	simplified_native	512_1024	True	P2CRC	0.9996882421417964	1	0
+CRC	CRC	discovery	128	amplitude_matched	simplified_native	512_1024	True	P3NAT	0.9983732452836463	1	0
+CRC	CRC	discovery	128	amplitude_matched	simplified_native	GE4096	True	P1CRC	0.9998704526538376	1	0
+CRC	CRC	discovery	128	amplitude_matched	simplified_native	GE4096	True	P2CRC	0.9999602267725558	1	0
+CRC	CRC	discovery	128	amplitude_matched	simplified_native	GE4096	True	P3NAT	0.9996979166677236	1	0
+CRC	CRC	discovery	128	amplitude_matched	simplified_native	LT128	False	P1CRC		1	1
+CRC	CRC	discovery	128	amplitude_matched	simplified_native	LT128	False	P2CRC		1	1
+CRC	CRC	discovery	128	amplitude_matched	simplified_native	LT128	False	P3NAT		1	1
+CRC	CRC	discovery	128	legacy	expected_native	1024_2048	True	P1CRC	0.999031766899168	1	0
+CRC	CRC	discovery	128	legacy	expected_native	1024_2048	True	P2CRC	0.999661098396622	1	0
+CRC	CRC	discovery	128	legacy	expected_native	1024_2048	True	P3NAT	0.999729373044235	1	0
+CRC	CRC	discovery	128	legacy	expected_native	128_256	False	P1CRC	0.9992386393809244	1	0
+CRC	CRC	discovery	128	legacy	expected_native	128_256	False	P2CRC	0.9996336923161478	1	0
+CRC	CRC	discovery	128	legacy	expected_native	128_256	False	P3NAT	0.9988985817511016	1	0
+CRC	CRC	discovery	128	legacy	expected_native	2048_4096	True	P1CRC	0.9990423198986113	1	0
+CRC	CRC	discovery	128	legacy	expected_native	2048_4096	True	P2CRC	0.9996901935660422	1	0
+CRC	CRC	discovery	128	legacy	expected_native	2048_4096	True	P3NAT	0.9997479674278968	1	0
+CRC	CRC	discovery	128	legacy	expected_native	256_512	True	P1CRC	0.998899490842864	1	0
+CRC	CRC	discovery	128	legacy	expected_native	256_512	True	P2CRC	0.9995447343239408	1	0
+CRC	CRC	discovery	128	legacy	expected_native	256_512	True	P3NAT	0.9990920039962632	1	0
+CRC	CRC	discovery	128	legacy	expected_native	512_1024	True	P1CRC	0.998995799461958	1	0
+CRC	CRC	discovery	128	legacy	expected_native	512_1024	True	P2CRC	0.9996896758274932	1	0
+CRC	CRC	discovery	128	legacy	expected_native	512_1024	True	P3NAT	0.9996599865215016	1	0
+CRC	CRC	discovery	128	legacy	expected_native	GE4096	True	P1CRC	0.9991113426926902	1	0
+CRC	CRC	discovery	128	legacy	expected_native	GE4096	True	P2CRC	0.9997151701740378	1	0
+CRC	CRC	discovery	128	legacy	expected_native	GE4096	True	P3NAT	0.9997468925493936	1	0
+CRC	CRC	discovery	128	legacy	expected_native	LT128	False	P1CRC		1	1
+CRC	CRC	discovery	128	legacy	expected_native	LT128	False	P2CRC		1	1
+CRC	CRC	discovery	128	legacy	expected_native	LT128	False	P3NAT		1	1
+CRC	CRC	discovery	128	legacy	simplified_native	1024_2048	True	P1CRC	0.99818491334711	1	0
+CRC	CRC	discovery	128	legacy	simplified_native	1024_2048	True	P2CRC	0.9995083993428177	1	0
+CRC	CRC	discovery	128	legacy	simplified_native	1024_2048	True	P3NAT	0.99912848614001	1	0
+CRC	CRC	discovery	128	legacy	simplified_native	128_256	False	P1CRC	0.9915929047529972	1	0
+CRC	CRC	discovery	128	legacy	simplified_native	128_256	False	P2CRC	0.9980423550340486	1	0
+CRC	CRC	discovery	128	legacy	simplified_native	128_256	False	P3NAT	0.984525796726428	1	0
+CRC	CRC	discovery	128	legacy	simplified_native	2048_4096	True	P1CRC	0.9983779422066428	1	0
+CRC	CRC	discovery	128	legacy	simplified_native	2048_4096	True	P2CRC	0.9996167144757906	1	0
+CRC	CRC	discovery	128	legacy	simplified_native	2048_4096	True	P3NAT	0.9992774580923516	1	0
+CRC	CRC	discovery	128	legacy	simplified_native	256_512	True	P1CRC	0.9932621847219748	1	0
+CRC	CRC	discovery	128	legacy	simplified_native	256_512	True	P2CRC	0.9985764076186512	1	0
+CRC	CRC	discovery	128	legacy	simplified_native	256_512	True	P3NAT	0.9898518624048532	1	0
+CRC	CRC	discovery	128	legacy	simplified_native	512_1024	True	P1CRC	0.9968828536025726	1	0
+CRC	CRC	discovery	128	legacy	simplified_native	512_1024	True	P2CRC	0.999294335731044	1	0
+CRC	CRC	discovery	128	legacy	simplified_native	512_1024	True	P3NAT	0.9980706804565866	1	0
+CRC	CRC	discovery	128	legacy	simplified_native	GE4096	True	P1CRC	0.9991482080701136	1	0
+CRC	CRC	discovery	128	legacy	simplified_native	GE4096	True	P2CRC	0.9996801358675628	1	0
+CRC	CRC	discovery	128	legacy	simplified_native	GE4096	True	P3NAT	0.999503075178112	1	0
+CRC	CRC	discovery	128	legacy	simplified_native	LT128	False	P1CRC		1	1
+CRC	CRC	discovery	128	legacy	simplified_native	LT128	False	P2CRC		1	1
+CRC	CRC	discovery	128	legacy	simplified_native	LT128	False	P3NAT		1	1
+CRC	CRC	discovery	192	amplitude_matched	expected_native	1024_2048	True	P1CRC	1.0000094553126024	1	0
+CRC	CRC	discovery	192	amplitude_matched	expected_native	1024_2048	True	P2CRC	1.0000254911327882	1	0
+CRC	CRC	discovery	192	amplitude_matched	expected_native	1024_2048	True	P3NAT	1.0000115903240312	1	0
+CRC	CRC	discovery	192	amplitude_matched	expected_native	128_256	False	P1CRC		1	1
+CRC	CRC	discovery	192	amplitude_matched	expected_native	128_256	False	P2CRC		1	1
+CRC	CRC	discovery	192	amplitude_matched	expected_native	128_256	False	P3NAT		1	1
+CRC	CRC	discovery	192	amplitude_matched	expected_native	2048_4096	True	P1CRC	1.0000185814382496	1	0
+CRC	CRC	discovery	192	amplitude_matched	expected_native	2048_4096	True	P2CRC	1.0000124866657625	1	0
+CRC	CRC	discovery	192	amplitude_matched	expected_native	2048_4096	True	P3NAT	1.0000154295525108	1	0
+CRC	CRC	discovery	192	amplitude_matched	expected_native	256_512	False	P1CRC	0.9998939177233376	1	0
+CRC	CRC	discovery	192	amplitude_matched	expected_native	256_512	False	P2CRC	0.9999801822964456	1	0
+CRC	CRC	discovery	192	amplitude_matched	expected_native	256_512	False	P3NAT	0.9998914598180144	1	0
+CRC	CRC	discovery	192	amplitude_matched	expected_native	512_1024	True	P1CRC	1.000008480153134	1	0
+CRC	CRC	discovery	192	amplitude_matched	expected_native	512_1024	True	P2CRC	1.0000308985257709	1	0
+CRC	CRC	discovery	192	amplitude_matched	expected_native	512_1024	True	P3NAT	0.9999603085003552	1	0
+CRC	CRC	discovery	192	amplitude_matched	expected_native	GE4096	True	P1CRC	1.0000241221724364	1	0
+CRC	CRC	discovery	192	amplitude_matched	expected_native	GE4096	True	P2CRC	1.0000139043392018	1	0
+CRC	CRC	discovery	192	amplitude_matched	expected_native	GE4096	True	P3NAT	1.0000135442700322	1	0
+CRC	CRC	discovery	192	amplitude_matched	expected_native	LT128	False	P1CRC		1	1
+CRC	CRC	discovery	192	amplitude_matched	expected_native	LT128	False	P2CRC		1	1
+CRC	CRC	discovery	192	amplitude_matched	expected_native	LT128	False	P3NAT		1	1
+CRC	CRC	discovery	192	amplitude_matched	simplified_native	1024_2048	True	P1CRC	0.9996322097725964	1	0
+CRC	CRC	discovery	192	amplitude_matched	simplified_native	1024_2048	True	P2CRC	0.9999729105659252	1	0
+CRC	CRC	discovery	192	amplitude_matched	simplified_native	1024_2048	True	P3NAT	0.9996254322599628	1	0
+CRC	CRC	discovery	192	amplitude_matched	simplified_native	128_256	False	P1CRC		1	1
+CRC	CRC	discovery	192	amplitude_matched	simplified_native	128_256	False	P2CRC		1	1
+CRC	CRC	discovery	192	amplitude_matched	simplified_native	128_256	False	P3NAT		1	1
+CRC	CRC	discovery	192	amplitude_matched	simplified_native	2048_4096	True	P1CRC	0.9997951526892764	1	0
+CRC	CRC	discovery	192	amplitude_matched	simplified_native	2048_4096	True	P2CRC	0.999987154290406	1	0
+CRC	CRC	discovery	192	amplitude_matched	simplified_native	2048_4096	True	P3NAT	0.9998307879842552	1	0
+CRC	CRC	discovery	192	amplitude_matched	simplified_native	256_512	False	P1CRC	0.997258766140796	1	0
+CRC	CRC	discovery	192	amplitude_matched	simplified_native	256_512	False	P2CRC	0.99967246625093	1	0
+CRC	CRC	discovery	192	amplitude_matched	simplified_native	256_512	False	P3NAT	0.9951239811982864	1	0
+CRC	CRC	discovery	192	amplitude_matched	simplified_native	512_1024	True	P1CRC	0.998802099145057	1	0
+CRC	CRC	discovery	192	amplitude_matched	simplified_native	512_1024	True	P2CRC	0.9998976682911402	1	0
+CRC	CRC	discovery	192	amplitude_matched	simplified_native	512_1024	True	P3NAT	0.9987230649131974	1	0
+CRC	CRC	discovery	192	amplitude_matched	simplified_native	GE4096	True	P1CRC	0.9999739090987084	1	0
+CRC	CRC	discovery	192	amplitude_matched	simplified_native	GE4096	True	P2CRC	0.9999998978711304	1	0
+CRC	CRC	discovery	192	amplitude_matched	simplified_native	GE4096	True	P3NAT	0.9998854476286946	1	0
+CRC	CRC	discovery	192	amplitude_matched	simplified_native	LT128	False	P1CRC		1	1
+CRC	CRC	discovery	192	amplitude_matched	simplified_native	LT128	False	P2CRC		1	1
+CRC	CRC	discovery	192	amplitude_matched	simplified_native	LT128	False	P3NAT		1	1
+CRC	CRC	discovery	192	legacy	expected_native	1024_2048	True	P1CRC	0.9996258551056864	1	0
+CRC	CRC	discovery	192	legacy	expected_native	1024_2048	True	P2CRC	0.999895491971359	1	0
+CRC	CRC	discovery	192	legacy	expected_native	1024_2048	True	P3NAT	0.9998558519082236	1	0
+CRC	CRC	discovery	192	legacy	expected_native	128_256	False	P1CRC		1	1
+CRC	CRC	discovery	192	legacy	expected_native	128_256	False	P2CRC		1	1
+CRC	CRC	discovery	192	legacy	expected_native	128_256	False	P3NAT		1	1
+CRC	CRC	discovery	192	legacy	expected_native	2048_4096	True	P1CRC	0.9996181422188496	1	0
+CRC	CRC	discovery	192	legacy	expected_native	2048_4096	True	P2CRC	0.9998898632785116	1	0
+CRC	CRC	discovery	192	legacy	expected_native	2048_4096	True	P3NAT	0.9998921472240302	1	0
+CRC	CRC	discovery	192	legacy	expected_native	256_512	False	P1CRC	0.999459896621511	1	0
+CRC	CRC	discovery	192	legacy	expected_native	256_512	False	P2CRC	0.9998019390163287	1	0
+CRC	CRC	discovery	192	legacy	expected_native	256_512	False	P3NAT	0.9990909682112896	1	0
+CRC	CRC	discovery	192	legacy	expected_native	512_1024	True	P1CRC	0.9995965934919816	1	0
+CRC	CRC	discovery	192	legacy	expected_native	512_1024	True	P2CRC	0.9998786266773048	1	0
+CRC	CRC	discovery	192	legacy	expected_native	512_1024	True	P3NAT	0.9996713936000974	1	0
+CRC	CRC	discovery	192	legacy	expected_native	GE4096	True	P1CRC	0.9996818939649912	1	0
+CRC	CRC	discovery	192	legacy	expected_native	GE4096	True	P2CRC	0.9999068774952125	1	0
+CRC	CRC	discovery	192	legacy	expected_native	GE4096	True	P3NAT	0.99988965101124	1	0
+CRC	CRC	discovery	192	legacy	expected_native	LT128	False	P1CRC		1	1
+CRC	CRC	discovery	192	legacy	expected_native	LT128	False	P2CRC		1	1
+CRC	CRC	discovery	192	legacy	expected_native	LT128	False	P3NAT		1	1
+CRC	CRC	discovery	192	legacy	simplified_native	1024_2048	True	P1CRC	0.9992252050384218	1	0
+CRC	CRC	discovery	192	legacy	simplified_native	1024_2048	True	P2CRC	0.9998408364158324	1	0
+CRC	CRC	discovery	192	legacy	simplified_native	1024_2048	True	P3NAT	0.9994855535944904	1	0
+CRC	CRC	discovery	192	legacy	simplified_native	128_256	False	P1CRC		1	1
+CRC	CRC	discovery	192	legacy	simplified_native	128_256	False	P2CRC		1	1
+CRC	CRC	discovery	192	legacy	simplified_native	128_256	False	P3NAT		1	1
+CRC	CRC	discovery	192	legacy	simplified_native	2048_4096	True	P1CRC	0.9993693981626915	1	0
+CRC	CRC	discovery	192	legacy	simplified_native	2048_4096	True	P2CRC	0.999861743447095	1	0
+CRC	CRC	discovery	192	legacy	simplified_native	2048_4096	True	P3NAT	0.9997097302953796	1	0
+CRC	CRC	discovery	192	legacy	simplified_native	256_512	False	P1CRC	0.9967655580921888	1	0
+CRC	CRC	discovery	192	legacy	simplified_native	256_512	False	P2CRC	0.9995139835298096	1	0
+CRC	CRC	discovery	192	legacy	simplified_native	256_512	False	P3NAT	0.9942249015836035	1	0
+CRC	CRC	discovery	192	legacy	simplified_native	512_1024	True	P1CRC	0.998327112245573	1	0
+CRC	CRC	discovery	192	legacy	simplified_native	512_1024	True	P2CRC	0.9997566475403497	1	0
+CRC	CRC	discovery	192	legacy	simplified_native	512_1024	True	P3NAT	0.998409356925972	1	0
+CRC	CRC	discovery	192	legacy	simplified_native	GE4096	True	P1CRC	0.9996846971952384	1	0
+CRC	CRC	discovery	192	legacy	simplified_native	GE4096	True	P2CRC	0.999887961161857	1	0
+CRC	CRC	discovery	192	legacy	simplified_native	GE4096	True	P3NAT	0.9997941072730075	1	0
+CRC	CRC	discovery	192	legacy	simplified_native	LT128	False	P1CRC		1	1
+CRC	CRC	discovery	192	legacy	simplified_native	LT128	False	P2CRC		1	1
+CRC	CRC	discovery	192	legacy	simplified_native	LT128	False	P3NAT		1	1
+CRC	CRC	discovery	256	amplitude_matched	expected_native	1024_2048	True	P1CRC	0.9999956655641976	1	0
+CRC	CRC	discovery	256	amplitude_matched	expected_native	1024_2048	True	P2CRC	0.999996550567679	1	0
+CRC	CRC	discovery	256	amplitude_matched	expected_native	1024_2048	True	P3NAT	1.000023787411057	1	0
+CRC	CRC	discovery	256	amplitude_matched	expected_native	128_256	False	P1CRC		1	1
+CRC	CRC	discovery	256	amplitude_matched	expected_native	128_256	False	P2CRC		1	1
+CRC	CRC	discovery	256	amplitude_matched	expected_native	128_256	False	P3NAT		1	1
+CRC	CRC	discovery	256	amplitude_matched	expected_native	2048_4096	True	P1CRC	1.0000490158339284	1	0
+CRC	CRC	discovery	256	amplitude_matched	expected_native	2048_4096	True	P2CRC	1.0000123795660143	1	0
+CRC	CRC	discovery	256	amplitude_matched	expected_native	2048_4096	True	P3NAT	1.0000265520334066	1	0
+CRC	CRC	discovery	256	amplitude_matched	expected_native	256_512	False	P1CRC	1.0000050942182714	1	0
+CRC	CRC	discovery	256	amplitude_matched	expected_native	256_512	False	P2CRC	1.0000385315718177	1	0
+CRC	CRC	discovery	256	amplitude_matched	expected_native	256_512	False	P3NAT	1.0000376513335016	1	0
+CRC	CRC	discovery	256	amplitude_matched	expected_native	512_1024	True	P1CRC	1.000006311284057	1	0
+CRC	CRC	discovery	256	amplitude_matched	expected_native	512_1024	True	P2CRC	1.0000040134825854	1	0
+CRC	CRC	discovery	256	amplitude_matched	expected_native	512_1024	True	P3NAT	1.0000372712806964	1	0
+CRC	CRC	discovery	256	amplitude_matched	expected_native	GE4096	True	P1CRC	1.000032191360738	1	0
+CRC	CRC	discovery	256	amplitude_matched	expected_native	GE4096	True	P2CRC	1.0000139838840314	1	0
+CRC	CRC	discovery	256	amplitude_matched	expected_native	GE4096	True	P3NAT	1.0000190981999566	1	0
+CRC	CRC	discovery	256	amplitude_matched	expected_native	LT128	False	P1CRC		1	1
+CRC	CRC	discovery	256	amplitude_matched	expected_native	LT128	False	P2CRC		1	1
+CRC	CRC	discovery	256	amplitude_matched	expected_native	LT128	False	P3NAT		1	1
+CRC	CRC	discovery	256	amplitude_matched	simplified_native	1024_2048	True	P1CRC	0.999782058268852	1	0
+CRC	CRC	discovery	256	amplitude_matched	simplified_native	1024_2048	True	P2CRC	0.9999725460086052	1	0
+CRC	CRC	discovery	256	amplitude_matched	simplified_native	1024_2048	True	P3NAT	0.999770734248804	1	0
+CRC	CRC	discovery	256	amplitude_matched	simplified_native	128_256	False	P1CRC		1	1
+CRC	CRC	discovery	256	amplitude_matched	simplified_native	128_256	False	P2CRC		1	1
+CRC	CRC	discovery	256	amplitude_matched	simplified_native	128_256	False	P3NAT		1	1
+CRC	CRC	discovery	256	amplitude_matched	simplified_native	2048_4096	True	P1CRC	0.9999269797387598	1	0
+CRC	CRC	discovery	256	amplitude_matched	simplified_native	2048_4096	True	P2CRC	1.0000032066015705	1	0
+CRC	CRC	discovery	256	amplitude_matched	simplified_native	2048_4096	True	P3NAT	0.999917512561755	1	0
+CRC	CRC	discovery	256	amplitude_matched	simplified_native	256_512	False	P1CRC	0.9988795603738052	1	0
+CRC	CRC	discovery	256	amplitude_matched	simplified_native	256_512	False	P2CRC	0.9999050860408142	1	0
+CRC	CRC	discovery	256	amplitude_matched	simplified_native	256_512	False	P3NAT	0.9974953849767234	1	0
+CRC	CRC	discovery	256	amplitude_matched	simplified_native	512_1024	True	P1CRC	0.9993486494337912	1	0
+CRC	CRC	discovery	256	amplitude_matched	simplified_native	512_1024	True	P2CRC	0.999934466877914	1	0
+CRC	CRC	discovery	256	amplitude_matched	simplified_native	512_1024	True	P3NAT	0.9992308207844712	1	0
+CRC	CRC	discovery	256	amplitude_matched	simplified_native	GE4096	True	P1CRC	1.0000011457680371	1	0
+CRC	CRC	discovery	256	amplitude_matched	simplified_native	GE4096	True	P2CRC	1.0000089969975758	1	0
+CRC	CRC	discovery	256	amplitude_matched	simplified_native	GE4096	True	P3NAT	0.9999282540287224	1	0
+CRC	CRC	discovery	256	amplitude_matched	simplified_native	LT128	False	P1CRC		1	1
+CRC	CRC	discovery	256	amplitude_matched	simplified_native	LT128	False	P2CRC		1	1
+CRC	CRC	discovery	256	amplitude_matched	simplified_native	LT128	False	P3NAT		1	1
+CRC	CRC	discovery	256	legacy	expected_native	1024_2048	True	P1CRC	0.9997973862802376	1	0
+CRC	CRC	discovery	256	legacy	expected_native	1024_2048	True	P2CRC	0.9999375983404448	1	0
+CRC	CRC	discovery	256	legacy	expected_native	1024_2048	True	P3NAT	0.99990718368426	1	0
+CRC	CRC	discovery	256	legacy	expected_native	128_256	False	P1CRC		1	1
+CRC	CRC	discovery	256	legacy	expected_native	128_256	False	P2CRC		1	1
+CRC	CRC	discovery	256	legacy	expected_native	128_256	False	P3NAT		1	1
+CRC	CRC	discovery	256	legacy	expected_native	2048_4096	True	P1CRC	0.9998501707183932	1	0
+CRC	CRC	discovery	256	legacy	expected_native	2048_4096	True	P2CRC	0.9999589489411046	1	0
+CRC	CRC	discovery	256	legacy	expected_native	2048_4096	True	P3NAT	0.9999507369363428	1	0
+CRC	CRC	discovery	256	legacy	expected_native	256_512	False	P1CRC	0.9997800571088078	1	0
+CRC	CRC	discovery	256	legacy	expected_native	256_512	False	P2CRC	0.999958268301647	1	0
+CRC	CRC	discovery	256	legacy	expected_native	256_512	False	P3NAT	0.9992704331326246	1	0
+CRC	CRC	discovery	256	legacy	expected_native	512_1024	True	P1CRC	0.9997915959403734	1	0
+CRC	CRC	discovery	256	legacy	expected_native	512_1024	True	P2CRC	0.9999341110489628	1	0
+CRC	CRC	discovery	256	legacy	expected_native	512_1024	True	P3NAT	0.9997345546604952	1	0
+CRC	CRC	discovery	256	legacy	expected_native	GE4096	True	P1CRC	0.9998596629483562	1	0
+CRC	CRC	discovery	256	legacy	expected_native	GE4096	True	P2CRC	0.9999688585345964	1	0
+CRC	CRC	discovery	256	legacy	expected_native	GE4096	True	P3NAT	0.9999432592016876	1	0
+CRC	CRC	discovery	256	legacy	expected_native	LT128	False	P1CRC		1	1
+CRC	CRC	discovery	256	legacy	expected_native	LT128	False	P2CRC		1	1
+CRC	CRC	discovery	256	legacy	expected_native	LT128	False	P3NAT		1	1
+CRC	CRC	discovery	256	legacy	simplified_native	1024_2048	True	P1CRC	0.999590602629368	1	0
+CRC	CRC	discovery	256	legacy	simplified_native	1024_2048	True	P2CRC	0.9999161358340296	1	0
+CRC	CRC	discovery	256	legacy	simplified_native	1024_2048	True	P3NAT	0.999656027998017	1	0
+CRC	CRC	discovery	256	legacy	simplified_native	128_256	False	P1CRC		1	1
+CRC	CRC	discovery	256	legacy	simplified_native	128_256	False	P2CRC		1	1
+CRC	CRC	discovery	256	legacy	simplified_native	128_256	False	P3NAT		1	1
+CRC	CRC	discovery	256	legacy	simplified_native	2048_4096	True	P1CRC	0.9997267833781248	1	0
+CRC	CRC	discovery	256	legacy	simplified_native	2048_4096	True	P2CRC	0.9999490419470712	1	0
+CRC	CRC	discovery	256	legacy	simplified_native	2048_4096	True	P3NAT	0.999840690469602	1	0
+CRC	CRC	discovery	256	legacy	simplified_native	256_512	False	P1CRC	0.9986453057792244	1	0
+CRC	CRC	discovery	256	legacy	simplified_native	256_512	False	P2CRC	0.9998371932976996	1	0
+CRC	CRC	discovery	256	legacy	simplified_native	256_512	False	P3NAT	0.9966128237429944	1	0
+CRC	CRC	discovery	256	legacy	simplified_native	512_1024	True	P1CRC	0.9991178548130468	1	0
+CRC	CRC	discovery	256	legacy	simplified_native	512_1024	True	P2CRC	0.9998708463706292	1	0
+CRC	CRC	discovery	256	legacy	simplified_native	512_1024	True	P3NAT	0.998906413859168	1	0
+CRC	CRC	discovery	256	legacy	simplified_native	GE4096	True	P1CRC	0.9998312109895712	1	0
+CRC	CRC	discovery	256	legacy	simplified_native	GE4096	True	P2CRC	0.9999606835467044	1	0
+CRC	CRC	discovery	256	legacy	simplified_native	GE4096	True	P3NAT	0.9998663760097178	1	0
+CRC	CRC	discovery	256	legacy	simplified_native	LT128	False	P1CRC		1	1
+CRC	CRC	discovery	256	legacy	simplified_native	LT128	False	P2CRC		1	1
+CRC	CRC	discovery	256	legacy	simplified_native	LT128	False	P3NAT		1	1
+CRC	CRC	discovery	384	amplitude_matched	expected_native	1024_2048	True	P1CRC	0.9999877695082436	1	0
+CRC	CRC	discovery	384	amplitude_matched	expected_native	1024_2048	True	P2CRC	1.0000304757031035	1	0
+CRC	CRC	discovery	384	amplitude_matched	expected_native	1024_2048	True	P3NAT	1.00001629480871	1	0
+CRC	CRC	discovery	384	amplitude_matched	expected_native	128_256	False	P1CRC		1	1
+CRC	CRC	discovery	384	amplitude_matched	expected_native	128_256	False	P2CRC		1	1
+CRC	CRC	discovery	384	amplitude_matched	expected_native	128_256	False	P3NAT		1	1
+CRC	CRC	discovery	384	amplitude_matched	expected_native	2048_4096	True	P1CRC	1.0000106752186586	1	0
+CRC	CRC	discovery	384	amplitude_matched	expected_native	2048_4096	True	P2CRC	1.0000133972020648	1	0
+CRC	CRC	discovery	384	amplitude_matched	expected_native	2048_4096	True	P3NAT	1.0000305885552174	1	0
+CRC	CRC	discovery	384	amplitude_matched	expected_native	256_512	False	P1CRC		1	1
+CRC	CRC	discovery	384	amplitude_matched	expected_native	256_512	False	P2CRC		1	1
+CRC	CRC	discovery	384	amplitude_matched	expected_native	256_512	False	P3NAT		1	1
+CRC	CRC	discovery	384	amplitude_matched	expected_native	512_1024	False	P1CRC	1.000172251125178	1	0
+CRC	CRC	discovery	384	amplitude_matched	expected_native	512_1024	False	P2CRC	0.9999282335620138	1	0
+CRC	CRC	discovery	384	amplitude_matched	expected_native	512_1024	False	P3NAT	1.0001000890422933	1	0
+CRC	CRC	discovery	384	amplitude_matched	expected_native	GE4096	True	P1CRC	1.000035719603391	1	0
+CRC	CRC	discovery	384	amplitude_matched	expected_native	GE4096	True	P2CRC	1.0000166997706583	1	0
+CRC	CRC	discovery	384	amplitude_matched	expected_native	GE4096	True	P3NAT	1.0000213523152923	1	0
+CRC	CRC	discovery	384	amplitude_matched	expected_native	LT128	False	P1CRC		1	1
+CRC	CRC	discovery	384	amplitude_matched	expected_native	LT128	False	P2CRC		1	1
+CRC	CRC	discovery	384	amplitude_matched	expected_native	LT128	False	P3NAT		1	1
+CRC	CRC	discovery	384	amplitude_matched	simplified_native	1024_2048	True	P1CRC	0.9999018703954352	1	0
+CRC	CRC	discovery	384	amplitude_matched	simplified_native	1024_2048	True	P2CRC	1.0000221932300255	1	0
+CRC	CRC	discovery	384	amplitude_matched	simplified_native	1024_2048	True	P3NAT	0.9998493408604384	1	0
+CRC	CRC	discovery	384	amplitude_matched	simplified_native	128_256	False	P1CRC		1	1
+CRC	CRC	discovery	384	amplitude_matched	simplified_native	128_256	False	P2CRC		1	1
+CRC	CRC	discovery	384	amplitude_matched	simplified_native	128_256	False	P3NAT		1	1
+CRC	CRC	discovery	384	amplitude_matched	simplified_native	2048_4096	True	P1CRC	0.9999592099019772	1	0
+CRC	CRC	discovery	384	amplitude_matched	simplified_native	2048_4096	True	P2CRC	1.0000108650431387	1	0
+CRC	CRC	discovery	384	amplitude_matched	simplified_native	2048_4096	True	P3NAT	0.9999645183156112	1	0
+CRC	CRC	discovery	384	amplitude_matched	simplified_native	256_512	False	P1CRC		1	1
+CRC	CRC	discovery	384	amplitude_matched	simplified_native	256_512	False	P2CRC		1	1
+CRC	CRC	discovery	384	amplitude_matched	simplified_native	256_512	False	P3NAT		1	1
+CRC	CRC	discovery	384	amplitude_matched	simplified_native	512_1024	False	P1CRC	0.9999400184717644	1	0
+CRC	CRC	discovery	384	amplitude_matched	simplified_native	512_1024	False	P2CRC	0.9999065590043472	1	0
+CRC	CRC	discovery	384	amplitude_matched	simplified_native	512_1024	False	P3NAT	0.9997776770244472	1	0
+CRC	CRC	discovery	384	amplitude_matched	simplified_native	GE4096	True	P1CRC	1.0000224675857792	1	0
+CRC	CRC	discovery	384	amplitude_matched	simplified_native	GE4096	True	P2CRC	1.0000150035972095	1	0
+CRC	CRC	discovery	384	amplitude_matched	simplified_native	GE4096	True	P3NAT	0.9999828331782038	1	0
+CRC	CRC	discovery	384	amplitude_matched	simplified_native	LT128	False	P1CRC		1	1
+CRC	CRC	discovery	384	amplitude_matched	simplified_native	LT128	False	P2CRC		1	1
+CRC	CRC	discovery	384	amplitude_matched	simplified_native	LT128	False	P3NAT		1	1
+CRC	CRC	discovery	384	legacy	expected_native	1024_2048	True	P1CRC	0.9999240754955924	1	0
+CRC	CRC	discovery	384	legacy	expected_native	1024_2048	True	P2CRC	1.0000110540019669	1	0
+CRC	CRC	discovery	384	legacy	expected_native	1024_2048	True	P3NAT	0.9998835517620672	1	0
+CRC	CRC	discovery	384	legacy	expected_native	128_256	False	P1CRC		1	1
+CRC	CRC	discovery	384	legacy	expected_native	128_256	False	P2CRC		1	1
+CRC	CRC	discovery	384	legacy	expected_native	128_256	False	P3NAT		1	1
+CRC	CRC	discovery	384	legacy	expected_native	2048_4096	True	P1CRC	0.9999516212554944	1	0
+CRC	CRC	discovery	384	legacy	expected_native	2048_4096	True	P2CRC	0.9999951111281062	1	0
+CRC	CRC	discovery	384	legacy	expected_native	2048_4096	True	P3NAT	0.9999851616795954	1	0
+CRC	CRC	discovery	384	legacy	expected_native	256_512	False	P1CRC		1	1
+CRC	CRC	discovery	384	legacy	expected_native	256_512	False	P2CRC		1	1
+CRC	CRC	discovery	384	legacy	expected_native	256_512	False	P3NAT		1	1
+CRC	CRC	discovery	384	legacy	expected_native	512_1024	False	P1CRC	1.000099706894178	1	0
+CRC	CRC	discovery	384	legacy	expected_native	512_1024	False	P2CRC	0.9999071370430228	1	0
+CRC	CRC	discovery	384	legacy	expected_native	512_1024	False	P3NAT	0.9998182559298292	1	0
+CRC	CRC	discovery	384	legacy	expected_native	GE4096	True	P1CRC	0.9999836585657784	1	0
+CRC	CRC	discovery	384	legacy	expected_native	GE4096	True	P2CRC	1.0000025780392874	1	0
+CRC	CRC	discovery	384	legacy	expected_native	GE4096	True	P3NAT	0.9999703378197278	1	0
+CRC	CRC	discovery	384	legacy	expected_native	LT128	False	P1CRC		1	1
+CRC	CRC	discovery	384	legacy	expected_native	LT128	False	P2CRC		1	1
+CRC	CRC	discovery	384	legacy	expected_native	LT128	False	P3NAT		1	1
+CRC	CRC	discovery	384	legacy	simplified_native	1024_2048	True	P1CRC	0.999845066932026	1	0
+CRC	CRC	discovery	384	legacy	simplified_native	1024_2048	True	P2CRC	1.0000035234175784	1	0
+CRC	CRC	discovery	384	legacy	simplified_native	1024_2048	True	P3NAT	0.9997237319441004	1	0
+CRC	CRC	discovery	384	legacy	simplified_native	128_256	False	P1CRC		1	1
+CRC	CRC	discovery	384	legacy	simplified_native	128_256	False	P2CRC		1	1
+CRC	CRC	discovery	384	legacy	simplified_native	128_256	False	P3NAT		1	1
+CRC	CRC	discovery	384	legacy	simplified_native	2048_4096	True	P1CRC	0.9999005590126616	1	0
+CRC	CRC	discovery	384	legacy	simplified_native	2048_4096	True	P2CRC	0.9999925793827592	1	0
+CRC	CRC	discovery	384	legacy	simplified_native	2048_4096	True	P3NAT	0.9999160774735188	1	0
+CRC	CRC	discovery	384	legacy	simplified_native	256_512	False	P1CRC		1	1
+CRC	CRC	discovery	384	legacy	simplified_native	256_512	False	P2CRC		1	1
+CRC	CRC	discovery	384	legacy	simplified_native	256_512	False	P3NAT		1	1
+CRC	CRC	discovery	384	legacy	simplified_native	512_1024	False	P1CRC	0.999878273785325	1	0
+CRC	CRC	discovery	384	legacy	simplified_native	512_1024	False	P2CRC	0.9998869888832104	1	0
+CRC	CRC	discovery	384	legacy	simplified_native	512_1024	False	P3NAT	0.999464888622988	1	0
+CRC	CRC	discovery	384	legacy	simplified_native	GE4096	True	P1CRC	0.99996332930146	1	0
+CRC	CRC	discovery	384	legacy	simplified_native	GE4096	True	P2CRC	1.0000003871846193	1	0
+CRC	CRC	discovery	384	legacy	simplified_native	GE4096	True	P3NAT	0.99993301140098	1	0
+CRC	CRC	discovery	384	legacy	simplified_native	LT128	False	P1CRC		1	1
+CRC	CRC	discovery	384	legacy	simplified_native	LT128	False	P2CRC		1	1
+CRC	CRC	discovery	384	legacy	simplified_native	LT128	False	P3NAT		1	1
+CRC	CRC	discovery	512	amplitude_matched	expected_native	1024_2048	True	P1CRC	1.0000062630394055	1	0
+CRC	CRC	discovery	512	amplitude_matched	expected_native	1024_2048	True	P2CRC	1.0000486467994585	1	0
+CRC	CRC	discovery	512	amplitude_matched	expected_native	1024_2048	True	P3NAT	1.0000159676722142	1	0
+CRC	CRC	discovery	512	amplitude_matched	expected_native	128_256	False	P1CRC		1	1
+CRC	CRC	discovery	512	amplitude_matched	expected_native	128_256	False	P2CRC		1	1
+CRC	CRC	discovery	512	amplitude_matched	expected_native	128_256	False	P3NAT		1	1
+CRC	CRC	discovery	512	amplitude_matched	expected_native	2048_4096	True	P1CRC	1.0000328133024958	1	0
+CRC	CRC	discovery	512	amplitude_matched	expected_native	2048_4096	True	P2CRC	1.000020774588004	1	0
+CRC	CRC	discovery	512	amplitude_matched	expected_native	2048_4096	True	P3NAT	1.00003371256306	1	0
+CRC	CRC	discovery	512	amplitude_matched	expected_native	256_512	False	P1CRC		1	1
+CRC	CRC	discovery	512	amplitude_matched	expected_native	256_512	False	P2CRC		1	1
+CRC	CRC	discovery	512	amplitude_matched	expected_native	256_512	False	P3NAT		1	1
+CRC	CRC	discovery	512	amplitude_matched	expected_native	512_1024	False	P1CRC	0.9999052985146172	1	0
+CRC	CRC	discovery	512	amplitude_matched	expected_native	512_1024	False	P2CRC	1.0000098111054212	1	0
+CRC	CRC	discovery	512	amplitude_matched	expected_native	512_1024	False	P3NAT	1.0000140529533312	1	0
+CRC	CRC	discovery	512	amplitude_matched	expected_native	GE4096	True	P1CRC	1.0000333275524609	1	0
+CRC	CRC	discovery	512	amplitude_matched	expected_native	GE4096	True	P2CRC	1.0000165484287964	1	0
+CRC	CRC	discovery	512	amplitude_matched	expected_native	GE4096	True	P3NAT	1.0000183347173826	1	0
+CRC	CRC	discovery	512	amplitude_matched	expected_native	LT128	False	P1CRC		1	1
+CRC	CRC	discovery	512	amplitude_matched	expected_native	LT128	False	P2CRC		1	1
+CRC	CRC	discovery	512	amplitude_matched	expected_native	LT128	False	P3NAT		1	1
+CRC	CRC	discovery	512	amplitude_matched	simplified_native	1024_2048	True	P1CRC	0.9999584894151428	1	0
+CRC	CRC	discovery	512	amplitude_matched	simplified_native	1024_2048	True	P2CRC	1.000043975522511	1	0
+CRC	CRC	discovery	512	amplitude_matched	simplified_native	1024_2048	True	P3NAT	0.9999110087895532	1	0
+CRC	CRC	discovery	512	amplitude_matched	simplified_native	128_256	False	P1CRC		1	1
+CRC	CRC	discovery	512	amplitude_matched	simplified_native	128_256	False	P2CRC		1	1
+CRC	CRC	discovery	512	amplitude_matched	simplified_native	128_256	False	P3NAT		1	1
+CRC	CRC	discovery	512	amplitude_matched	simplified_native	2048_4096	True	P1CRC	1.000007779548174	1	0
+CRC	CRC	discovery	512	amplitude_matched	simplified_native	2048_4096	True	P2CRC	1.000019315294736	1	0
+CRC	CRC	discovery	512	amplitude_matched	simplified_native	2048_4096	True	P3NAT	0.9999820161216684	1	0
+CRC	CRC	discovery	512	amplitude_matched	simplified_native	256_512	False	P1CRC		1	1
+CRC	CRC	discovery	512	amplitude_matched	simplified_native	256_512	False	P2CRC		1	1
+CRC	CRC	discovery	512	amplitude_matched	simplified_native	256_512	False	P3NAT		1	1
+CRC	CRC	discovery	512	amplitude_matched	simplified_native	512_1024	False	P1CRC	0.9997705858983184	1	0
+CRC	CRC	discovery	512	amplitude_matched	simplified_native	512_1024	False	P2CRC	1.000003180026689	1	0
+CRC	CRC	discovery	512	amplitude_matched	simplified_native	512_1024	False	P3NAT	0.9998617907026708	1	0
+CRC	CRC	discovery	512	amplitude_matched	simplified_native	GE4096	True	P1CRC	1.0000270295114162	1	0
+CRC	CRC	discovery	512	amplitude_matched	simplified_native	GE4096	True	P2CRC	1.0000155726000408	1	0
+CRC	CRC	discovery	512	amplitude_matched	simplified_native	GE4096	True	P3NAT	0.999993223999692	1	0
+CRC	CRC	discovery	512	amplitude_matched	simplified_native	LT128	False	P1CRC		1	1
+CRC	CRC	discovery	512	amplitude_matched	simplified_native	LT128	False	P2CRC		1	1
+CRC	CRC	discovery	512	amplitude_matched	simplified_native	LT128	False	P3NAT		1	1
+CRC	CRC	discovery	512	legacy	expected_native	1024_2048	True	P1CRC	0.999978134950225	1	0
+CRC	CRC	discovery	512	legacy	expected_native	1024_2048	True	P2CRC	1.0000397962673762	1	0
+CRC	CRC	discovery	512	legacy	expected_native	1024_2048	True	P3NAT	0.9998826531986206	1	0
+CRC	CRC	discovery	512	legacy	expected_native	128_256	False	P1CRC		1	1
+CRC	CRC	discovery	512	legacy	expected_native	128_256	False	P2CRC		1	1
+CRC	CRC	discovery	512	legacy	expected_native	128_256	False	P3NAT		1	1
+CRC	CRC	discovery	512	legacy	expected_native	2048_4096	True	P1CRC	1.0000066605619256	1	0
+CRC	CRC	discovery	512	legacy	expected_native	2048_4096	True	P2CRC	1.000013360285627	1	0
+CRC	CRC	discovery	512	legacy	expected_native	2048_4096	True	P3NAT	0.9999465391096688	1	0
+CRC	CRC	discovery	512	legacy	expected_native	256_512	False	P1CRC		1	1
+CRC	CRC	discovery	512	legacy	expected_native	256_512	False	P2CRC		1	1
+CRC	CRC	discovery	512	legacy	expected_native	256_512	False	P3NAT		1	1
+CRC	CRC	discovery	512	legacy	expected_native	512_1024	False	P1CRC	0.9998800939999646	1	0
+CRC	CRC	discovery	512	legacy	expected_native	512_1024	False	P2CRC	1.0000015625074932	1	0
+CRC	CRC	discovery	512	legacy	expected_native	512_1024	False	P3NAT	0.9996446910293196	1	0
+CRC	CRC	discovery	512	legacy	expected_native	GE4096	True	P1CRC	1.0000131434635622	1	0
+CRC	CRC	discovery	512	legacy	expected_native	GE4096	True	P2CRC	1.0000106477573578	1	0
+CRC	CRC	discovery	512	legacy	expected_native	GE4096	True	P3NAT	0.9999135794757488	1	0
+CRC	CRC	discovery	512	legacy	expected_native	LT128	False	P1CRC		1	1
+CRC	CRC	discovery	512	legacy	expected_native	LT128	False	P2CRC		1	1
+CRC	CRC	discovery	512	legacy	expected_native	LT128	False	P3NAT		1	1
+CRC	CRC	discovery	512	legacy	simplified_native	1024_2048	True	P1CRC	0.9999361509062572	1	0
+CRC	CRC	discovery	512	legacy	simplified_native	1024_2048	True	P2CRC	1.0000356156174242	1	0
+CRC	CRC	discovery	512	legacy	simplified_native	1024_2048	True	P3NAT	0.9997477325842552	1	0
+CRC	CRC	discovery	512	legacy	simplified_native	128_256	False	P1CRC		1	1
+CRC	CRC	discovery	512	legacy	simplified_native	128_256	False	P2CRC		1	1
+CRC	CRC	discovery	512	legacy	simplified_native	128_256	False	P3NAT		1	1
+CRC	CRC	discovery	512	legacy	simplified_native	2048_4096	True	P1CRC	0.999982756014432	1	0
+CRC	CRC	discovery	512	legacy	simplified_native	2048_4096	True	P2CRC	1.0000119155703795	1	0
+CRC	CRC	discovery	512	legacy	simplified_native	2048_4096	True	P3NAT	0.9999036658197764	1	0
+CRC	CRC	discovery	512	legacy	simplified_native	256_512	False	P1CRC		1	1
+CRC	CRC	discovery	512	legacy	simplified_native	256_512	False	P2CRC		1	1
+CRC	CRC	discovery	512	legacy	simplified_native	256_512	False	P3NAT		1	1
+CRC	CRC	discovery	512	legacy	simplified_native	512_1024	False	P1CRC	0.9997565316497478	1	0
+CRC	CRC	discovery	512	legacy	simplified_native	512_1024	False	P2CRC	0.9999954429282438	1	0
+CRC	CRC	discovery	512	legacy	simplified_native	512_1024	False	P3NAT	0.9994707468403912	1	0
+CRC	CRC	discovery	512	legacy	simplified_native	GE4096	True	P1CRC	1.000002811081497	1	0
+CRC	CRC	discovery	512	legacy	simplified_native	GE4096	True	P2CRC	1.0000094687571148	1	0
+CRC	CRC	discovery	512	legacy	simplified_native	GE4096	True	P3NAT	0.9999055166840882	1	0
+CRC	CRC	discovery	512	legacy	simplified_native	LT128	False	P1CRC		1	1
+CRC	CRC	discovery	512	legacy	simplified_native	LT128	False	P2CRC		1	1
+CRC	CRC	discovery	512	legacy	simplified_native	LT128	False	P3NAT		1	1
+CRC	CRC	prespecified_P5	32	amplitude_matched	expected_native	1024_2048	True	P5	1.0000127628649427	2	0
+CRC	CRC	prespecified_P5	32	amplitude_matched	expected_native	128_256	True	P5	1.0000054260381572	2	0
+CRC	CRC	prespecified_P5	32	amplitude_matched	expected_native	2048_4096	True	P5	1.0000076608524615	2	0
+CRC	CRC	prespecified_P5	32	amplitude_matched	expected_native	256_512	True	P5	1.0000060419154053	2	0
+CRC	CRC	prespecified_P5	32	amplitude_matched	expected_native	512_1024	True	P5	1.0000184377399157	2	0
+CRC	CRC	prespecified_P5	32	amplitude_matched	expected_native	GE4096	True	P5	1.0000079798973531	2	0
+CRC	CRC	prespecified_P5	32	amplitude_matched	expected_native	LT128	False	P5	0.9999604774408624	2	0
+CRC	CRC	prespecified_P5	32	amplitude_matched	simplified_native	1024_2048	True	P5	0.9975588499066268	2	0
+CRC	CRC	prespecified_P5	32	amplitude_matched	simplified_native	128_256	True	P5	0.985050389621642	2	0
+CRC	CRC	prespecified_P5	32	amplitude_matched	simplified_native	2048_4096	True	P5	0.9980369066214816	2	0
+CRC	CRC	prespecified_P5	32	amplitude_matched	simplified_native	256_512	True	P5	0.991764652241846	2	0
+CRC	CRC	prespecified_P5	32	amplitude_matched	simplified_native	512_1024	True	P5	0.9962644443846493	2	0
+CRC	CRC	prespecified_P5	32	amplitude_matched	simplified_native	GE4096	True	P5	0.9990091148728872	2	0
+CRC	CRC	prespecified_P5	32	amplitude_matched	simplified_native	LT128	False	P5	0.9776301862551673	2	0
+CRC	CRC	prespecified_P5	32	legacy	expected_native	1024_2048	True	P5	0.9955984636780136	2	0
+CRC	CRC	prespecified_P5	32	legacy	expected_native	128_256	True	P5	0.9960786961463985	2	0
+CRC	CRC	prespecified_P5	32	legacy	expected_native	2048_4096	True	P5	0.9954463130083203	2	0
+CRC	CRC	prespecified_P5	32	legacy	expected_native	256_512	True	P5	0.995702823345702	2	0
+CRC	CRC	prespecified_P5	32	legacy	expected_native	512_1024	True	P5	0.9956829401886247	2	0
+CRC	CRC	prespecified_P5	32	legacy	expected_native	GE4096	True	P5	0.9957818969848296	2	0
+CRC	CRC	prespecified_P5	32	legacy	expected_native	LT128	False	P5	0.9967283845845173	2	0
+CRC	CRC	prespecified_P5	32	legacy	simplified_native	1024_2048	True	P5	0.992811018783617	2	0
+CRC	CRC	prespecified_P5	32	legacy	simplified_native	128_256	True	P5	0.9806762604369383	2	0
+CRC	CRC	prespecified_P5	32	legacy	simplified_native	2048_4096	True	P5	0.9932713856877775	2	0
+CRC	CRC	prespecified_P5	32	legacy	simplified_native	256_512	True	P5	0.9871202667106895	2	0
+CRC	CRC	prespecified_P5	32	legacy	simplified_native	512_1024	True	P5	0.9916674611724832	2	0
+CRC	CRC	prespecified_P5	32	legacy	simplified_native	GE4096	True	P5	0.9950618167947822	2	0
+CRC	CRC	prespecified_P5	32	legacy	simplified_native	LT128	False	P5	0.9745335248649898	2	0
+CRC	CRC	prespecified_P5	64	amplitude_matched	expected_native	1024_2048	True	P5	1.0000117272535358	2	0
+CRC	CRC	prespecified_P5	64	amplitude_matched	expected_native	128_256	True	P5	0.9998438599906592	2	0
+CRC	CRC	prespecified_P5	64	amplitude_matched	expected_native	2048_4096	True	P5	1.0000027884531995	2	0
+CRC	CRC	prespecified_P5	64	amplitude_matched	expected_native	256_512	True	P5	0.9999384087126584	2	0
+CRC	CRC	prespecified_P5	64	amplitude_matched	expected_native	512_1024	True	P5	1.000030124915031	2	0
+CRC	CRC	prespecified_P5	64	amplitude_matched	expected_native	GE4096	True	P5	1.0000052750435051	2	0
+CRC	CRC	prespecified_P5	64	amplitude_matched	expected_native	LT128	False	P5	0.9998296551936445	2	0
+CRC	CRC	prespecified_P5	64	amplitude_matched	simplified_native	1024_2048	True	P5	0.9987199114024985	2	0
+CRC	CRC	prespecified_P5	64	amplitude_matched	simplified_native	128_256	True	P5	0.9855651651388312	2	0
+CRC	CRC	prespecified_P5	64	amplitude_matched	simplified_native	2048_4096	True	P5	0.9989423746091755	2	0
+CRC	CRC	prespecified_P5	64	amplitude_matched	simplified_native	256_512	True	P5	0.9924348275063273	2	0
+CRC	CRC	prespecified_P5	64	amplitude_matched	simplified_native	512_1024	True	P5	0.9974380392736613	2	0
+CRC	CRC	prespecified_P5	64	amplitude_matched	simplified_native	GE4096	True	P5	0.9995675642381014	2	0
+CRC	CRC	prespecified_P5	64	amplitude_matched	simplified_native	LT128	False	P5	0.9822971502687842	2	0
+CRC	CRC	prespecified_P5	64	legacy	expected_native	1024_2048	True	P5	0.9979943359243983	2	0
+CRC	CRC	prespecified_P5	64	legacy	expected_native	128_256	True	P5	0.9976241968851819	2	0
+CRC	CRC	prespecified_P5	64	legacy	expected_native	2048_4096	True	P5	0.9979688647441902	2	0
+CRC	CRC	prespecified_P5	64	legacy	expected_native	256_512	True	P5	0.9977180592475978	2	0
+CRC	CRC	prespecified_P5	64	legacy	expected_native	512_1024	True	P5	0.9979875010487239	2	0
+CRC	CRC	prespecified_P5	64	legacy	expected_native	GE4096	True	P5	0.9981442312715929	2	0
+CRC	CRC	prespecified_P5	64	legacy	expected_native	LT128	False	P5	0.9976615391547383	2	0
+CRC	CRC	prespecified_P5	64	legacy	simplified_native	1024_2048	True	P5	0.9965962828490389	2	0
+CRC	CRC	prespecified_P5	64	legacy	simplified_native	128_256	True	P5	0.9832095841057146	2	0
+CRC	CRC	prespecified_P5	64	legacy	simplified_native	2048_4096	True	P5	0.996747913835602	2	0
+CRC	CRC	prespecified_P5	64	legacy	simplified_native	256_512	True	P5	0.9899535765405498	2	0
+CRC	CRC	prespecified_P5	64	legacy	simplified_native	512_1024	True	P5	0.9953389922970102	2	0
+CRC	CRC	prespecified_P5	64	legacy	simplified_native	GE4096	True	P5	0.9980128016496443	2	0
+CRC	CRC	prespecified_P5	64	legacy	simplified_native	LT128	False	P5	0.9802606419811011	2	0
+CRC	CRC	prespecified_P5	96	amplitude_matched	expected_native	1024_2048	True	P5	1.0000092976278627	2	0
+CRC	CRC	prespecified_P5	96	amplitude_matched	expected_native	128_256	False	P5	0.9999541286280746	2	0
+CRC	CRC	prespecified_P5	96	amplitude_matched	expected_native	2048_4096	True	P5	0.9999989720804249	2	0
+CRC	CRC	prespecified_P5	96	amplitude_matched	expected_native	256_512	True	P5	0.9999969975546081	2	0
+CRC	CRC	prespecified_P5	96	amplitude_matched	expected_native	512_1024	True	P5	1.0000076946682415	2	0
+CRC	CRC	prespecified_P5	96	amplitude_matched	expected_native	GE4096	True	P5	1.000005805836849	2	0
+CRC	CRC	prespecified_P5	96	amplitude_matched	expected_native	LT128	False	P5		2	2
+CRC	CRC	prespecified_P5	96	amplitude_matched	simplified_native	1024_2048	True	P5	0.9993317843155463	2	0
+CRC	CRC	prespecified_P5	96	amplitude_matched	simplified_native	128_256	False	P5	0.9909277777627539	2	0
+CRC	CRC	prespecified_P5	96	amplitude_matched	simplified_native	2048_4096	True	P5	0.9994148956741364	2	0
+CRC	CRC	prespecified_P5	96	amplitude_matched	simplified_native	256_512	True	P5	0.9947763047310032	2	0
+CRC	CRC	prespecified_P5	96	amplitude_matched	simplified_native	512_1024	True	P5	0.9984864053388589	2	0
+CRC	CRC	prespecified_P5	96	amplitude_matched	simplified_native	GE4096	True	P5	0.9997798350358409	2	0
+CRC	CRC	prespecified_P5	96	amplitude_matched	simplified_native	LT128	False	P5		2	2
+CRC	CRC	prespecified_P5	96	legacy	expected_native	1024_2048	True	P5	0.9989736993100151	2	0
+CRC	CRC	prespecified_P5	96	legacy	expected_native	128_256	False	P5	0.998528478413389	2	0
+CRC	CRC	prespecified_P5	96	legacy	expected_native	2048_4096	True	P5	0.998973373466709	2	0
+CRC	CRC	prespecified_P5	96	legacy	expected_native	256_512	True	P5	0.9986916874433038	2	0
+CRC	CRC	prespecified_P5	96	legacy	expected_native	512_1024	True	P5	0.998917261010269	2	0
+CRC	CRC	prespecified_P5	96	legacy	expected_native	GE4096	True	P5	0.9990755939224099	2	0
+CRC	CRC	prespecified_P5	96	legacy	expected_native	LT128	False	P5		2	2
+CRC	CRC	prespecified_P5	96	legacy	simplified_native	1024_2048	True	P5	0.9983252269439178	2	0
+CRC	CRC	prespecified_P5	96	legacy	simplified_native	128_256	False	P5	0.989376889731144	2	0
+CRC	CRC	prespecified_P5	96	legacy	simplified_native	2048_4096	True	P5	0.9983442528912665	2	0
+CRC	CRC	prespecified_P5	96	legacy	simplified_native	256_512	True	P5	0.9932995170662311	2	0
+CRC	CRC	prespecified_P5	96	legacy	simplified_native	512_1024	True	P5	0.9974302355566729	2	0
+CRC	CRC	prespecified_P5	96	legacy	simplified_native	GE4096	True	P5	0.9989217584499932	2	0
+CRC	CRC	prespecified_P5	96	legacy	simplified_native	LT128	False	P5		2	2
+CRC	CRC	prespecified_P5	128	amplitude_matched	expected_native	1024_2048	True	P5	0.9999993901759098	2	0
+CRC	CRC	prespecified_P5	128	amplitude_matched	expected_native	128_256	False	P5	0.9998203634441913	2	0
+CRC	CRC	prespecified_P5	128	amplitude_matched	expected_native	2048_4096	True	P5	1.0000137244326726	2	0
+CRC	CRC	prespecified_P5	128	amplitude_matched	expected_native	256_512	True	P5	0.9999871603428266	2	0
+CRC	CRC	prespecified_P5	128	amplitude_matched	expected_native	512_1024	True	P5	0.9999649354201374	2	0
+CRC	CRC	prespecified_P5	128	amplitude_matched	expected_native	GE4096	True	P5	1.0000093038528926	2	0
+CRC	CRC	prespecified_P5	128	amplitude_matched	expected_native	LT128	False	P5		2	2
+CRC	CRC	prespecified_P5	128	amplitude_matched	simplified_native	1024_2048	True	P5	0.9995515542848331	2	0
+CRC	CRC	prespecified_P5	128	amplitude_matched	simplified_native	128_256	False	P5	0.9939543182435244	2	0
+CRC	CRC	prespecified_P5	128	amplitude_matched	simplified_native	2048_4096	True	P5	0.9996642494168089	2	0
+CRC	CRC	prespecified_P5	128	amplitude_matched	simplified_native	256_512	True	P5	0.9962928156505736	2	0
+CRC	CRC	prespecified_P5	128	amplitude_matched	simplified_native	512_1024	True	P5	0.9989380739129283	2	0
+CRC	CRC	prespecified_P5	128	amplitude_matched	simplified_native	GE4096	True	P5	0.9998789207905581	2	0
+CRC	CRC	prespecified_P5	128	amplitude_matched	simplified_native	LT128	False	P5		2	2
+CRC	CRC	prespecified_P5	128	legacy	expected_native	1024_2048	True	P5	0.9993918237326864	2	0
+CRC	CRC	prespecified_P5	128	legacy	expected_native	128_256	False	P5	0.9987989889533881	2	0
+CRC	CRC	prespecified_P5	128	legacy	expected_native	2048_4096	True	P5	0.999424247543939	2	0
+CRC	CRC	prespecified_P5	128	legacy	expected_native	256_512	True	P5	0.9990796010681406	2	0
+CRC	CRC	prespecified_P5	128	legacy	expected_native	512_1024	True	P5	0.9993011842994852	2	0
+CRC	CRC	prespecified_P5	128	legacy	expected_native	GE4096	True	P5	0.9994813733707795	2	0
+CRC	CRC	prespecified_P5	128	legacy	expected_native	LT128	False	P5		2	2
+CRC	CRC	prespecified_P5	128	legacy	simplified_native	1024_2048	True	P5	0.9989797159884668	2	0
+CRC	CRC	prespecified_P5	128	legacy	simplified_native	128_256	False	P5	0.9927774723860144	2	0
+CRC	CRC	prespecified_P5	128	legacy	simplified_native	2048_4096	True	P5	0.9990529658649493	2	0
+CRC	CRC	prespecified_P5	128	legacy	simplified_native	256_512	True	P5	0.9952622429804299	2	0
+CRC	CRC	prespecified_P5	128	legacy	simplified_native	512_1024	True	P5	0.9983135352733914	2	0
+CRC	CRC	prespecified_P5	128	legacy	simplified_native	GE4096	True	P5	0.9993372253445045	2	0
+CRC	CRC	prespecified_P5	128	legacy	simplified_native	LT128	False	P5		2	2
+CRC	CRC	prespecified_P5	192	amplitude_matched	expected_native	1024_2048	True	P5	1.000004485504291	2	0
+CRC	CRC	prespecified_P5	192	amplitude_matched	expected_native	128_256	False	P5		2	2
+CRC	CRC	prespecified_P5	192	amplitude_matched	expected_native	2048_4096	True	P5	1.0000135726836656	2	0
+CRC	CRC	prespecified_P5	192	amplitude_matched	expected_native	256_512	False	P5	1.0001235638829225	2	0
+CRC	CRC	prespecified_P5	192	amplitude_matched	expected_native	512_1024	True	P5	0.9999814176304087	2	0
+CRC	CRC	prespecified_P5	192	amplitude_matched	expected_native	GE4096	True	P5	1.000013872268181	2	0
+CRC	CRC	prespecified_P5	192	amplitude_matched	expected_native	LT128	False	P5		2	2
+CRC	CRC	prespecified_P5	192	amplitude_matched	simplified_native	1024_2048	True	P5	0.9997842821500578	2	0
+CRC	CRC	prespecified_P5	192	amplitude_matched	simplified_native	128_256	False	P5		2	2
+CRC	CRC	prespecified_P5	192	amplitude_matched	simplified_native	2048_4096	True	P5	0.9998883282024766	2	0
+CRC	CRC	prespecified_P5	192	amplitude_matched	simplified_native	256_512	False	P5	0.998433229761075	2	0
+CRC	CRC	prespecified_P5	192	amplitude_matched	simplified_native	512_1024	True	P5	0.9993664683114699	2	0
+CRC	CRC	prespecified_P5	192	amplitude_matched	simplified_native	GE4096	True	P5	0.9999707158498138	2	0
+CRC	CRC	prespecified_P5	192	amplitude_matched	simplified_native	LT128	False	P5		2	2
+CRC	CRC	prespecified_P5	192	legacy	expected_native	1024_2048	True	P5	0.9997226227642277	2	0
+CRC	CRC	prespecified_P5	192	legacy	expected_native	128_256	False	P5		2	2
+CRC	CRC	prespecified_P5	192	legacy	expected_native	2048_4096	True	P5	0.9997648067527567	2	0
+CRC	CRC	prespecified_P5	192	legacy	expected_native	256_512	False	P5	0.9995349551117021	2	0
+CRC	CRC	prespecified_P5	192	legacy	expected_native	512_1024	True	P5	0.9996211347587943	2	0
+CRC	CRC	prespecified_P5	192	legacy	expected_native	GE4096	True	P5	0.999786720745366	2	0
+CRC	CRC	prespecified_P5	192	legacy	expected_native	LT128	False	P5		2	2
+CRC	CRC	prespecified_P5	192	legacy	simplified_native	1024_2048	True	P5	0.9995125167523364	2	0
+CRC	CRC	prespecified_P5	192	legacy	simplified_native	128_256	False	P5		2	2
+CRC	CRC	prespecified_P5	192	legacy	simplified_native	2048_4096	True	P5	0.9996226381108095	2	0
+CRC	CRC	prespecified_P5	192	legacy	simplified_native	256_512	False	P5	0.9977997587774166	2	0
+CRC	CRC	prespecified_P5	192	legacy	simplified_native	512_1024	True	P5	0.9990122073158065	2	0
+CRC	CRC	prespecified_P5	192	legacy	simplified_native	GE4096	True	P5	0.9997171771393096	2	0
+CRC	CRC	prespecified_P5	192	legacy	simplified_native	LT128	False	P5		2	2
+CRC	CRC	prespecified_P5	256	amplitude_matched	expected_native	1024_2048	True	P5	1.0000325919537065	2	0
+CRC	CRC	prespecified_P5	256	amplitude_matched	expected_native	128_256	False	P5		2	2
+CRC	CRC	prespecified_P5	256	amplitude_matched	expected_native	2048_4096	True	P5	1.0000257885069592	2	0
+CRC	CRC	prespecified_P5	256	amplitude_matched	expected_native	256_512	False	P5	1.0000635421809974	2	0
+CRC	CRC	prespecified_P5	256	amplitude_matched	expected_native	512_1024	True	P5	0.9999973708217201	2	0
+CRC	CRC	prespecified_P5	256	amplitude_matched	expected_native	GE4096	True	P5	1.0000169582206602	2	0
+CRC	CRC	prespecified_P5	256	amplitude_matched	expected_native	LT128	False	P5		2	2
+CRC	CRC	prespecified_P5	256	amplitude_matched	simplified_native	1024_2048	True	P5	0.9999048401364443	2	0
+CRC	CRC	prespecified_P5	256	amplitude_matched	simplified_native	128_256	False	P5		2	2
+CRC	CRC	prespecified_P5	256	amplitude_matched	simplified_native	2048_4096	True	P5	0.9999598740772335	2	0
+CRC	CRC	prespecified_P5	256	amplitude_matched	simplified_native	256_512	False	P5	0.9991826707888822	2	0
+CRC	CRC	prespecified_P5	256	amplitude_matched	simplified_native	512_1024	True	P5	0.9995526535290407	2	0
+CRC	CRC	prespecified_P5	256	amplitude_matched	simplified_native	GE4096	True	P5	0.9999965603278134	2	0
+CRC	CRC	prespecified_P5	256	amplitude_matched	simplified_native	LT128	False	P5		2	2
+CRC	CRC	prespecified_P5	256	legacy	expected_native	1024_2048	True	P5	0.9998500747253893	2	0
+CRC	CRC	prespecified_P5	256	legacy	expected_native	128_256	False	P5		2	2
+CRC	CRC	prespecified_P5	256	legacy	expected_native	2048_4096	True	P5	0.999880192800807	2	0
+CRC	CRC	prespecified_P5	256	legacy	expected_native	256_512	False	P5	0.9994927080483573	2	0
+CRC	CRC	prespecified_P5	256	legacy	expected_native	512_1024	True	P5	0.9997059575446574	2	0
+CRC	CRC	prespecified_P5	256	legacy	expected_native	GE4096	True	P5	0.999883156698845	2	0
+CRC	CRC	prespecified_P5	256	legacy	expected_native	LT128	False	P5		2	2
+CRC	CRC	prespecified_P5	256	legacy	simplified_native	1024_2048	True	P5	0.9997268230133879	2	0
+CRC	CRC	prespecified_P5	256	legacy	simplified_native	128_256	False	P5		2	2
+CRC	CRC	prespecified_P5	256	legacy	simplified_native	2048_4096	True	P5	0.9997991662568677	2	0
+CRC	CRC	prespecified_P5	256	legacy	simplified_native	256_512	False	P5	0.9985931984233615	2	0
+CRC	CRC	prespecified_P5	256	legacy	simplified_native	512_1024	True	P5	0.9992529636594669	2	0
+CRC	CRC	prespecified_P5	256	legacy	simplified_native	GE4096	True	P5	0.9998544872739592	2	0
+CRC	CRC	prespecified_P5	256	legacy	simplified_native	LT128	False	P5		2	2
+CRC	CRC	prespecified_P5	384	amplitude_matched	expected_native	1024_2048	True	P5	1.0000115890266679	2	0
+CRC	CRC	prespecified_P5	384	amplitude_matched	expected_native	128_256	False	P5		2	2
+CRC	CRC	prespecified_P5	384	amplitude_matched	expected_native	2048_4096	True	P5	1.0000310918739665	2	0
+CRC	CRC	prespecified_P5	384	amplitude_matched	expected_native	256_512	False	P5		2	2
+CRC	CRC	prespecified_P5	384	amplitude_matched	expected_native	512_1024	False	P5	1.0000061606165076	2	0
+CRC	CRC	prespecified_P5	384	amplitude_matched	expected_native	GE4096	True	P5	1.000028979009275	2	0
+CRC	CRC	prespecified_P5	384	amplitude_matched	expected_native	LT128	False	P5		2	2
+CRC	CRC	prespecified_P5	384	amplitude_matched	simplified_native	1024_2048	True	P5	0.9999454313767803	2	0
+CRC	CRC	prespecified_P5	384	amplitude_matched	simplified_native	128_256	False	P5		2	2
+CRC	CRC	prespecified_P5	384	amplitude_matched	simplified_native	2048_4096	True	P5	1.0000040348130943	2	0
+CRC	CRC	prespecified_P5	384	amplitude_matched	simplified_native	256_512	False	P5		2	2
+CRC	CRC	prespecified_P5	384	amplitude_matched	simplified_native	512_1024	False	P5	0.9998215641628385	2	0
+CRC	CRC	prespecified_P5	384	amplitude_matched	simplified_native	GE4096	True	P5	1.0000173168306548	2	0
+CRC	CRC	prespecified_P5	384	amplitude_matched	simplified_native	LT128	False	P5		2	2
+CRC	CRC	prespecified_P5	384	legacy	expected_native	1024_2048	True	P5	0.9999022820100871	2	0
+CRC	CRC	prespecified_P5	384	legacy	expected_native	128_256	False	P5		2	2
+CRC	CRC	prespecified_P5	384	legacy	expected_native	2048_4096	True	P5	0.9999579916218251	2	0
+CRC	CRC	prespecified_P5	384	legacy	expected_native	256_512	False	P5		2	2
+CRC	CRC	prespecified_P5	384	legacy	expected_native	512_1024	False	P5	0.9998030457719763	2	0
+CRC	CRC	prespecified_P5	384	legacy	expected_native	GE4096	True	P5	0.9999664818630967	2	0
+CRC	CRC	prespecified_P5	384	legacy	expected_native	LT128	False	P5		2	2
+CRC	CRC	prespecified_P5	384	legacy	simplified_native	1024_2048	True	P5	0.9998373070757371	2	0
+CRC	CRC	prespecified_P5	384	legacy	simplified_native	128_256	False	P5		2	2
+CRC	CRC	prespecified_P5	384	legacy	simplified_native	2048_4096	True	P5	0.9999252349652861	2	0
+CRC	CRC	prespecified_P5	384	legacy	simplified_native	256_512	False	P5		2	2
+CRC	CRC	prespecified_P5	384	legacy	simplified_native	512_1024	False	P5	0.9996117401159367	2	0
+CRC	CRC	prespecified_P5	384	legacy	simplified_native	GE4096	True	P5	0.9999518319867402	2	0
+CRC	CRC	prespecified_P5	384	legacy	simplified_native	LT128	False	P5		2	2
+CRC	CRC	prespecified_P5	512	amplitude_matched	expected_native	1024_2048	True	P5	1.0000121003044544	2	0
+CRC	CRC	prespecified_P5	512	amplitude_matched	expected_native	128_256	False	P5		2	2
+CRC	CRC	prespecified_P5	512	amplitude_matched	expected_native	2048_4096	True	P5	1.0000108856921224	2	0
+CRC	CRC	prespecified_P5	512	amplitude_matched	expected_native	256_512	False	P5		2	2
+CRC	CRC	prespecified_P5	512	amplitude_matched	expected_native	512_1024	False	P5	0.9999585105720032	2	0
+CRC	CRC	prespecified_P5	512	amplitude_matched	expected_native	GE4096	True	P5	1.000020812399692	2	0
+CRC	CRC	prespecified_P5	512	amplitude_matched	expected_native	LT128	False	P5		2	2
+CRC	CRC	prespecified_P5	512	amplitude_matched	simplified_native	1024_2048	True	P5	0.9999512598466971	2	0
+CRC	CRC	prespecified_P5	512	amplitude_matched	simplified_native	128_256	False	P5		2	2
+CRC	CRC	prespecified_P5	512	amplitude_matched	simplified_native	2048_4096	True	P5	0.9999880890010804	2	0
+CRC	CRC	prespecified_P5	512	amplitude_matched	simplified_native	256_512	False	P5		2	2
+CRC	CRC	prespecified_P5	512	amplitude_matched	simplified_native	512_1024	False	P5	0.9998672150775971	2	0
+CRC	CRC	prespecified_P5	512	amplitude_matched	simplified_native	GE4096	True	P5	1.0000137127714712	2	0
+CRC	CRC	prespecified_P5	512	amplitude_matched	simplified_native	LT128	False	P5		2	2
+CRC	CRC	prespecified_P5	512	legacy	expected_native	1024_2048	True	P5	0.9998921149053972	2	0
+CRC	CRC	prespecified_P5	512	legacy	expected_native	128_256	False	P5		2	2
+CRC	CRC	prespecified_P5	512	legacy	expected_native	2048_4096	True	P5	0.9999554393883419	2	0
+CRC	CRC	prespecified_P5	512	legacy	expected_native	256_512	False	P5		2	2
+CRC	CRC	prespecified_P5	512	legacy	expected_native	512_1024	False	P5	0.9998182775704746	2	0
+CRC	CRC	prespecified_P5	512	legacy	expected_native	GE4096	True	P5	0.9999721241825814	2	0
+CRC	CRC	prespecified_P5	512	legacy	expected_native	LT128	False	P5		2	2
+CRC	CRC	prespecified_P5	512	legacy	simplified_native	1024_2048	True	P5	0.9998266095515996	2	0
+CRC	CRC	prespecified_P5	512	legacy	simplified_native	128_256	False	P5		2	2
+CRC	CRC	prespecified_P5	512	legacy	simplified_native	2048_4096	True	P5	0.9999252786028165	2	0
+CRC	CRC	prespecified_P5	512	legacy	simplified_native	256_512	False	P5		2	2
+CRC	CRC	prespecified_P5	512	legacy	simplified_native	512_1024	False	P5	0.9997338767909889	2	0
+CRC	CRC	prespecified_P5	512	legacy	simplified_native	GE4096	True	P5	0.9999639365164922	2	0
+CRC	CRC	prespecified_P5	512	legacy	simplified_native	LT128	False	P5		2	2
+HEST	IDC	HEST_nine	0	legacy	expected_native	B1	True	NCBI783	0.9997206538992888	1	0
+HEST	IDC	HEST_nine	0	legacy	expected_native	B1	True	NCBI785	0.9994584446443168	1	0
+HEST	IDC	HEST_nine	0	legacy	expected_native	B1	True	TENX95	0.9992301213829788	1	0
+HEST	IDC	HEST_nine	0	legacy	expected_native	B1	True	TENX99	0.9985842711123338	1	0
+HEST	IDC	HEST_nine	0	legacy	expected_native	B2	True	NCBI783	0.9989694814784996	1	0
+HEST	IDC	HEST_nine	0	legacy	expected_native	B2	True	NCBI785	0.998645818649884	1	0
+HEST	IDC	HEST_nine	0	legacy	expected_native	B2	True	TENX95	0.9977798965439022	1	0
+HEST	IDC	HEST_nine	0	legacy	expected_native	B2	True	TENX99	0.9950048260876394	1	0
+HEST	IDC	HEST_nine	0	legacy	expected_native	B3	True	NCBI783	0.9987248758876794	1	0
+HEST	IDC	HEST_nine	0	legacy	expected_native	B3	True	NCBI785	0.9986261135958668	1	0
+HEST	IDC	HEST_nine	0	legacy	expected_native	B3	True	TENX95	0.9971927587496152	1	0
+HEST	IDC	HEST_nine	0	legacy	expected_native	B3	True	TENX99	0.9937291150215808	1	0
+HEST	IDC	HEST_nine	0	legacy	expected_native	B4	True	NCBI783	0.9989629077442992	1	0
+HEST	IDC	HEST_nine	0	legacy	expected_native	B4	True	NCBI785	0.9982326032468444	1	0
+HEST	IDC	HEST_nine	0	legacy	expected_native	B4	True	TENX95	0.9970503176360852	1	0
+HEST	IDC	HEST_nine	0	legacy	expected_native	B4	True	TENX99	0.9931643940989284	1	0
+HEST	IDC	HEST_nine	0	legacy	expected_native	B5	True	NCBI783	0.9981690208496342	1	0
+HEST	IDC	HEST_nine	0	legacy	expected_native	B5	True	NCBI785	0.998252036362534	1	0
+HEST	IDC	HEST_nine	0	legacy	expected_native	B5	True	TENX95	0.9959523421297602	1	0
+HEST	IDC	HEST_nine	0	legacy	expected_native	B5	True	TENX99	0.991831387235614	1	0
+HEST	IDC	HEST_nine	0	legacy	expected_native	FineMean	True	NCBI783	0.9985659642969666	1	0
+HEST	IDC	HEST_nine	0	legacy	expected_native	FineMean	True	NCBI785	0.998242319804689	1	0
+HEST	IDC	HEST_nine	0	legacy	expected_native	FineMean	True	TENX95	0.9965013298829228	1	0
+HEST	IDC	HEST_nine	0	legacy	expected_native	FineMean	True	TENX99	0.9924978906672712	1	0
+HEST	IDC	HEST_nine	0	legacy	simplified_native	B1	True	NCBI783	0.9988650496472192	1	0
+HEST	IDC	HEST_nine	0	legacy	simplified_native	B1	True	NCBI785	0.9985665881424566	1	0
+HEST	IDC	HEST_nine	0	legacy	simplified_native	B1	True	TENX95	0.9982635487220852	1	0
+HEST	IDC	HEST_nine	0	legacy	simplified_native	B1	True	TENX99	0.997391363451077	1	0
+HEST	IDC	HEST_nine	0	legacy	simplified_native	B2	True	NCBI783	0.9956411774641266	1	0
+HEST	IDC	HEST_nine	0	legacy	simplified_native	B2	True	NCBI785	0.9954114555007664	1	0
+HEST	IDC	HEST_nine	0	legacy	simplified_native	B2	True	TENX95	0.994371306423964	1	0
+HEST	IDC	HEST_nine	0	legacy	simplified_native	B2	True	TENX99	0.9904314401929448	1	0
+HEST	IDC	HEST_nine	0	legacy	simplified_native	B3	True	NCBI783	0.9941781227354288	1	0
+HEST	IDC	HEST_nine	0	legacy	simplified_native	B3	True	NCBI785	0.9941291130497668	1	0
+HEST	IDC	HEST_nine	0	legacy	simplified_native	B3	True	TENX95	0.9928739137829304	1	0
+HEST	IDC	HEST_nine	0	legacy	simplified_native	B3	True	TENX99	0.9878130325899162	1	0
+HEST	IDC	HEST_nine	0	legacy	simplified_native	B4	True	NCBI783	0.9933222145420364	1	0
+HEST	IDC	HEST_nine	0	legacy	simplified_native	B4	True	NCBI785	0.993435708842347	1	0
+HEST	IDC	HEST_nine	0	legacy	simplified_native	B4	True	TENX95	0.992145081195374	1	0
+HEST	IDC	HEST_nine	0	legacy	simplified_native	B4	True	TENX99	0.986693948201276	1	0
+HEST	IDC	HEST_nine	0	legacy	simplified_native	B5	True	NCBI783	0.9916145047576356	1	0
+HEST	IDC	HEST_nine	0	legacy	simplified_native	B5	True	NCBI785	0.9925132742842282	1	0
+HEST	IDC	HEST_nine	0	legacy	simplified_native	B5	True	TENX95	0.9901643809679724	1	0
+HEST	IDC	HEST_nine	0	legacy	simplified_native	B5	True	TENX99	0.984430246102877	1	0
+HEST	IDC	HEST_nine	0	legacy	simplified_native	FineMean	True	NCBI783	0.992468359649836	1	0
+HEST	IDC	HEST_nine	0	legacy	simplified_native	FineMean	True	NCBI785	0.9929744915632877	1	0
+HEST	IDC	HEST_nine	0	legacy	simplified_native	FineMean	True	TENX95	0.9911547310816732	1	0
+HEST	IDC	HEST_nine	0	legacy	simplified_native	FineMean	True	TENX99	0.9855620971520764	1	0
+HEST	LUNG	HEST_nine	0	legacy	expected_native	B1	True	TENX118	0.9986145159898968	1	0
+HEST	LUNG	HEST_nine	0	legacy	expected_native	B1	True	TENX141	0.9989428620501862	1	0
+HEST	LUNG	HEST_nine	0	legacy	expected_native	B2	True	TENX118	0.9968853398580624	1	0
+HEST	LUNG	HEST_nine	0	legacy	expected_native	B2	True	TENX141	0.9978254319062212	1	0
+HEST	LUNG	HEST_nine	0	legacy	expected_native	B3	True	TENX118	0.9961274684944637	1	0
+HEST	LUNG	HEST_nine	0	legacy	expected_native	B3	True	TENX141	0.9982983295861	1	0
+HEST	LUNG	HEST_nine	0	legacy	expected_native	B4	True	TENX118	0.9954823856579138	1	0
+HEST	LUNG	HEST_nine	0	legacy	expected_native	B4	True	TENX141	0.9968466454235122	1	0
+HEST	LUNG	HEST_nine	0	legacy	expected_native	B5	True	TENX118	0.9939147311772564	1	0
+HEST	LUNG	HEST_nine	0	legacy	expected_native	B5	True	TENX141	0.9965779199137336	1	0
+HEST	LUNG	HEST_nine	0	legacy	expected_native	FineMean	True	TENX118	0.994698558417585	1	0
+HEST	LUNG	HEST_nine	0	legacy	expected_native	FineMean	True	TENX141	0.9967122826686228	1	0
+HEST	LUNG	HEST_nine	0	legacy	simplified_native	B1	True	TENX118	0.9973081384149212	1	0
+HEST	LUNG	HEST_nine	0	legacy	simplified_native	B1	True	TENX141	0.998041641420671	1	0
+HEST	LUNG	HEST_nine	0	legacy	simplified_native	B2	True	TENX118	0.9931179790569884	1	0
+HEST	LUNG	HEST_nine	0	legacy	simplified_native	B2	True	TENX141	0.9944978613960808	1	0
+HEST	LUNG	HEST_nine	0	legacy	simplified_native	B3	True	TENX118	0.9915460508413232	1	0
+HEST	LUNG	HEST_nine	0	legacy	simplified_native	B3	True	TENX141	0.9938597157304808	1	0
+HEST	LUNG	HEST_nine	0	legacy	simplified_native	B4	True	TENX118	0.9903031872508444	1	0
+HEST	LUNG	HEST_nine	0	legacy	simplified_native	B4	True	TENX141	0.991621554256157	1	0
+HEST	LUNG	HEST_nine	0	legacy	simplified_native	B5	True	TENX118	0.988005924095132	1	0
+HEST	LUNG	HEST_nine	0	legacy	simplified_native	B5	True	TENX141	0.9901713991564122	1	0
+HEST	LUNG	HEST_nine	0	legacy	simplified_native	FineMean	True	TENX118	0.9891545556729882	1	0
+HEST	LUNG	HEST_nine	0	legacy	simplified_native	FineMean	True	TENX141	0.9908964767062846	1	0
+HEST	PAAD	HEST_nine	0	legacy	expected_native	B1	True	TENX116	0.9970699420277814	1	0
+HEST	PAAD	HEST_nine	0	legacy	expected_native	B1	True	TENX126	0.9971638087059704	1	0
+HEST	PAAD	HEST_nine	0	legacy	expected_native	B1	True	TENX140	0.9994482622215216	1	0
+HEST	PAAD	HEST_nine	0	legacy	expected_native	B2	True	TENX116	0.9946977494553833	1	0
+HEST	PAAD	HEST_nine	0	legacy	expected_native	B2	True	TENX126	0.9964720662429752	1	0
+HEST	PAAD	HEST_nine	0	legacy	expected_native	B2	True	TENX140	0.9989031765088188	1	0
+HEST	PAAD	HEST_nine	0	legacy	expected_native	B3	True	TENX116	0.9927635268058408	1	0
+HEST	PAAD	HEST_nine	0	legacy	expected_native	B3	True	TENX126	0.9936213815179772	1	0
+HEST	PAAD	HEST_nine	0	legacy	expected_native	B3	True	TENX140	0.9992767855278096	1	0
+HEST	PAAD	HEST_nine	0	legacy	expected_native	B4	True	TENX116	0.9922094125527906	1	0
+HEST	PAAD	HEST_nine	0	legacy	expected_native	B4	True	TENX126	0.994054088455292	1	0
+HEST	PAAD	HEST_nine	0	legacy	expected_native	B4	True	TENX140	0.9994894683131288	1	0
+HEST	PAAD	HEST_nine	0	legacy	expected_native	B5	True	TENX116	0.990515271722304	1	0
+HEST	PAAD	HEST_nine	0	legacy	expected_native	B5	True	TENX126	0.993103026278315	1	0
+HEST	PAAD	HEST_nine	0	legacy	expected_native	B5	True	TENX140	0.9985520582078424	1	0
+HEST	PAAD	HEST_nine	0	legacy	expected_native	FineMean	True	TENX116	0.9913623421375474	1	0
+HEST	PAAD	HEST_nine	0	legacy	expected_native	FineMean	True	TENX126	0.9935785573668034	1	0
+HEST	PAAD	HEST_nine	0	legacy	expected_native	FineMean	True	TENX140	0.9990207632604856	1	0
+HEST	PAAD	HEST_nine	0	legacy	simplified_native	B1	True	TENX116	0.9953317080357392	1	0
+HEST	PAAD	HEST_nine	0	legacy	simplified_native	B1	True	TENX126	0.9952062015762616	1	0
+HEST	PAAD	HEST_nine	0	legacy	simplified_native	B1	True	TENX140	0.9977311202704392	1	0
+HEST	PAAD	HEST_nine	0	legacy	simplified_native	B2	True	TENX116	0.990388902458782	1	0
+HEST	PAAD	HEST_nine	0	legacy	simplified_native	B2	True	TENX126	0.991432287867788	1	0
+HEST	PAAD	HEST_nine	0	legacy	simplified_native	B2	True	TENX140	0.9901809620103612	1	0
+HEST	PAAD	HEST_nine	0	legacy	simplified_native	B3	True	TENX116	0.9873119066820604	1	0
+HEST	PAAD	HEST_nine	0	legacy	simplified_native	B3	True	TENX126	0.9869971820250196	1	0
+HEST	PAAD	HEST_nine	0	legacy	simplified_native	B3	True	TENX140	0.9894073223920204	1	0
+HEST	PAAD	HEST_nine	0	legacy	simplified_native	B4	True	TENX116	0.9868244146566868	1	0
+HEST	PAAD	HEST_nine	0	legacy	simplified_native	B4	True	TENX126	0.986861980718929	1	0
+HEST	PAAD	HEST_nine	0	legacy	simplified_native	B4	True	TENX140	0.9886503698695396	1	0
+HEST	PAAD	HEST_nine	0	legacy	simplified_native	B5	True	TENX116	0.9840583072814189	1	0
+HEST	PAAD	HEST_nine	0	legacy	simplified_native	B5	True	TENX126	0.9847359963606824	1	0
+HEST	PAAD	HEST_nine	0	legacy	simplified_native	B5	True	TENX140	0.986731059411828	1	0
+HEST	PAAD	HEST_nine	0	legacy	simplified_native	FineMean	True	TENX116	0.9854413609690528	1	0
+HEST	PAAD	HEST_nine	0	legacy	simplified_native	FineMean	True	TENX126	0.9857989885398056	1	0
+HEST	PAAD	HEST_nine	0	legacy	simplified_native	FineMean	True	TENX140	0.987690714640684	1	0

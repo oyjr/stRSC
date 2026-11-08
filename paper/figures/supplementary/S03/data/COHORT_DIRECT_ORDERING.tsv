@@ -1,0 +1,5 @@
+source_line	model	edge_set	contrast	unit	local_condition	reference_condition	local_accuracy_percent	reference_accuracy_percent	mean	ci_lower	ci_upper	positive_specimens	specimens	status
+13	11_model_equal_weight	all_neighbours	old_local_minus_old_standard	percentage_points					0.4198925476472032	0.36107176792161	0.4796277276279996	9	9	COMPLETE
+25	11_model_equal_weight	all_neighbours	local_minus_non_neighbour	percentage_points					0.1245300244590821	0.0327020586184649	0.2225225088340203	7	9	COMPLETE
+37	11_model_equal_weight	depth_ratio_le_1p25	old_local_minus_old_standard	percentage_points					0.2744491605479434	0.2005997705915677	0.3519499413420013	9	9	COMPLETE
+49	11_model_equal_weight	depth_ratio_le_1p25	local_minus_non_neighbour	percentage_points					0.1078580700669292	0.0257359020336527	0.1914722621760127	7	9	COMPLETE

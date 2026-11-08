@@ -1,0 +1,2 @@
+comparison,selector,metric,patients,finite_patients,status,mean,median,positive,negative,zero,ci95_low,ci95_high,leave_one_out_min,leave_one_out_max
+D_minus_S,not_applicable,neighbour_direction,24,24,COMPLETE,0.0015607099595619002,0.002526701737605608,17,6,1,-0.0005754541237139594,0.003393676749164831,0.001246204903841342,0.002287328442652206

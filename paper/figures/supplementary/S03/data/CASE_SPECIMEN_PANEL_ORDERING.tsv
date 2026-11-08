@@ -1,0 +1,11 @@
+source_line	model	task	specimen	condition	edge_set	status	accuracy_percent	eligible_genes	panel_genes	sites	edges	edge_set_fraction	mean_eligible_edge_fraction	delta_percentage_points
+14	ST-Net	IDC	TENX99	old_standard	all_neighbours	ESTIMABLE	64.06374648607908	50.0	50.0	20761.0	82099.0	1.0	0.3516974323682383	
+15	ST-Net	IDC	TENX99	old_standard	depth_ratio_le_1p25	ESTIMABLE	56.2891801620257	50.0	50.0	20761.0	33824.0	0.4119904018319346	0.350502250620861	
+16	ST-Net	IDC	TENX99	old_local	all_neighbours	ESTIMABLE	64.42291124994154	50.0	50.0	20761.0	82099.0	1.0	0.3516974323682383	
+17	ST-Net	IDC	TENX99	old_local	depth_ratio_le_1p25	ESTIMABLE	56.64971247902339	50.0	50.0	20761.0	33824.0	0.4119904018319346	0.350502250620861	
+18	ST-Net	IDC	TENX99	non_neighbour	all_neighbours	ESTIMABLE	64.07540047652707	50.0	50.0	20761.0	82099.0	1.0	0.3516974323682383	
+19	ST-Net	IDC	TENX99	non_neighbour	depth_ratio_le_1p25	ESTIMABLE	56.545751545740174	50.0	50.0	20761.0	33824.0	0.4119904018319346	0.350502250620861	
+632	ST-Net	IDC	TENX99	old_local_minus_old_standard	all_neighbours	ESTIMABLE								0.3591647638624522
+731	ST-Net	IDC	TENX99	local_minus_non_neighbour	all_neighbours	ESTIMABLE								0.34751077341447
+830	ST-Net	IDC	TENX99	old_local_minus_old_standard	depth_ratio_le_1p25	ESTIMABLE								0.3605323169976913
+929	ST-Net	IDC	TENX99	local_minus_non_neighbour	depth_ratio_le_1p25	ESTIMABLE								0.1039609332832185
