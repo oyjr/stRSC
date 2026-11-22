@@ -128,7 +128,7 @@ def run(manifest_path: Path, output: Path, threads: int = 8) -> dict:
     if not paths or any(not isinstance(x, str) or not x.strip() for x in paths):
         raise InputError("Supply at least one named prediction file")
     if output.exists():
-        raise InputError("Output directory already exists; choose a new directory to preserve previous results")
+        raise InputError("Output directory already exists. Choose a new directory to preserve previous results.")
     if not 1 <= threads <= 32:
         raise InputError("threads must be between 1 and 32")
     torch.set_num_threads(threads)
@@ -163,7 +163,7 @@ def run(manifest_path: Path, output: Path, threads: int = 8) -> dict:
 
     keep = retained[specimen]
     if int(keep.sum()) > 6000:
-        raise InputError("This local CPU demo supports up to 6,000 graph-retained locations; do not crop the specimen to bypass the limit")
+        raise InputError("This local CPU demo supports up to 6,000 connected spots. Do not crop the specimen to bypass the limit.")
     cal.INPUT, cal.BASIS = output / "inputs", output / "basis"
     (cal.INPUT / task).mkdir(parents=True)
     np.savez_compressed(cal.INPUT / task / f"{specimen}.npz", **raw)
@@ -174,7 +174,7 @@ def run(manifest_path: Path, output: Path, threads: int = 8) -> dict:
         raise InputError("Graph support changed during computation")
     bands = cal._device_bands([np.load(basis / f"U5_B{k}.npy") for k in range(1, 6)], "cpu")
 
-    print("Recomputing RNA band coefficients from 20 molecule splits...", flush=True)
+    print("Recomputing RNA band coefficients from 20 count splits...", flush=True)
     vrna = np.zeros(5, dtype=np.float64)
     mean_observed = [None] * 5
     for seed in cal.THINNING_SEEDS:
@@ -222,7 +222,7 @@ def run(manifest_path: Path, output: Path, threads: int = 8) -> dict:
             comparison.update({f"fine_{arm}": by_name[arm]["fine"], f"coarse_{arm}": by_name[arm]["coarse"], f"pcc_{arm}": by_name[arm]["ordinary_PCC_graph_support"]})
         if all(np.isfinite(value) for key, value in comparison.items() if key.startswith(("fine_", "coarse_", "pcc_"))):
             write_table(output / "result_comparison.tsv", [comparison])
-    record = json_safe({"status": "COMPLETE", "protocol": manifest["protocol"], "task": task, "specimen": specimen, "patch_common_spots": len(keep), "graph_retained_spots": int(keep.sum()), "eligible_genes": int(eligible.sum()), "reference_specimens": others, "thinning_seeds": list(cal.THINNING_SEEDS), "truth_transform": cal.TRUTH_TRANSFORM_ID, "graph_edge_multiplier": cal.EDGE_MULTIPLIER, "minimum_component": cal.MIN_COMPONENT, "bands": "five equal-rank nonconstant eigenmode bands per component", "score_interpretation": "RSC; the tests with synthetic predictions are not rerun by this computation", "raw_counts_recomputed": True, "saved_graph_or_rna_cache_read": False, "saved_weights_read": False, "reference_scores_read": False, "confidence_interval": None, "device": "cpu", "threads": threads, "elapsed_seconds": time.time() - started, "models": summaries, "band_scores": band_rows})
+    record = json_safe({"status": "COMPLETE", "protocol": manifest["protocol"], "task": task, "specimen": specimen, "patch_common_spots": len(keep), "graph_retained_spots": int(keep.sum()), "eligible_genes": int(eligible.sum()), "reference_specimens": others, "thinning_seeds": list(cal.THINNING_SEEDS), "truth_transform": cal.TRUTH_TRANSFORM_ID, "graph_edge_multiplier": cal.EDGE_MULTIPLIER, "minimum_component": cal.MIN_COMPONENT, "bands": "five equal-rank nonconstant eigenmode bands per component", "score_interpretation": "RSC", "raw_counts_recomputed": True, "saved_graph_or_rna_cache_read": False, "saved_weights_read": False, "reference_scores_read": False, "confidence_interval": None, "device": "cpu", "threads": threads, "elapsed_seconds": time.time() - started, "models": summaries, "band_scores": band_rows})
     (output / "analysis.json").write_text(json.dumps(record, indent=2, allow_nan=False) + "\n", encoding="utf-8")
     return record
 

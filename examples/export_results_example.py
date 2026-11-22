@@ -2,7 +2,7 @@
 
 Run from the repository root after installing the package:
     python examples/export_results_example.py --output outputs/export-examples
-Every value is generated; these examples are not manuscript evidence.
+Every value is generated.
 """
 from __future__ import annotations
 

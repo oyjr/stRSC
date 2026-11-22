@@ -127,10 +127,10 @@ def score(
         raise ValueError("Coordinates must be finite with shape (sites, 2)")
     if area.shape != (n,) or not np.isfinite(area).all() or np.any(area <= 0):
         raise ValueError(
-            "Each occupied site needs a positive effective tissue area in square micrometres"
+            "Each occupied site needs a positive effective tissue area in square micrometers"
         )
     if not math.isfinite(float(spacing_um)) or spacing_um <= 0:
-        raise ValueError("Grid spacing must be positive, in micrometres")
+        raise ValueError("Grid spacing must be positive, in micrometers")
     scaled = (coords - coords.min(axis=0)) / spacing_um
     if not np.allclose(scaled, np.rint(scaled), rtol=0, atol=1e-6):
         raise ValueError("Coordinates do not lie on the specified regular grid")
@@ -140,7 +140,7 @@ def score(
         or any(not isinstance(s, (int, np.integer)) or s < 0 for s in seeds)
         or len(set(seeds)) != len(seeds)
     ):
-        raise ValueError("Provide distinct nonnegative integer molecule-split seeds")
+        raise ValueError("Provide distinct nonnegative integer count-split seeds")
 
     windows = pd.DataFrame({"center_x_um": coords[:, 0], "center_y_um": coords[:, 1]})
     iy, ix, ny, nx, masks = grid_contract(windows, spacing_um)

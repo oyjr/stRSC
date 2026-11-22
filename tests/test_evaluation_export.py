@@ -40,7 +40,7 @@ def test_fourier_requires_explicit_unit_and_preserves_partial_status(tmp_path):
     table = tmp_path / "s.tsv"
     table.write_text("model\tscale_um\twavelength_band\tv_rna\trsc\tnyquist_status\tstatus\n"
                      "one\t128\t0_128\t0\tnan\tPARTIAL_HIGH_FREQUENCY_WINDOW\tNO_FOURIER_MODES\n")
-    with pytest.raises(ValueError, match="provide --unit"):
+    with pytest.raises(ValueError, match="Provide --unit"):
         export_results([table], tmp_path / "no-unit.json")
     bundle = export_results([table], tmp_path / "with-unit.json", units=["S1"])
     assert bundle["rows"][0]["value"] is None

@@ -1,4 +1,4 @@
-"""Small synthetic demonstration of neighbouring-pair supervision."""
+"""Small synthetic demonstration of neighboring-pair supervision."""
 import argparse
 import copy
 import json

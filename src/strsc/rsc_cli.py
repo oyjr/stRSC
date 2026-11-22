@@ -27,14 +27,14 @@ def _parser() -> argparse.ArgumentParser:
         description="Reproducible-signal correlation (RSC) of one or more predictions, at each spatial scale, "
                     "or between and within annotated regions.")
     parser.add_argument("counts", nargs="+",
-                        help="raw counts: a CSV or TSV table, an .h5ad file, a 10x .h5 matrix, or a Space Ranger or Xenium folder; "
-                             "several give one section each")
+                        help="raw counts: a CSV or TSV table, an .h5ad file, a 10x .h5 matrix, or a Space Ranger or Xenium folder. "
+                             "Several paths give one section each.")
     parser.add_argument("-p", "--prediction", action="append", required=True, metavar="NAME=FILE",
-                        help="a prediction file, CSV/TSV or .h5ad, optionally named; repeat for each model")
+                        help="a prediction file, CSV/TSV or .h5ad, optionally named. Repeat for each model.")
     parser.add_argument("--layout", choices=LAYOUTS, default="spots", help="spots, grid or cells (default: spots)")
     parser.add_argument("--spacing-um", type=float, help="grid spacing in micrometers (layout grid)")
     parser.add_argument("--within", action="append", default=[], metavar="CLASS",
-                        help="score the cells of this class on their own graph (layout cells); repeat for several classes")
+                        help="score the cells of this class on their own graph (layout cells). Repeat for several classes.")
     parser.add_argument("--only-within", action="store_true", help="with --within, do not score all cells as well")
     parser.add_argument("--cell-class", default="cell_class", help="column that holds the cell classes (default: cell_class)")
     parser.add_argument("--regions", metavar="COLUMN",

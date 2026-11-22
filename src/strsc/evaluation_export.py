@@ -1,4 +1,4 @@
-"""Export completed evaluations for the browser without rerunning their scores."""
+"""Export completed evaluations for the browser."""
 from __future__ import annotations
 
 import argparse
@@ -100,7 +100,7 @@ def detect_workflow(path):
                     candidates.append("fourier")
                     break
         if len(candidates) != 1:
-            raise ValueError(f"Could not identify one workflow in {path.name}; use a completed result directory.")
+            raise ValueError(f"Could not identify one workflow in {path.name}. Use a completed result directory.")
         return candidates[0]
     columns, _ = _table(path)
     if {"wavelength_band", "v_rna", "rsc"}.issubset(columns):
@@ -119,43 +119,43 @@ def _hest(bundle, path, index, unit):
     if unit and unit != record["specimen"]:
         raise ValueError("--unit must match the saved HEST specimen")
     details = {key: record[key] for key in ("protocol", "graph_retained_spots", "eligible_genes", "thinning_seeds") if key in record}
-    bundle.metric("pearson_graph_support", "Overall Pearson", "Mean gene-wise Pearson on the saved graph-retained locations.", "correlation")
+    bundle.metric("pearson_graph_support", "Whole-section Pearson r", "Mean gene-wise Pearson on the connected spots.", "correlation")
     for metric, label, description in (
-        ("rsc_broad", "Broad-scale RSC", "Combined B1+B2 covariance and variance components; not the mean of band scores."),
-        ("rsc_fine", "Fine-scale RSC", "Combined B4+B5 covariance and variance components; not the training endpoint's mean of B4 and B5."),
+        ("rsc_broad", "Broad-scale RSC", "RSC calculated from combined B1+B2 covariance and variance components."),
+        ("rsc_fine", "Fine-scale RSC", "RSC calculated from combined B4+B5 covariance and variance components."),
     ):
         bundle.metric(metric, label, description)
     for row in record["models"]:
         for field, metric in (("ordinary_PCC_graph_support", "pearson_graph_support"), ("coarse", "rsc_broad"), ("fine", "rsc_fine")):
             bundle.row(row["model"], record["task"], record["specimen"], "specimen", metric,
-                       row[field], "graph-retained locations", row.get(field + "_status"), details)
+                       row[field], "connected spots", row.get(field + "_status"), details)
     for row in record["band_scores"]:
         key = f"rsc_{row['band']}"
-        bundle.metric(key, f"RSC, {row['band']}", "Saved relative graph-frequency band; B1 broadest, B5 finest. These are not micrometer intervals.")
+        bundle.metric(key, f"RSC, {row['band']}", "Relative scale of the neighbor graph, from B1 (broadest) to B5 (finest).")
         bundle.row(row["model"], record["task"], record["specimen"], "specimen", key,
-                   row["rsc"], "graph-retained locations", row.get("rsc_status"), {**details, **row})
+                   row["rsc"], "connected spots", row.get("rsc_status"), {**details, **row})
     for name in ("specimen_scores.tsv", "band_scores.tsv", "gene_scores.tsv"):
         if (path / name).is_file():
             bundle.table(path / name, index)
-    bundle.data["notes"] = ["Saved HEST scores are reproducible-signal correlation (RSC). Exporting does not recompute the scores.",
-                            "Model identifiers are the prediction names in the HEST manifest. A single prediction is valid."]
+    bundle.data["notes"] = ["Saved HEST scores are reproducible-signal correlation (RSC).",
+                            "Model identifiers are the prediction names in the HEST manifest."]
 
 
 def _her2(bundle, path, index, unit):
     file = path / "patient_scores.tsv" if path.is_dir() else path
     rows = bundle.table(file, index)
     specs = (
-        ("model_accuracy", "Model ordering accuracy", "Saved answer accuracy on source-defined, judge-half RNA questions.", "accuracy", "prediction"),
-        ("normalized_pairwise_accuracy", "Normalized pairwise accuracy", "(Model accuracy minus held-out gene-majority accuracy) divided by (split-half accuracy minus held-out gene-majority accuracy).", "score", "prediction"),
-        ("lopo_gene_majority_baseline", "Majority-order baseline", "Gene-majority answer accuracy fitted using other patients.", "accuracy", "baseline"),
-        ("rna_split_half_accuracy", "Split-half agreement", "Accuracy with which one RNA half answers the same source-defined questions on the other half.", "accuracy", "split_half"),
+        ("model_accuracy", "Pairwise accuracy of models", "Fraction of spot pairs for which the prediction identifies which spot expresses a gene more highly in one RNA half. The pairs are chosen in the other half.", "accuracy", "prediction"),
+        ("normalized_pairwise_accuracy", "Normalized pairwise accuracy", "(Model accuracy minus majority-order baseline accuracy) divided by (split-half accuracy minus majority-order baseline accuracy).", "score", "prediction"),
+        ("lopo_gene_majority_baseline", "Majority-order baseline", "Accuracy of a baseline that gives each spot pair of a gene the direction observed most often across the training patients.", "accuracy", "baseline"),
+        ("rna_split_half_accuracy", "Split-half agreement", "Accuracy with which one RNA half predicts the order in the other half, on the same spot pairs.", "accuracy", "split_half"),
     )
     for key, label, definition, measure, role in specs:
         bundle.metric(key, label, definition, measure, role)
     references = set()
     for row in rows:
         if unit and unit != row["patient_id"]:
-            raise ValueError("--unit must match every patient in the HER2 table; usually omit it")
+            raise ValueError("--unit must match every patient in the HER2 table. Usually omit it.")
         task = row.get("task") or row["arena"]
         details = {key: _scalar(value) for key, value in row.items()}
         for key, _, _, _, role in specs:
@@ -166,11 +166,11 @@ def _her2(bundle, path, index, unit):
             references.add(identity)
             status = row.get("status") if key == "normalized_pairwise_accuracy" else None
             bundle.row(model, task, row["patient_id"], "patient", key, row[key],
-                       "source-defined, judge-half questions on common model support", status, details, role)
+                       "spot pairs chosen in one RNA half, where every model has a prediction", status, details, role)
     if path.is_dir() and (path / "question_support.tsv").is_file():
         bundle.table(path / "question_support.tsv", index)
-    bundle.data["notes"] = ["Patient scores average the saved molecule-split seeds. The normalized increment is not ordinary correlation or all-pairs concordance.",
-                            "Split-half and held-out baseline metrics describe references, not competing prediction models."]
+    bundle.data["notes"] = ["Patient scores are means over count splits.",
+                            "Split-half agreement and the majority-order baseline are references."]
 
 
 def _fourier(bundle, path, index, unit):
@@ -179,7 +179,7 @@ def _fourier(bundle, path, index, unit):
         raise ValueError("Select one Fourier TSV per --run and give each an explicit --unit specimen ID")
     rows = bundle.table(files[0], index)
     if not unit:
-        raise ValueError("Fourier results do not store specimen IDs; provide --unit SPECIMEN for each --run")
+        raise ValueError("Fourier results do not store specimen IDs. Provide --unit SPECIMEN for each --run.")
     bundle.metric("physical_rsc", "RSC by physical scale", "Saved covariance divided by the square root of the split-half covariance times the prediction variance, for this wavelength window.")
     for row in rows:
         spacing = row["scale_um"]
@@ -187,8 +187,8 @@ def _fourier(bundle, path, index, unit):
         bundle.row(row["model"], task, unit, "specimen", "physical_rsc", row["rsc"],
                    f"occupied regular-grid sites; {row['nyquist_status']}", row.get("status"),
                    {key: _scalar(value) for key, value in row.items()})
-    bundle.data["notes"] = ["Physical wavelength is a full spatial cycle, not grid spacing. Partial high-frequency windows remain explicitly labeled.",
-                            "ALL_NON_DC combines component statistics rather than averaging band RSC values."]
+    bundle.data["notes"] = ["Wavelengths are full spatial cycles. Windows that the grid resolves in part are labeled.",
+                            "ALL_NON_DC is RSC calculated from the combined covariance and variance components of all windows."]
 
 
 def detect_file_fourier(path):
@@ -204,7 +204,7 @@ def _cell(bundle, path, index, unit):
     bundle.metric("rna_split_agreement", "Split-half reliability", "Saved correlation between the two RNA halves on the specified cell graph view.", "correlation", "split_half")
     hotspot_specs = (
         ("E_model_normalized_log_score", "Prediction-defined hotspot enrichment", "RNA normalized-log score difference between prediction-defined hotspots and remaining eligible neoplastic neighborhoods.", "prediction"),
-        ("E_RNA_normalized_log_score", "RNA-defined hotspot enrichment", "Judge-half RNA normalized-log score difference between source-half RNA hotspots and remaining neighborhoods.", "split_half"),
+        ("E_RNA_normalized_log_score", "RNA-defined hotspot enrichment", "RNA normalized-log score difference between hotspots defined in one RNA half and remaining neighborhoods, measured in the other half.", "split_half"),
     )
     for file in files:
         rows = bundle.table(file, index)
@@ -218,10 +218,10 @@ def _cell(bundle, path, index, unit):
                 model = row.get("model") or "Split-half reliability"
                 if "rsc" in row:
                     bundle.row(model, task, row["specimen"], "specimen", "cell_rsc", row["rsc"],
-                               "saved cell model support; inspect eligible genes and view", details=details)
+                               "cells with a prediction from this model", details=details)
                 else:
                     bundle.row("Split-half reliability", task, row["specimen"], "specimen", "rna_split_agreement", row["rna_split_agreement"],
-                               "saved RNA graph support", details=details, role="split_half")
+                               "all cells of the view", details=details, role="split_half")
             elif "E_model_normalized_log_score" in row:
                 for key, label, definition, role in hotspot_specs:
                     bundle.metric(key, label, definition, "score", role)
@@ -232,16 +232,15 @@ def _cell(bundle, path, index, unit):
                                "saved eligible neoplastic neighborhoods", details=details, role=role)
     used = {row["metric"] for row in bundle.data["rows"]}
     bundle.data["metrics"] = [metric for metric in bundle.data["metrics"] if metric["id"] in used]
-    bundle.data["notes"] = ["Units are specimens; patient identifiers remain in row details. Do not count sections as independent patients.",
-                            "Model-specific cell supports may differ. Export preserves the saved support; it does not manufacture a common-support comparison.",
-                            "Hotspot enrichment is a descriptive task result, not a survival estimate or a clinical prediction."]
+    bundle.data["notes"] = ["Units are specimens, and patient IDs are in the row details.",
+                            "Each model is scored on the cells that it predicts, which can differ between models."]
 
 
 def export_results(runs, output, workflow="auto", units=None, title=None, synthetic=False):
     runs = [Path(path) for path in runs]
     output = Path(output)
     if output.exists():
-        raise ValueError("Output exists; choose a new JSON filename.")
+        raise ValueError("Output exists. Choose a new JSON filename.")
     if not runs:
         raise ValueError("At least one --run is required")
     if units and len(units) != len(runs):
@@ -258,8 +257,7 @@ def export_results(runs, output, workflow="auto", units=None, title=None, synthe
     if not bundle.data["rows"]:
         raise ValueError("No exportable result rows")
     if synthetic:
-        bundle.data["notes"].insert(0, "Synthetic software example. No patient data or manuscript evidence.")
-    bundle.data["notes"].append("This bundle exports saved results without rerunning, clipping, averaging or recalibrating the scientific scores.")
+        bundle.data["notes"].insert(0, "The data are synthetic.")
     output.parent.mkdir(parents=True, exist_ok=True)
     with output.open("x", encoding="utf-8") as handle:
         json.dump(finite_json(bundle.data), handle, ensure_ascii=False, allow_nan=False, separators=(",", ":"))
@@ -270,11 +268,11 @@ def export_results(runs, output, workflow="auto", units=None, title=None, synthe
 def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--workflow", choices=["auto", "hest", "her2", "fourier", "cell"], default="auto")
-    parser.add_argument("--run", type=Path, action="append", required=True, help="Completed result directory or supported TSV; repeat for multiple units")
+    parser.add_argument("--run", type=Path, action="append", required=True, help="Completed result directory or supported TSV. Repeat for multiple units.")
     parser.add_argument("--unit", action="append", help="One specimen ID per --run, required for Fourier tables")
     parser.add_argument("--output", type=Path, required=True)
     parser.add_argument("--title")
-    parser.add_argument("--synthetic", action="store_true", help="Label generated inputs as synthetic; never label real data this way")
+    parser.add_argument("--synthetic", action="store_true", help="Label generated inputs as synthetic. Never label real data this way.")
     args = parser.parse_args(argv)
     try:
         bundle = export_results(args.run, args.output, args.workflow, args.unit, args.title, args.synthetic)

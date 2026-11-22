@@ -4,7 +4,7 @@ The pairwise difference loss is
 
 `(1 - rho) × MSE(prediction, target) + rho × MSE(predicted differences, measured differences)`.
 
-The `rho=0` branch calls the native PyTorch mean-squared-error loss directly. The adjacent-difference term uses a coordinate-only graph constructed independently within each training specimen. Its radius is 1.5 times the specimen's median positive nearest-neighbour distance. The evaluation graph is a separate object.
+The `rho=0` branch calls the native PyTorch mean-squared-error loss directly. The adjacent-difference term uses a coordinate-only graph constructed independently within each training specimen. Its radius is 1.5 times the specimen's median positive nearest-neighbor distance. The evaluation graph is a separate object.
 
 ```python
 from strsc.training import build_spatial_edges, mixed_expression_mse
@@ -53,8 +53,6 @@ Some upstream models, including EGN, require older NumPy/PyTorch versions than t
 
 Paired runners write fixed training/validation indices and a shared initial state before the two objectives run. When an adapter requires an `engineering-receipt`, its corresponding `engineering_gate` module creates it from the supplied model and data. See each module's `--help` for its model-specific sequence.
 
-## Non-neighbouring control
+## Non-neighboring control
 
 `strsc.training.non_neighbours.rewire_non_neighbours` constructs the paper's control loss graph. It preserves every node's degree and the number of edges, while requiring all new distances to exceed the original local radius. The function reports an error if these constraints cannot be satisfied. Use the returned graph for the loss and retain the model's message-passing graph.
-
-Reproducing a model comparison requires its data split, model revision, environment and inputs.

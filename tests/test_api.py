@@ -34,7 +34,7 @@ def spot_table(path, sections=("S1", "S2"), genes=6, seed=7):
 
 
 def test_public_api():
-    assert strsc.__version__ == "0.4.0"
+    assert strsc.__version__ == "0.4.1"
     for name in ("rsc", "read_counts", "regions", "ideal_check", "Result", "Counts", "Prediction"):
         assert hasattr(strsc, name)
 

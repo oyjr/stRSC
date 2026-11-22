@@ -6,7 +6,7 @@
     print(result.scales)
 """
 
-__version__ = "0.4.0"
+__version__ = "0.4.1"
 
 from .files import Counts, InputError, Prediction, read_counts, read_files, read_predictions  # noqa: E402
 from .api import Result, ideal_check, regions, rsc  # noqa: E402

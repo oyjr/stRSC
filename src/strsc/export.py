@@ -17,14 +17,14 @@ def export_analysis(manifest_path: Path, run_path: Path, output: Path,
                     baseline: str = "baseline", intervention: str = "intervention",
                     baseline_label: str = "Baseline", intervention_label: str = "Intervention") -> dict:
     if output.exists():
-        raise InputError("Output exists; choose a new JSON filename.")
+        raise InputError("Output exists. Choose a new JSON filename.")
     manifest = json.loads(manifest_path.read_text(encoding="utf-8-sig"))
     record = json.loads((run_path / "analysis.json").read_text(encoding="utf-8-sig"))
     if record.get("status") != "COMPLETE" or record.get("protocol") != "HEST_G0047B":
         raise InputError("Select a completed HEST run.")
     task, unit = record["task"], record["specimen"]
     if (task, unit) != (manifest["task"], manifest["specimen"]) or baseline == intervention:
-        raise InputError("Run and manifest identities must agree; select two different predictions.")
+        raise InputError("Run and manifest identities must agree. Select two different predictions.")
     raw = read_counts(manifest_path.parent / manifest["cohort"][unit])
     snapshot_path = run_path / "inputs" / task / f"{unit}.npz"
     if snapshot_path.exists():
@@ -89,7 +89,7 @@ def export_analysis(manifest_path: Path, run_path: Path, output: Path,
     bundle = {"schema": "strsc-analysis-bundle-v1", "score_table": table.getvalue(),
               "specimens": [{"model": model, "task": task, "unit_id": unit,
                              "expression_scale": "log1p(raw count)", "coordinate_unit": "input coordinates",
-                             "support": "graph-retained locations", "score_interpretation": "RSC, saved HEST scores",
+                             "support": "connected spots", "score_interpretation": "RSC, saved HEST scores",
                              "genes": raw["genes"].tolist(), "spot_ids": raw["barcodes"][keep].tolist(),
                              "xy": raw["xy"][keep].tolist(), "truth": truth.tolist(), **arms}]}
     output.parent.mkdir(parents=True, exist_ok=True)

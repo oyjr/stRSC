@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "strsc"
-version = "0.4.0"
+version = "0.4.1"
 description = "Reproducible-signal correlation (RSC) for spatial transcriptomics predicted from histology"
 readme = "README.md"
 license = {text = "MIT"}

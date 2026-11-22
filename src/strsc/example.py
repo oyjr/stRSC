@@ -42,7 +42,7 @@ def generate(output: Path, seed: int = 17) -> Path:
         "cohort": {name: f"{name}.npz" for name in ("TENX118", "TENX141")},
         "predictions": {name: f"{name}.h5" for name in ("baseline", "intervention")},
         "synthetic": True,
-        "note": "All arrays are generated. HEST specimen names are protocol keys only; these are not patient data or study results.",
+        "note": "All arrays are generated. TENX118 and TENX141 are the specimen names that the LUNG task expects.",
     }
     path = output / "manifest.json"
     path.write_text(json.dumps(manifest, indent=2) + '\n', encoding='utf-8')

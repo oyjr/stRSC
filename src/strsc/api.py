@@ -294,7 +294,7 @@ def score_spot_sections(sections: list[dict], genes: list[str], seeds=SPOT_SEEDS
         if not keep.any():
             raise InputError(f"Section {s['name']}: no connected group of at least 20 spots.")
         if max_spots and int(keep.sum()) > max_spots:
-            raise InputError(f"Section {s['name']} has {int(keep.sum()):,} connected spots. Here the limit is {max_spots:,}; run the toolkit on your own machine for larger sections, without cropping them.")
+            raise InputError(f"Section {s['name']} has {int(keep.sum()):,} connected spots. Here the limit is {max_spots:,}. Run the toolkit on your own machine for larger sections, without cropping them.")
         retained[s["name"]] = keep
         if weighted:
             moments[s["name"]] = _molecule_moments(s["counts"][keep], s["name"], task, seeds)
@@ -709,7 +709,7 @@ def rsc(counts: Counts | str | Path, predictions, layout: str = "spots", *, spac
         weighted = len(sections) >= 2
         if not weighted:
             notes.append("One section: each gene's two halves are divided by a common factor, as for the colorectal bins and breast cancer cells of the paper. "
-                         "With two or more sections the genes are weighted by the agreement of their halves in the other sections, as for the HEST samples; the two give different values.")
+                         "With two or more sections the genes are weighted by the agreement of their halves in the other sections, as for the HEST samples. The two weightings give different values.")
         total = len(sections) * (1 + len(seeds))
         done = [0]
 
@@ -768,7 +768,7 @@ def rsc(counts: Counts | str | Path, predictions, layout: str = "spots", *, spac
         return _grid_result(sections, genes_used, [m.name for m in models], spacing, settings, notes)
     # cells
     if counts.unit != "um":
-        notes.append("The coordinates are taken to be micrometers: the cell graph links neighbors within 40 µm.")
+        notes.append("The coordinates are taken to be micrometers. The cell graph links neighbors within 40 µm.")
     seeds = CELL_SEEDS[: splits or len(CELL_SEEDS)]
     populations = [within] if isinstance(within, str) else list(within or [])
     labels_all = counts.column(cell_class)
@@ -1167,26 +1167,26 @@ def _bundle(result: Result, title: str, synthetic: bool) -> dict:
     bundle = evaluation_export.Bundle(workflow, title, synthetic)
     details_common = {k: v for k, v in result.settings.items() if k in ("toolkit", "count_splits", "gene_weighting", "transform")}
     if layout == "spots":
-        bundle.metric("pearson_graph_support", "Whole-section Pearson r", "Mean gene-wise Pearson r with log(1 + count) on the graph-retained spots.", "correlation")
+        bundle.metric("pearson_graph_support", "Whole-section Pearson r", "Mean gene-wise Pearson r with log(1 + count) on the connected spots.", "correlation")
         bundle.metric("rsc_broad", "Broad-scale RSC", "Mean RSC at the Broadest and Broad scales, as for the spot-level models of the paper.")
         bundle.metric("rsc_fine", "Fine-scale RSC", "Mean RSC at the Fine and Finest scales, as for the spot-level models of the paper.")
         for row in result.summary.to_dict("records"):
             if row["section"] == "All sections":
                 continue
             for field_, metric in (("whole_section_pearson_r", "pearson_graph_support"), ("broad_rsc", "rsc_broad"), ("fine_rsc", "rsc_fine")):
-                bundle.row(row["model"], "Sections", row["section"], "specimen", metric, row[field_], "graph-retained spots", None, details_common)
+                bundle.row(row["model"], "Sections", row["section"], "specimen", metric, row[field_], "connected spots", None, details_common)
         for k, label in enumerate(RELATIVE, start=1):
-            bundle.metric(f"rsc_B{k}", f"RSC, {label}", "Relative graph scale; B1 broadest, B5 finest. These are not micrometer intervals.")
+            bundle.metric(f"rsc_B{k}", f"RSC, {label}", "Relative scale of the neighbor graph, from B1 (broadest) to B5 (finest).")
         bundle.metric("rna_split_agreement", "Split-half reliability", "Correlation between the two RNA halves at this scale.", "correlation", "split_half")
         for row in result.scales.to_dict("records"):
             if row["section"] == "All sections":
                 continue
             details = {**details_common, **{k: row[k] for k in ("C", "V_model", "V_RNA", "V_A", "V_B", "pearson_r", "rsc_split_min", "rsc_split_max")}}
-            bundle.row(row["model"], "Sections", row["section"], "specimen", f"rsc_B{row['scale_order']}", row["rsc"], "graph-retained spots", row["status"], details)
+            bundle.row(row["model"], "Sections", row["section"], "specimen", f"rsc_B{row['scale_order']}", row["rsc"], "connected spots", row["status"], details)
             key = ("Split-half reliability", f"Sections | B{row['scale_order']}", row["section"], "rna_split_agreement")
             if key not in bundle.identities:
                 bundle.row("Split-half reliability", f"Sections | B{row['scale_order']}", row["section"], "specimen", "rna_split_agreement",
-                           row["split_half_reliability"], "graph-retained spots", None, details_common, role="split_half")
+                           row["split_half_reliability"], "connected spots", None, details_common, role="split_half")
     elif layout == "grid":
         bundle.metric("physical_rsc", "RSC by physical scale", "RSC in this window of physical wavelength (a full spatial cycle).")
         bundle.metric("rna_split_agreement", "Split-half reliability", "Correlation between the two RNA halves in this window.", "correlation", "split_half")
@@ -1209,14 +1209,14 @@ def _bundle(result: Result, title: str, synthetic: bool) -> dict:
             if row["section"] == "All sections":
                 continue
             task = f"{row['population']} | B{row['scale_order']}"
-            bundle.row(row["model"], task, row["section"], "specimen", "cell_rsc", row["rsc"], "graph-retained cells", row["status"],
+            bundle.row(row["model"], task, row["section"], "specimen", "cell_rsc", row["rsc"], "connected cells", row["status"],
                        {**details_common, **{k: row[k] for k in ("C", "V_model", "V_RNA", "V_A", "V_B", "pearson_r")}})
             key = ("Split-half reliability", task, row["section"], "rna_split_agreement")
             if key not in bundle.identities:
                 bundle.row("Split-half reliability", task, row["section"], "specimen", "rna_split_agreement", row["split_half_reliability"],
-                           "graph-retained cells", None, details_common, role="split_half")
+                           "connected cells", None, details_common, role="split_half")
     else:
-        bundle.metric("region_rsc", "RSC by region term", "RSC of the whole section, the region means (between), the residuals (within), and within the focus region, between its structures and within one structure; missing where the term was not testable.")
+        bundle.metric("region_rsc", "RSC by region term", "RSC of the whole section, the region means (between), the residuals (within), and within the focus region, between its structures and within one structure. Terms that were not testable have no value.")
         bundle.metric("rna_split_agreement", "Split-half reliability", "Correlation between the two RNA halves in this term.", "correlation", "split_half")
         for row in result.scales.to_dict("records"):
             if row["section"] == "All sections":

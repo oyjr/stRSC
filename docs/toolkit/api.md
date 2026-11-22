@@ -36,7 +36,7 @@ of every spot, bin or cell:
   `patient_id`, `region`, `cell_class` and `area` columns, then one column per
   gene (the test files of the website have this format);
 - an AnnData `.h5ad` file, such as a HEST-1k sample. Counts come from
-  `layers['counts']` when present, otherwise from `X`; coordinates from
+  `layers['counts']` when present, otherwise from `X`. Coordinates come from
   `obsm['spatial']`, otherwise from `obs` columns `x` and `y`;
 - a 10x Genomics `.h5` matrix or `filtered_feature_bc_matrix` folder with the
   `tissue_positions` file of Space Ranger (Visium spots or Visium HD bins), or
@@ -82,12 +82,12 @@ Further arguments of `strsc.rsc`:
 
 | Argument | Meaning |
 |---|---|
-| `spacing_um` | Grid spacing in micrometers (`"grid"`); read from Visium HD files when not given |
+| `spacing_um` | Grid spacing in micrometers (`"grid"`). It is read from Visium HD files when not given. |
 | `within` | One or more values of the `cell_class` column to score on their own graphs (`"cells"`), as for the malignant cells of the paper |
 | `all_cells` | Whether to score all cells as well (default `True`) |
 | `cell_class` | Column that holds the cell classes (default `"cell_class"`) |
 | `genes` | Restrict the genes |
-| `splits` | Use only the first count splits of the paper; fewer splits give noisier values |
+| `splits` | Use only the first count splits of the paper. Fewer splits give noisier values. |
 | `progress` | A function that receives progress events |
 
 ## Results
@@ -168,10 +168,10 @@ strsc rsc COUNTS [COUNTS ...] -p NAME=FILE [-p NAME=FILE ...] [options]
 
 | Option | Meaning |
 |---|---|
-| `-p`, `--prediction` | A prediction file, as `name=file` or a file alone; repeat for each model |
+| `-p`, `--prediction` | A prediction file, as `name=file` or a file alone. Repeat for each model. |
 | `--layout` | `spots` (default), `grid` or `cells` |
 | `--spacing-um` | Grid spacing in micrometers |
-| `--within CLASS` | Score the cells of this class on their own graph; repeat for several classes |
+| `--within CLASS` | Score the cells of this class on their own graph. Repeat for several classes. |
 | `--only-within` | With `--within`, do not score all cells as well |
 | `--cell-class` | Column that holds the cell classes |
 | `--regions COLUMN` | Score between and within the regions in this column |
