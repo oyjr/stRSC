@@ -89,7 +89,7 @@ def export_analysis(manifest_path: Path, run_path: Path, output: Path,
     bundle = {"schema": "strsc-analysis-bundle-v1", "score_table": table.getvalue(),
               "specimens": [{"model": model, "task": task, "unit_id": unit,
                              "expression_scale": "log1p(raw count)", "coordinate_unit": "input coordinates",
-                             "support": "graph-retained locations", "score_interpretation": "Reproducible-signal correlation (RSC); saved HEST scores",
+                             "support": "graph-retained locations", "score_interpretation": "RSC, saved HEST scores",
                              "genes": raw["genes"].tolist(), "spot_ids": raw["barcodes"][keep].tolist(),
                              "xy": raw["xy"][keep].tolist(), "truth": truth.tolist(), **arms}]}
     output.parent.mkdir(parents=True, exist_ok=True)

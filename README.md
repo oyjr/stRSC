@@ -36,28 +36,33 @@ not use the counts they are evaluated against.
 Use Python 3.10 or later:
 
 ```bash
-git clone https://github.com/oyjr/stRSC.git
-cd stRSC
-python -m venv .venv
+python -m pip install strsc
 ```
 
-Activate the environment:
+`python -m pip install "strsc[io]"` adds support for Parquet files.
+
+## Score your predictions
+
+```python
+import strsc
+
+counts = strsc.read_counts("sample.h5ad")        # a table, .h5ad, Space Ranger or Xenium folder
+result = strsc.rsc(counts, {"my_model": "predictions.csv"}, layout="spots")
+print(result.scales)                             # RSC, Pearson r and split-half reliability per scale
+result.save("strsc-output")
+```
+
+The command line runs the same analysis:
 
 ```bash
-# macOS / Linux
-source .venv/bin/activate
+strsc rsc sample.h5ad -p my_model=predictions.csv --layout spots --out strsc-output
 ```
 
-```powershell
-# Windows PowerShell
-.venv\Scripts\Activate.ps1
-```
-
-Install the package:
-
-```bash
-python -m pip install -e .
-```
+`layout` is `"spots"`, `"grid"` or `"cells"`. `strsc.regions` scores between
+and within annotated regions, and `strsc.ideal_check` runs the paper's test
+with the expected expression as the prediction. See
+[RSC on your own data](docs/toolkit/api.md). The Calculate RSC tab of
+[stRSC.org](https://stRSC.org/analyze) runs the same code in the browser.
 
 ## Run an example
 
@@ -87,6 +92,7 @@ applies to results computed from your own data.
 
 | Analysis | Command or API | Inputs and instructions |
 |---|---|---|
+| RSC on your own data, between and within regions | `strsc.rsc`, `strsc rsc`, `strsc.regions` | [RSC on your own data](docs/toolkit/api.md) |
 | Pairwise accuracy across and within tissue regions | `strsc her2` | [Spot pairs](docs/toolkit/her2.md) |
 | RSC in graph-frequency bands of spot data | `strsc hest` | [HEST workflow](docs/toolkit/hest.md) |
 | RSC by physical wavelength on regular grids | `strsc fourier` | [Fourier workflow](docs/toolkit/fourier.md) |
@@ -99,8 +105,8 @@ identifiers and spatial coordinates required by its workflow. Install optional
 dependencies for cell preparation or model training:
 
 ```bash
-python -m pip install -e ".[cell]"
-python -m pip install -e ".[training]"
+python -m pip install "strsc[cell]"
+python -m pip install "strsc[training]"
 ```
 
 ## Paper analyses and figures
@@ -112,7 +118,11 @@ and saved predictions supplied in the specified formats.
 
 ## Tests
 
+From a clone of this repository:
+
 ```bash
+git clone https://github.com/oyjr/stRSC.git
+cd stRSC
 python -m pip install -e ".[test]"
 python -m pytest -q
 ```

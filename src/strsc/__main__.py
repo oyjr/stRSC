@@ -5,11 +5,13 @@ import sys
 
 def main():
     parser = argparse.ArgumentParser(prog="strsc")
-    parser.add_argument("command", choices=["hest", "her2", "fourier", "export", "export-results", "example"])
+    parser.add_argument("command", choices=["rsc", "hest", "her2", "fourier", "export", "export-results", "example"])
     args = parser.parse_args(sys.argv[1:2])
     remaining = sys.argv[2:]
     sys.argv = [f"strsc {args.command}", *remaining]
-    if args.command == "hest":
+    if args.command == "rsc":
+        from .rsc_cli import main as run
+    elif args.command == "hest":
         from .hest import main as run
     elif args.command == "export":
         from .export import main as run

@@ -2,8 +2,8 @@ cff-version: 1.2.0
 message: "Please cite this software and the accompanying manuscript when using RSC."
 type: software
 title: "stRSC: reproducible-signal correlation for spatial transcriptomics predicted from histology"
-version: 0.3.0rc4
-date-released: 2026-11-08
+version: 0.4.0
+date-released: 2026-11-22
 repository-code: "https://github.com/oyjr/stRSC"
 url: "https://stRSC.org"
 license: MIT

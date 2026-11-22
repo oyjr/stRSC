@@ -131,13 +131,13 @@ def _hest(bundle, path, index, unit):
                        row[field], "graph-retained locations", row.get(field + "_status"), details)
     for row in record["band_scores"]:
         key = f"rsc_{row['band']}"
-        bundle.metric(key, f"RSC, {row['band']}", "Saved relative graph-frequency band; B1 broadest, B5 finest. These are not micrometre intervals.")
+        bundle.metric(key, f"RSC, {row['band']}", "Saved relative graph-frequency band; B1 broadest, B5 finest. These are not micrometer intervals.")
         bundle.row(row["model"], record["task"], record["specimen"], "specimen", key,
                    row["rsc"], "graph-retained locations", row.get("rsc_status"), {**details, **row})
     for name in ("specimen_scores.tsv", "band_scores.tsv", "gene_scores.tsv"):
         if (path / name).is_file():
             bundle.table(path / name, index)
-    bundle.data["notes"] = ["Saved HEST scores are the reproducible-signal correlation (RSC). Exporting does not rerun them.",
+    bundle.data["notes"] = ["Saved HEST scores are reproducible-signal correlation (RSC). Exporting does not recompute the scores.",
                             "Model identifiers are the prediction names in the HEST manifest. A single prediction is valid."]
 
 
@@ -215,7 +215,7 @@ def _cell(bundle, path, index, unit):
             track = row.get("track") or "xenium_centred"
             if "view" in row and "band" in row:
                 task = f"{track} | {row['view']} | {row['band']}"
-                model = row.get("model") or "Two RNA halves"
+                model = row.get("model") or "Split-half reliability"
                 if "rsc" in row:
                     bundle.row(model, task, row["specimen"], "specimen", "cell_rsc", row["rsc"],
                                "saved cell model support; inspect eligible genes and view", details=details)
@@ -227,7 +227,7 @@ def _cell(bundle, path, index, unit):
                     bundle.metric(key, label, definition, "score", role)
                     # The split-half reference can depend on the model's retained support; retain that context.
                     task = f"{track} | within-Neoplastic proliferation | support: {row['model']}"
-                    model = row["model"] if role == "prediction" else "Two RNA halves"
+                    model = row["model"] if role == "prediction" else "RNA-defined hotspots"
                     bundle.row(model, task, row["specimen"], "specimen", key, row[key],
                                "saved eligible neoplastic neighborhoods", details=details, role=role)
     used = {row["metric"] for row in bundle.data["rows"]}

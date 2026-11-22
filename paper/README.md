@@ -17,11 +17,11 @@ The two aggregators use bundled tables and write an `output/` directory beside t
 |---|---|
 | `source_data/` | Manuscript tables, common-gene results, ordering sensitivity, ideal-prediction checks and TLS results. |
 | `analyses/common_gene_support/` | Recomputes patient and cohort summaries, changes and method ranks from 45 section/seed result sets. The `baseline/` tables supply the preceding comparison values. |
-| `analyses/cell_ideal/` | Recomputes the calibration gate from 54 specimen/view result sets and their Gram moments. |
-| `figures/` | Editable code and required display inputs for 6 main, 9 Extended Data and 12 supplementary figures. |
-| `algorithms/` | Count-level cell calibration, CRC/HEST ideal calibration and TLS transformation/repeatability implementations. These require the inputs described in [RAW_INPUTS.md](RAW_INPUTS.md). |
+| `analyses/cell_ideal/` | Recomputes the expected-expression check for cells (Methods, "Expected expression as a prediction") from 54 specimen/view result sets and their Gram moments. |
+| `figures/` | Editable code and required display inputs for the figures of an earlier version of the manuscript, with 6 main, 9 Extended Data and 12 supplementary figures. The submitted manuscript has 6 main, 7 Extended Data and 3 Supplementary figures, numbered differently. |
+| `algorithms/` | Count-level code for the expected-expression checks on cells, CRC, HEST and TLS sections, and for the TLS transformation and repeatability analysis. These require the inputs described in [RAW_INPUTS.md](RAW_INPUTS.md). |
 
-[FIGURES.csv](FIGURES.csv) maps all 27 figure numbers to entrypoints. Run Python entries with `python <entrypoint>` from this directory, or prefix the path with `paper/` from the repository root. Supplementary Figures 6–7 and 9–11 share a renderer. Supplementary Figure 2 writes two PNG panels and an HTML result view. Each renderer uses its adjacent data and writes beside the source.
+[FIGURES.csv](FIGURES.csv) maps the 27 figures of that version to entrypoints. Run Python entries with `python <entrypoint>` from this directory, or prefix the path with `paper/` from the repository root. Supplementary Figures 6–7 and 9–11 share a renderer. Supplementary Figure 2 writes two PNG panels and an HTML result view. Each renderer uses its adjacent data and writes beside the source.
 
 Figure 1 exports its editable SVG with Node.js and Playwright:
 
