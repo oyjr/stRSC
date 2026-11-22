@@ -113,11 +113,11 @@ paper.
 
 `status` is `ESTIMABLE`, `NO_PREDICTED_VARIANCE` (the prediction does not vary
 at that scale) or `RNA_UNRESOLVED` (the covariance between the two halves is
-not positive, so RSC is not defined); `All sections` rows have
+not positive, so RSC is not defined). `All sections` rows have the status
 `MEAN_OVER_SECTIONS`. `result.save(folder)` writes `scales.tsv`,
 `summary.tsv`, `genes.tsv`, `settings.json` and `strsc-evaluation.json`. The
 last file opens under [Computed results](https://stRSC.org/analyze?input=results)
-on the website; `result.to_bundle()` returns the same content as a dict.
+on the website, and `result.to_bundle()` returns the same content as a dict.
 
 ## Between and within regions
 
@@ -131,9 +131,9 @@ print(result.summary)
 the TLS sections of the paper (Methods, "Decomposition by region" and
 "TLS-associated genes"). Each prediction and each RNA half is split into the
 mean of its region and the residual from that mean. RSC is computed for the
-whole section, between regions and within regions; when `focus` names a
-region, also within it, between its structures (connected groups of its spots)
-and within one structure. There is no spatial decomposition.
+whole section, between regions and within regions. When `focus` names a
+region, RSC is also computed within it, between its structures (connected
+groups of its spots) and within one structure. There is no spatial decomposition.
 
 Measured expression is log(1 + 10,000 N / total), so predictions should be on
 the same log scale. Every gene is divided by the standard deviation of its
@@ -141,7 +141,7 @@ unsplit expression over the spots of the term. Intervals are 95% percentile
 intervals from 2,000 resamples of focus structures (terms within the focus
 region) and of blocks of 10 × 10 spots (the other terms). A term is scored in a
 section only when the lower limit of the interval of its split-half
-reliability is above zero; otherwise its RSC is missing and its status is
+reliability is above zero. The other terms have no RSC and the status
 `NOT_TESTABLE`. The region column is `region` unless `region=` names another.
 
 From the command line, add `--regions region` and, optionally,
@@ -157,7 +157,7 @@ table = strsc.ideal_check(counts, layout="spots", draws=3)
 expression as a prediction"). The measured counts are taken as Poisson rates,
 count matrices are drawn from them, and on each the expected transformed
 half-count is scored as the prediction. Its RSC should be near 1 at every
-scale; in the paper it was 0.956 to 1.000. The table gives the mean, lowest and
+scale. In the paper it was 0.956 to 1.000. The table gives the mean, lowest and
 highest RSC over the draws at each scale.
 
 ## Command line
@@ -187,6 +187,6 @@ strsc rsc COUNTS [COUNTS ...] -p NAME=FILE [-p NAME=FILE ...] [options]
 The toolkit and the website use the same steps and seeds. The numbers agree
 except at locations with many molecules of a gene, where numpy draws the count
 split with floating-point steps that can differ between computers or numpy
-versions; the results then differ within the scatter between count splits
+versions. The results then differ within the scatter between count splits
 (`rsc_split_min` to `rsc_split_max`). For spots, the projections onto the scales
 run in single precision, so the last digits can differ.
